@@ -109,6 +109,7 @@ def seg_and_patch(
         df = pd.read_csv(process_list)
         df = initialize_df(df, seg_params, filter_params, vis_params, patch_params)
 
+    # * Only process with slides with "process" == 1 in the process.csv
     mask = df["process"] == 1
     process_stack = df[mask]
 
@@ -159,10 +160,14 @@ def seg_and_patch(
             current_filter_params = filter_params.copy()
             current_seg_params = seg_params.copy()
 <<<<<<< HEAD
+<<<<<<< HEAD
             current_patch_params = patch_params.copy()
 =======
             current_patch_params = patch_params.copy()conda install -c conda-forge openslide
 >>>>>>> e4df21c (minor update)
+=======
+            current_patch_params = patch_params.copy()
+>>>>>>> 8a40522 (minor update)
 
         else:
             current_vis_params = {}
@@ -179,6 +184,7 @@ def seg_and_patch(
                 if legacy_support and key == "a_t":
                     old_area = df.loc[idx, "a"]
                     seg_level = df.loc[idx, "seg_level"]
+                    # ! write a new plugin for single layer WSIs
                     scale = WSI_object.level_downsamples[seg_level]
                     adjusted_area = int(old_area * (scale[0] * scale[1]) / (512 * 512))
                     current_filter_params.update({key: adjusted_area})
@@ -343,7 +349,6 @@ if __name__ == "__main__":
 
     if args.process_list:
         process_list = os.path.join(args.save_dir, args.process_list)
-
     else:
         process_list = None
 
