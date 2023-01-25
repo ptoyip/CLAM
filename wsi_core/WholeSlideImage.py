@@ -36,7 +36,8 @@ from utils.file_utils import load_pkl, save_pkl
 # CAMELYON16
 # Image.MAX_IMAGE_PIXELS = 933120000
 # BCNB
-Image.MAX_IMAGE_PIXELS = 1985979648
+Image.MAX_IMAGE_PIXELS = 5873361920
+# Image.MAX_IMAGE_PIXELS = None
 
 
 class WholeSlideImage(object):
@@ -48,10 +49,10 @@ class WholeSlideImage(object):
         """
 
         #         self.name = ".".join(path.split("/")[-1].split('.')[:-1])
-        self.name = os.path.splitext(os.path.basename(path))[0]
         self.wsi = openslide.open_slide(path)
         self.level_downsamples = self._assertLevelDownsamples()
         self.level_dim = self.wsi.level_dimensions
+        self.name = os.path.splitext(os.path.basename(path))[0]
 
         self.contours_tissue = None
         self.contours_tumor = None
@@ -135,12 +136,12 @@ class WholeSlideImage(object):
         close=0,
         use_otsu=False,
         filter_params={"a_t": 100},
-        ref_patch_size=512,
+        ref_patch_size=10,
         exclude_ids=[],
         keep_ids=[],
     ):
         """
-        Segment the tissue via HSV -> Median thresholding -> Binary threshold
+        Segment the tissue via HSV -> Median thresholding -> Binary threshold / otsu
         """
 
         def _filter_contours(contours, hierarchy, filter_params):
@@ -193,9 +194,20 @@ class WholeSlideImage(object):
 
             return foreground_contours, hole_contours
 
-        img = np.array(
-            self.wsi.read_region((0, 0), seg_level, self.level_dim[seg_level])
-        )
+        try:
+            img = np.array(
+                self.wsi.read_region((0, 0), seg_level, self.level_dim[seg_level])
+                # wsi is a special picture format, which consist of multiple level images, 0 denote the highest resolution and each subsequence level represent certain downsample/magnified image
+                # read wsi, start from (0,0) at level 0, for wsi level {seg_level}, with {self.level_dim[seg_level]} size
+                # self.level_dim[seg_level] <=> img.shape at level
+            )
+        except IndexError:
+            print("Index Error here")
+            img = np.array(self.wsi.read_region((0, 0), 0, self.level_dim[0]))
+            img = cv2.resize(
+                img,
+                (img.shape[1] // (2**seg_level), img.shape[0] // (2**seg_level)),
+            )
         img_hsv = cv2.cvtColor(img, cv2.COLOR_RGB2HSV)  # Convert to HSV space
         img_med = cv2.medianBlur(img_hsv[:, :, 1], mthresh)  # Apply median blurring
 
@@ -204,6 +216,8 @@ class WholeSlideImage(object):
             _, img_otsu = cv2.threshold(
                 img_med, 0, sthresh_up, cv2.THRESH_OTSU + cv2.THRESH_BINARY
             )
+            #!
+            cv2.imwrite("otsu.jpg", img_otsu)
         else:
             _, img_otsu = cv2.threshold(img_med, sthresh, sthresh_up, cv2.THRESH_BINARY)
 
@@ -211,8 +225,11 @@ class WholeSlideImage(object):
         if close > 0:
             kernel = np.ones((close, close), np.uint8)
             img_otsu = cv2.morphologyEx(img_otsu, cv2.MORPH_CLOSE, kernel)
-
-        scale = self.level_downsamples[seg_level]
+        try:
+            scale = self.level_downsamples[seg_level]
+        except IndexError:
+            scale = (64,64)
+        # print(f"scale is {scale}")
         scaled_ref_patch_area = int(ref_patch_size**2 / (scale[0] * scale[1]))
         filter_params = filter_params.copy()
         filter_params["a_t"] = filter_params["a_t"] * scaled_ref_patch_area
@@ -222,21 +239,25 @@ class WholeSlideImage(object):
         contours, hierarchy = cv2.findContours(
             img_otsu, cv2.RETR_CCOMP, cv2.CHAIN_APPROX_NONE
         )  # Find contours
+        cont_len = len(contours)
+        # print(f"This image have {cont_len} contours")
         hierarchy = np.squeeze(hierarchy, axis=(0,))[:, 2:]
+        # print(filter_params)
         if filter_params:
             foreground_contours, hole_contours = _filter_contours(
                 contours, hierarchy, filter_params
             )  # Necessary for filtering out artifacts
+            len_fore_cont = len(foreground_contours)
+            # print(f"This image have {len_fore_cont} foreground contours")
 
         self.contours_tissue = self.scaleContourDim(foreground_contours, scale)
         self.holes_tissue = self.scaleHolesDim(hole_contours, scale)
 
-        # exclude_ids = [0,7,9]
+        # exclude_ids = [11]
         if len(keep_ids) > 0:
             contour_ids = set(keep_ids) - set(exclude_ids)
         else:
             contour_ids = set(np.arange(len(self.contours_tissue))) - set(exclude_ids)
-
         self.contours_tissue = [self.contours_tissue[i] for i in contour_ids]
         self.holes_tissue = [self.holes_tissue[i] for i in contour_ids]
 
@@ -357,7 +378,7 @@ class WholeSlideImage(object):
         patch_size=256,
         step_size=256,
         save_coord=True,
-        **kwargs
+        **kwargs,
     ):
         contours = self.contours_tissue
         contour_holes = self.holes_tissue
@@ -409,8 +430,8 @@ class WholeSlideImage(object):
             if cont is not None
             else (0, 0, self.level_dim[patch_level][0], self.level_dim[patch_level][1])
         )
-        print("Bounding Box:", start_x, start_y, w, h)
-        print("Contour Area:", cv2.contourArea(cont))
+        # print("Bounding Box:", start_x, start_y, w, h)
+        # print("Contour Area:", cv2.contourArea(cont))
 
         if custom_downsample > 1:
             assert custom_downsample == 2
@@ -585,7 +606,7 @@ class WholeSlideImage(object):
                 save_path,
                 patch_size,
                 step_size,
-                **kwargs
+                **kwargs,
             )
             if len(asset_dict) > 0:
                 if init:
@@ -632,8 +653,8 @@ class WholeSlideImage(object):
             stop_y = min(start_y + h, img_h - ref_patch_size[1] + 1)
             stop_x = min(start_x + w, img_w - ref_patch_size[0] + 1)
 
-        print("Bounding Box:", start_x, start_y, w, h)
-        print("Contour Area:", cv2.contourArea(cont))
+        # print("Bounding Box:", start_x, start_y, w, h)
+        # print("Contour Area:", cv2.contourArea(cont))
 
         if bot_right is not None:
             stop_y = min(bot_right[1], stop_y)

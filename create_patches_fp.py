@@ -72,7 +72,7 @@ def seg_and_patch(
         "exclude_ids": "none",
     },
     filter_params={"a_t": 100, "a_h": 16, "max_n_holes": 8},
-    vis_params={"vis_level": -1, "line_thickness": 500},
+    vis_params={"vis_level": -1, "line_thickness": 250},
     patch_params={"use_padding": True, "contour_fn": "four_pt"},
     patch_level=0,
     use_default_params=False,
@@ -84,6 +84,7 @@ def seg_and_patch(
     process_list=None,
 ):
 
+    # slides = sorted(os.listdir(source), key=lambda x: int(os.path.splitext(x)[0]))
     slides = sorted(os.listdir(source))
     slides = [slide for slide in slides if os.path.isfile(os.path.join(source, slide))]
     if process_list is None:
@@ -184,7 +185,7 @@ def seg_and_patch(
 
         if current_seg_params["seg_level"] < 0:
             if len(WSI_object.level_dim) == 1:
-                current_seg_params["seg_level"] = 0
+                current_seg_params["seg_level"] = 6
 
             else:
                 wsi = WSI_object.getOpenSlide()
@@ -205,7 +206,11 @@ def seg_and_patch(
         else:
             current_seg_params["exclude_ids"] = []
 
-        w, h = WSI_object.level_dim[current_seg_params["seg_level"]]
+        try:
+            w, h = WSI_object.level_dim[current_seg_params["seg_level"]]
+        except IndexError:
+            w, h = WSI_object.level_dim[0][0] // 64, WSI_object.level_dim[0][1] // 64
+
         if w * h > 1e8:
             print(
                 "level_dim {} x {} is likely too large for successful segmentation, aborting".format(
@@ -337,13 +342,14 @@ if __name__ == "__main__":
         "seg_level": -1,
         "sthresh": 8,
         "mthresh": 7,
-        "close": 4,
-        "use_otsu": True,
+        # "mthresh": 77,
+        "close": 10,
+        "use_otsu": False,
         "keep_ids": "none",
         "exclude_ids": "none",
     }
     filter_params = {"a_t": 100, "a_h": 16, "max_n_holes": 8}
-    vis_params = {"vis_level": -1, "line_thickness": 250}
+    vis_params = {"vis_level": -1, "line_thickness": 2}
     patch_params = {"use_padding": True, "contour_fn": "four_pt"}
 
     if args.preset:
