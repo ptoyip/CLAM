@@ -18,11 +18,7 @@ def stitching(file_path, wsi_object, downscale=64):
         file_path,
         wsi_object,
         downscale=downscale,
-<<<<<<< HEAD
         bg_color=(0,0,0),
-=======
-        bg_color=(0, 0, 0),
->>>>>>> e4df21c (minor update)
         alpha=-1,
         draw_grid=False,
     )
@@ -71,20 +67,12 @@ def seg_and_patch(
         "sthresh": 8,
         "mthresh": 7,
         "close": 4,
-<<<<<<< HEAD
-        "use_otsu": True,
-=======
         "use_otsu": False,
->>>>>>> e4df21c (minor update)
         "keep_ids": "none",
         "exclude_ids": "none",
     },
     filter_params={"a_t": 100, "a_h": 16, "max_n_holes": 8},
-<<<<<<< HEAD
-    vis_params={"vis_level": -1, "line_thickness": 250},
-=======
     vis_params={"vis_level": -1, "line_thickness": 500},
->>>>>>> e4df21c (minor update)
     patch_params={"use_padding": True, "contour_fn": "four_pt"},
     patch_level=0,
     use_default_params=False,
@@ -96,10 +84,7 @@ def seg_and_patch(
     process_list=None,
 ):
 
-<<<<<<< HEAD
     # slides = sorted(os.listdir(source), key=lambda x: int(os.path.splitext(x)[0]))
-=======
->>>>>>> e4df21c (minor update)
     slides = sorted(os.listdir(source))
     slides = [slide for slide in slides if os.path.isfile(os.path.join(source, slide))]
     if process_list is None:
@@ -159,16 +144,7 @@ def seg_and_patch(
             current_vis_params = vis_params.copy()
             current_filter_params = filter_params.copy()
             current_seg_params = seg_params.copy()
-<<<<<<< HEAD
-<<<<<<< HEAD
             current_patch_params = patch_params.copy()
-=======
-            current_patch_params = patch_params.copy()conda install -c conda-forge openslide
->>>>>>> e4df21c (minor update)
-=======
-            current_patch_params = patch_params.copy()
->>>>>>> 8a40522 (minor update)
-
         else:
             current_vis_params = {}
             current_filter_params = {}
@@ -210,12 +186,7 @@ def seg_and_patch(
 
         if current_seg_params["seg_level"] < 0:
             if len(WSI_object.level_dim) == 1:
-<<<<<<< HEAD
                 current_seg_params["seg_level"] = 6
-=======
-                current_seg_params["seg_level"] = 0
->>>>>>> e4df21c (minor update)
-
             else:
                 wsi = WSI_object.getOpenSlide()
                 best_level = wsi.get_best_level_for_downsample(64)
@@ -235,15 +206,11 @@ def seg_and_patch(
         else:
             current_seg_params["exclude_ids"] = []
 
-<<<<<<< HEAD
         try:
             w, h = WSI_object.level_dim[current_seg_params["seg_level"]]
         except IndexError:
             w, h = WSI_object.level_dim[0][0] // 64, WSI_object.level_dim[0][1] // 64
 
-=======
-        w, h = WSI_object.level_dim[current_seg_params["seg_level"]]
->>>>>>> e4df21c (minor update)
         if w * h > 1e8:
             print(
                 "level_dim {} x {} is likely too large for successful segmentation, aborting".format(
@@ -374,22 +341,14 @@ if __name__ == "__main__":
         "seg_level": -1,
         "sthresh": 8,
         "mthresh": 7,
-<<<<<<< HEAD
         # "mthresh": 77,
         "close": 10,
-=======
-        "close": 4,
->>>>>>> e4df21c (minor update)
         "use_otsu": False,
         "keep_ids": "none",
         "exclude_ids": "none",
     }
     filter_params = {"a_t": 100, "a_h": 16, "max_n_holes": 8}
-<<<<<<< HEAD
     vis_params = {"vis_level": -1, "line_thickness": 2}
-=======
-    vis_params = {"vis_level": -1, "line_thickness": 250}
->>>>>>> e4df21c (minor update)
     patch_params = {"use_padding": True, "contour_fn": "four_pt"}
 
     if args.preset:
