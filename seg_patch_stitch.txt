@@ -1,16 +1,5637 @@
 nohup: ignoring input
-source:  ../test/
-patch_save_dir:  ../test_result/patches
-mask_save_dir:  ../test_result/masks
-stitch_save_dir:  ../test_result/stitches
-source : ../test/
-save_dir : ../test_result
-patch_save_dir : ../test_result/patches
-mask_save_dir : ../test_result/masks
-stitch_save_dir : ../test_result/stitches
+source:  /jhcnas2/shared_data/public/WSI/BCNB_Dataset/WSIs/
+patch_save_dir:  ../TransMIL/clam_patches/patches
+mask_save_dir:  ../TransMIL/clam_patches/masks
+stitch_save_dir:  ../TransMIL/clam_patches/stitches
+source : /jhcnas2/shared_data/public/WSI/BCNB_Dataset/WSIs/
+save_dir : ../TransMIL/clam_patches/
+patch_save_dir : ../TransMIL/clam_patches/patches
+mask_save_dir : ../TransMIL/clam_patches/masks
+stitch_save_dir : ../TransMIL/clam_patches/stitches
 {'seg_params': {'seg_level': -1, 'sthresh': 8, 'mthresh': 7, 'close': 10, 'use_otsu': False, 'keep_ids': 'none', 'exclude_ids': 'none'}, 'filter_params': {'a_t': 100, 'a_h': 16, 'max_n_holes': 8}, 'patch_params': {'use_padding': True, 'contour_fn': 'four_pt'}, 'vis_params': {'vis_level': -1, 'line_thickness': 2}}
 
 
-progress: 0.00, 0/1
+progress: 0.00, 0/1058
+processing 1.jpg
+1 already exist in destination location, skipped
+
+
+progress: 0.00, 1/1058
+processing 10.jpg
+10 already exist in destination location, skipped
+
+
+progress: 0.00, 2/1058
+processing 100.jpg
+100 already exist in destination location, skipped
+
+
+progress: 0.00, 3/1058
+processing 1000.jpg
+1000 already exist in destination location, skipped
+
+
+progress: 0.00, 4/1058
+processing 1001.jpg
+1001 already exist in destination location, skipped
+
+
+progress: 0.00, 5/1058
+processing 1002.jpg
+1002 already exist in destination location, skipped
+
+
+progress: 0.01, 6/1058
+processing 1003.jpg
+1003 already exist in destination location, skipped
+
+
+progress: 0.01, 7/1058
+processing 1004.jpg
+1004 already exist in destination location, skipped
+
+
+progress: 0.01, 8/1058
+processing 1005.jpg
+1005 already exist in destination location, skipped
+
+
+progress: 0.01, 9/1058
+processing 1006.jpg
+1006 already exist in destination location, skipped
+
+
+progress: 0.01, 10/1058
+processing 1007.jpg
+1007 already exist in destination location, skipped
+
+
+progress: 0.01, 11/1058
+processing 1008.jpg
+1008 already exist in destination location, skipped
+
+
+progress: 0.01, 12/1058
+processing 1009.jpg
+1009 already exist in destination location, skipped
+
+
+progress: 0.01, 13/1058
+processing 101.jpg
+101 already exist in destination location, skipped
+
+
+progress: 0.01, 14/1058
+processing 1010.jpg
+1010 already exist in destination location, skipped
+
+
+progress: 0.01, 15/1058
+processing 1011.jpg
+1011 already exist in destination location, skipped
+
+
+progress: 0.02, 16/1058
+processing 1012.jpg
+1012 already exist in destination location, skipped
+
+
+progress: 0.02, 17/1058
+processing 1013.jpg
+1013 already exist in destination location, skipped
+
+
+progress: 0.02, 18/1058
+processing 1014.jpg
+1014 already exist in destination location, skipped
+
+
+progress: 0.02, 19/1058
+processing 1015.jpg
+1015 already exist in destination location, skipped
+
+
+progress: 0.02, 20/1058
+processing 1016.jpg
+1016 already exist in destination location, skipped
+
+
+progress: 0.02, 21/1058
+processing 1017.jpg
+1017 already exist in destination location, skipped
+
+
+progress: 0.02, 22/1058
+processing 1018.jpg
+1018 already exist in destination location, skipped
+
+
+progress: 0.02, 23/1058
+processing 1019.jpg
+1019 already exist in destination location, skipped
+
+
+progress: 0.02, 24/1058
+processing 102.jpg
+102 already exist in destination location, skipped
+
+
+progress: 0.02, 25/1058
+processing 1020.jpg
+1020 already exist in destination location, skipped
+
+
+progress: 0.02, 26/1058
+processing 1021.jpg
+1021 already exist in destination location, skipped
+
+
+progress: 0.03, 27/1058
+processing 1022.jpg
+1022 already exist in destination location, skipped
+
+
+progress: 0.03, 28/1058
+processing 1023.jpg
+1023 already exist in destination location, skipped
+
+
+progress: 0.03, 29/1058
+processing 1024.jpg
+1024 already exist in destination location, skipped
+
+
+progress: 0.03, 30/1058
+processing 1025.jpg
+1025 already exist in destination location, skipped
+
+
+progress: 0.03, 31/1058
+processing 1026.jpg
+1026 already exist in destination location, skipped
+
+
+progress: 0.03, 32/1058
+processing 1027.jpg
+1027 already exist in destination location, skipped
+
+
+progress: 0.03, 33/1058
+processing 1028.jpg
+1028 already exist in destination location, skipped
+
+
+progress: 0.03, 34/1058
+processing 1029.jpg
+1029 already exist in destination location, skipped
+
+
+progress: 0.03, 35/1058
+processing 103.jpg
+103 already exist in destination location, skipped
+
+
+progress: 0.03, 36/1058
+processing 1030.jpg
+1030 already exist in destination location, skipped
+
+
+progress: 0.03, 37/1058
+processing 1031.jpg
+1031 already exist in destination location, skipped
+
+
+progress: 0.04, 38/1058
+processing 1032.jpg
+1032 already exist in destination location, skipped
+
+
+progress: 0.04, 39/1058
+processing 1033.jpg
+1033 already exist in destination location, skipped
+
+
+progress: 0.04, 40/1058
+processing 1034.jpg
+1034 already exist in destination location, skipped
+
+
+progress: 0.04, 41/1058
+processing 1035.jpg
+1035 already exist in destination location, skipped
+
+
+progress: 0.04, 42/1058
+processing 1036.jpg
+1036 already exist in destination location, skipped
+
+
+progress: 0.04, 43/1058
+processing 1037.jpg
+1037 already exist in destination location, skipped
+
+
+progress: 0.04, 44/1058
+processing 1038.jpg
+1038 already exist in destination location, skipped
+
+
+progress: 0.04, 45/1058
+processing 1039.jpg
+1039 already exist in destination location, skipped
+
+
+progress: 0.04, 46/1058
+processing 104.jpg
+104 already exist in destination location, skipped
+
+
+progress: 0.04, 47/1058
+processing 1040.jpg
+1040 already exist in destination location, skipped
+
+
+progress: 0.05, 48/1058
+processing 1041.jpg
+1041 already exist in destination location, skipped
+
+
+progress: 0.05, 49/1058
+processing 1042.jpg
+1042 already exist in destination location, skipped
+
+
+progress: 0.05, 50/1058
+processing 1043.jpg
+1043 already exist in destination location, skipped
+
+
+progress: 0.05, 51/1058
+processing 1044.jpg
+1044 already exist in destination location, skipped
+
+
+progress: 0.05, 52/1058
+processing 1045.jpg
+1045 already exist in destination location, skipped
+
+
+progress: 0.05, 53/1058
+processing 1046.jpg
+1046 already exist in destination location, skipped
+
+
+progress: 0.05, 54/1058
+processing 1047.jpg
+1047 already exist in destination location, skipped
+
+
+progress: 0.05, 55/1058
+processing 1048.jpg
+1048 already exist in destination location, skipped
+
+
+progress: 0.05, 56/1058
+processing 1049.jpg
+1049 already exist in destination location, skipped
+
+
+progress: 0.05, 57/1058
+processing 105.jpg
+105 already exist in destination location, skipped
+
+
+progress: 0.05, 58/1058
+processing 1050.jpg
+1050 already exist in destination location, skipped
+
+
+progress: 0.06, 59/1058
+processing 1051.jpg
+1051 already exist in destination location, skipped
+
+
+progress: 0.06, 60/1058
+processing 1052.jpg
+1052 already exist in destination location, skipped
+
+
+progress: 0.06, 61/1058
+processing 1053.jpg
+1053 already exist in destination location, skipped
+
+
+progress: 0.06, 62/1058
+processing 1054.jpg
+1054 already exist in destination location, skipped
+
+
+progress: 0.06, 63/1058
+processing 1055.jpg
+1055 already exist in destination location, skipped
+
+
+progress: 0.06, 64/1058
+processing 1056.jpg
+1056 already exist in destination location, skipped
+
+
+progress: 0.06, 65/1058
+processing 1057.jpg
+1057 already exist in destination location, skipped
+
+
+progress: 0.06, 66/1058
+processing 1058.jpg
+1058 already exist in destination location, skipped
+
+
+progress: 0.06, 67/1058
+processing 106.jpg
+106 already exist in destination location, skipped
+
+
+progress: 0.06, 68/1058
+processing 107.jpg
+107 already exist in destination location, skipped
+
+
+progress: 0.07, 69/1058
+processing 108.jpg
+108 already exist in destination location, skipped
+
+
+progress: 0.07, 70/1058
+processing 109.jpg
+109 already exist in destination location, skipped
+
+
+progress: 0.07, 71/1058
+processing 11.jpg
+11 already exist in destination location, skipped
+
+
+progress: 0.07, 72/1058
+processing 110.jpg
+110 already exist in destination location, skipped
+
+
+progress: 0.07, 73/1058
+processing 111.jpg
+111 already exist in destination location, skipped
+
+
+progress: 0.07, 74/1058
+processing 112.jpg
+112 already exist in destination location, skipped
+
+
+progress: 0.07, 75/1058
+processing 113.jpg
+113 already exist in destination location, skipped
+
+
+progress: 0.07, 76/1058
+processing 114.jpg
+114 already exist in destination location, skipped
+
+
+progress: 0.07, 77/1058
+processing 115.jpg
+115 already exist in destination location, skipped
+
+
+progress: 0.07, 78/1058
+processing 116.jpg
+116 already exist in destination location, skipped
+
+
+progress: 0.07, 79/1058
+processing 117.jpg
+117 already exist in destination location, skipped
+
+
+progress: 0.08, 80/1058
+processing 118.jpg
+118 already exist in destination location, skipped
+
+
+progress: 0.08, 81/1058
+processing 119.jpg
+119 already exist in destination location, skipped
+
+
+progress: 0.08, 82/1058
+processing 12.jpg
+12 already exist in destination location, skipped
+
+
+progress: 0.08, 83/1058
+processing 120.jpg
+120 already exist in destination location, skipped
+
+
+progress: 0.08, 84/1058
+processing 121.jpg
+121 already exist in destination location, skipped
+
+
+progress: 0.08, 85/1058
+processing 122.jpg
+122 already exist in destination location, skipped
+
+
+progress: 0.08, 86/1058
+processing 123.jpg
+123 already exist in destination location, skipped
+
+
+progress: 0.08, 87/1058
+processing 124.jpg
+124 already exist in destination location, skipped
+
+
+progress: 0.08, 88/1058
+processing 125.jpg
+125 already exist in destination location, skipped
+
+
+progress: 0.08, 89/1058
+processing 126.jpg
+126 already exist in destination location, skipped
+
+
+progress: 0.09, 90/1058
+processing 127.jpg
+127 already exist in destination location, skipped
+
+
+progress: 0.09, 91/1058
+processing 128.jpg
+128 already exist in destination location, skipped
+
+
+progress: 0.09, 92/1058
+processing 129.jpg
+129 already exist in destination location, skipped
+
+
+progress: 0.09, 93/1058
+processing 13.jpg
+13 already exist in destination location, skipped
+
+
+progress: 0.09, 94/1058
+processing 130.jpg
+130 already exist in destination location, skipped
+
+
+progress: 0.09, 95/1058
+processing 131.jpg
+131 already exist in destination location, skipped
+
+
+progress: 0.09, 96/1058
+processing 132.jpg
+132 already exist in destination location, skipped
+
+
+progress: 0.09, 97/1058
+processing 133.jpg
+133 already exist in destination location, skipped
+
+
+progress: 0.09, 98/1058
+processing 134.jpg
+134 already exist in destination location, skipped
+
+
+progress: 0.09, 99/1058
+processing 135.jpg
+135 already exist in destination location, skipped
+
+
+progress: 0.09, 100/1058
+processing 136.jpg
+136 already exist in destination location, skipped
+
+
+progress: 0.10, 101/1058
+processing 137.jpg
+137 already exist in destination location, skipped
+
+
+progress: 0.10, 102/1058
+processing 138.jpg
+138 already exist in destination location, skipped
+
+
+progress: 0.10, 103/1058
+processing 139.jpg
+139 already exist in destination location, skipped
+
+
+progress: 0.10, 104/1058
+processing 14.jpg
+14 already exist in destination location, skipped
+
+
+progress: 0.10, 105/1058
+processing 140.jpg
+140 already exist in destination location, skipped
+
+
+progress: 0.10, 106/1058
+processing 141.jpg
+141 already exist in destination location, skipped
+
+
+progress: 0.10, 107/1058
+processing 142.jpg
+142 already exist in destination location, skipped
+
+
+progress: 0.10, 108/1058
+processing 143.jpg
+143 already exist in destination location, skipped
+
+
+progress: 0.10, 109/1058
+processing 144.jpg
+144 already exist in destination location, skipped
+
+
+progress: 0.10, 110/1058
+processing 145.jpg
+145 already exist in destination location, skipped
+
+
+progress: 0.10, 111/1058
+processing 146.jpg
+146 already exist in destination location, skipped
+
+
+progress: 0.11, 112/1058
+processing 147.jpg
+147 already exist in destination location, skipped
+
+
+progress: 0.11, 113/1058
+processing 148.jpg
+148 already exist in destination location, skipped
+
+
+progress: 0.11, 114/1058
+processing 149.jpg
+149 already exist in destination location, skipped
+
+
+progress: 0.11, 115/1058
+processing 15.jpg
+15 already exist in destination location, skipped
+
+
+progress: 0.11, 116/1058
+processing 150.jpg
+150 already exist in destination location, skipped
+
+
+progress: 0.11, 117/1058
+processing 151.jpg
+151 already exist in destination location, skipped
+
+
+progress: 0.11, 118/1058
+processing 152.jpg
+152 already exist in destination location, skipped
+
+
+progress: 0.11, 119/1058
+processing 153.jpg
+153 already exist in destination location, skipped
+
+
+progress: 0.11, 120/1058
+processing 154.jpg
+154 already exist in destination location, skipped
+
+
+progress: 0.11, 121/1058
+processing 155.jpg
+155 already exist in destination location, skipped
+
+
+progress: 0.12, 122/1058
+processing 156.jpg
+156 already exist in destination location, skipped
+
+
+progress: 0.12, 123/1058
+processing 157.jpg
+157 already exist in destination location, skipped
+
+
+progress: 0.12, 124/1058
+processing 158.jpg
+158 already exist in destination location, skipped
+
+
+progress: 0.12, 125/1058
+processing 159.jpg
+159 already exist in destination location, skipped
+
+
+progress: 0.12, 126/1058
+processing 16.jpg
+16 already exist in destination location, skipped
+
+
+progress: 0.12, 127/1058
+processing 160.jpg
+160 already exist in destination location, skipped
+
+
+progress: 0.12, 128/1058
+processing 161.jpg
+161 already exist in destination location, skipped
+
+
+progress: 0.12, 129/1058
+processing 162.jpg
+162 already exist in destination location, skipped
+
+
+progress: 0.12, 130/1058
+processing 163.jpg
+163 already exist in destination location, skipped
+
+
+progress: 0.12, 131/1058
+processing 164.jpg
+164 already exist in destination location, skipped
+
+
+progress: 0.12, 132/1058
+processing 165.jpg
+165 already exist in destination location, skipped
+
+
+progress: 0.13, 133/1058
+processing 166.jpg
+166 already exist in destination location, skipped
+
+
+progress: 0.13, 134/1058
+processing 167.jpg
+167 already exist in destination location, skipped
+
+
+progress: 0.13, 135/1058
+processing 168.jpg
+168 already exist in destination location, skipped
+
+
+progress: 0.13, 136/1058
+processing 169.jpg
+169 already exist in destination location, skipped
+
+
+progress: 0.13, 137/1058
+processing 17.jpg
+17 already exist in destination location, skipped
+
+
+progress: 0.13, 138/1058
+processing 170.jpg
+170 already exist in destination location, skipped
+
+
+progress: 0.13, 139/1058
+processing 171.jpg
+171 already exist in destination location, skipped
+
+
+progress: 0.13, 140/1058
+processing 172.jpg
+172 already exist in destination location, skipped
+
+
+progress: 0.13, 141/1058
+processing 173.jpg
+173 already exist in destination location, skipped
+
+
+progress: 0.13, 142/1058
+processing 174.jpg
+174 already exist in destination location, skipped
+
+
+progress: 0.14, 143/1058
+processing 175.jpg
+175 already exist in destination location, skipped
+
+
+progress: 0.14, 144/1058
+processing 176.jpg
+176 already exist in destination location, skipped
+
+
+progress: 0.14, 145/1058
+processing 177.jpg
+177 already exist in destination location, skipped
+
+
+progress: 0.14, 146/1058
+processing 178.jpg
+178 already exist in destination location, skipped
+
+
+progress: 0.14, 147/1058
+processing 179.jpg
+179 already exist in destination location, skipped
+
+
+progress: 0.14, 148/1058
+processing 18.jpg
+18 already exist in destination location, skipped
+
+
+progress: 0.14, 149/1058
+processing 180.jpg
+180 already exist in destination location, skipped
+
+
+progress: 0.14, 150/1058
+processing 181.jpg
+181 already exist in destination location, skipped
+
+
+progress: 0.14, 151/1058
+processing 182.jpg
+182 already exist in destination location, skipped
+
+
+progress: 0.14, 152/1058
+processing 183.jpg
+183 already exist in destination location, skipped
+
+
+progress: 0.14, 153/1058
+processing 184.jpg
+184 already exist in destination location, skipped
+
+
+progress: 0.15, 154/1058
+processing 185.jpg
+185 already exist in destination location, skipped
+
+
+progress: 0.15, 155/1058
+processing 186.jpg
+186 already exist in destination location, skipped
+
+
+progress: 0.15, 156/1058
+processing 187.jpg
+187 already exist in destination location, skipped
+
+
+progress: 0.15, 157/1058
+processing 188.jpg
+188 already exist in destination location, skipped
+
+
+progress: 0.15, 158/1058
+processing 189.jpg
+189 already exist in destination location, skipped
+
+
+progress: 0.15, 159/1058
+processing 19.jpg
+19 already exist in destination location, skipped
+
+
+progress: 0.15, 160/1058
+processing 190.jpg
+190 already exist in destination location, skipped
+
+
+progress: 0.15, 161/1058
+processing 191.jpg
+191 already exist in destination location, skipped
+
+
+progress: 0.15, 162/1058
+processing 192.jpg
+192 already exist in destination location, skipped
+
+
+progress: 0.15, 163/1058
+processing 193.jpg
+193 already exist in destination location, skipped
+
+
+progress: 0.16, 164/1058
+processing 194.jpg
+194 already exist in destination location, skipped
+
+
+progress: 0.16, 165/1058
+processing 195.jpg
+195 already exist in destination location, skipped
+
+
+progress: 0.16, 166/1058
+processing 196.jpg
+196 already exist in destination location, skipped
+
+
+progress: 0.16, 167/1058
+processing 197.jpg
+197 already exist in destination location, skipped
+
+
+progress: 0.16, 168/1058
+processing 198.jpg
+198 already exist in destination location, skipped
+
+
+progress: 0.16, 169/1058
+processing 199.jpg
+199 already exist in destination location, skipped
+
+
+progress: 0.16, 170/1058
+processing 2.jpg
+2 already exist in destination location, skipped
+
+
+progress: 0.16, 171/1058
+processing 20.jpg
+20 already exist in destination location, skipped
+
+
+progress: 0.16, 172/1058
+processing 200.jpg
+200 already exist in destination location, skipped
+
+
+progress: 0.16, 173/1058
+processing 201.jpg
+201 already exist in destination location, skipped
+
+
+progress: 0.16, 174/1058
+processing 202.jpg
+202 already exist in destination location, skipped
+
+
+progress: 0.17, 175/1058
+processing 203.jpg
+203 already exist in destination location, skipped
+
+
+progress: 0.17, 176/1058
+processing 204.jpg
+204 already exist in destination location, skipped
+
+
+progress: 0.17, 177/1058
+processing 205.jpg
+205 already exist in destination location, skipped
+
+
+progress: 0.17, 178/1058
+processing 206.jpg
+206 already exist in destination location, skipped
+
+
+progress: 0.17, 179/1058
+processing 207.jpg
+207 already exist in destination location, skipped
+
+
+progress: 0.17, 180/1058
+processing 208.jpg
+208 already exist in destination location, skipped
+
+
+progress: 0.17, 181/1058
+processing 209.jpg
+209 already exist in destination location, skipped
+
+
+progress: 0.17, 182/1058
+processing 21.jpg
+21 already exist in destination location, skipped
+
+
+progress: 0.17, 183/1058
+processing 210.jpg
+210 already exist in destination location, skipped
+
+
+progress: 0.17, 184/1058
+processing 211.jpg
+211 already exist in destination location, skipped
+
+
+progress: 0.17, 185/1058
+processing 212.jpg
+212 already exist in destination location, skipped
+
+
+progress: 0.18, 186/1058
+processing 213.jpg
+213 already exist in destination location, skipped
+
+
+progress: 0.18, 187/1058
+processing 214.jpg
+214 already exist in destination location, skipped
+
+
+progress: 0.18, 188/1058
+processing 215.jpg
+215 already exist in destination location, skipped
+
+
+progress: 0.18, 189/1058
+processing 216.jpg
+216 already exist in destination location, skipped
+
+
+progress: 0.18, 190/1058
+processing 217.jpg
+217 already exist in destination location, skipped
+
+
+progress: 0.18, 191/1058
+processing 218.jpg
+218 already exist in destination location, skipped
+
+
+progress: 0.18, 192/1058
+processing 219.jpg
+219 already exist in destination location, skipped
+
+
+progress: 0.18, 193/1058
+processing 22.jpg
+22 already exist in destination location, skipped
+
+
+progress: 0.18, 194/1058
+processing 220.jpg
+220 already exist in destination location, skipped
+
+
+progress: 0.18, 195/1058
+processing 221.jpg
+221 already exist in destination location, skipped
+
+
+progress: 0.19, 196/1058
+processing 222.jpg
+222 already exist in destination location, skipped
+
+
+progress: 0.19, 197/1058
+processing 223.jpg
+223 already exist in destination location, skipped
+
+
+progress: 0.19, 198/1058
+processing 224.jpg
+224 already exist in destination location, skipped
+
+
+progress: 0.19, 199/1058
+processing 225.jpg
+225 already exist in destination location, skipped
+
+
+progress: 0.19, 200/1058
+processing 226.jpg
+226 already exist in destination location, skipped
+
+
+progress: 0.19, 201/1058
+processing 227.jpg
+227 already exist in destination location, skipped
+
+
+progress: 0.19, 202/1058
+processing 228.jpg
+228 already exist in destination location, skipped
+
+
+progress: 0.19, 203/1058
+processing 229.jpg
+229 already exist in destination location, skipped
+
+
+progress: 0.19, 204/1058
+processing 23.jpg
+23 already exist in destination location, skipped
+
+
+progress: 0.19, 205/1058
+processing 230.jpg
+230 already exist in destination location, skipped
+
+
+progress: 0.19, 206/1058
+processing 231.jpg
+231 already exist in destination location, skipped
+
+
+progress: 0.20, 207/1058
+processing 232.jpg
+232 already exist in destination location, skipped
+
+
+progress: 0.20, 208/1058
+processing 233.jpg
+233 already exist in destination location, skipped
+
+
+progress: 0.20, 209/1058
+processing 234.jpg
+234 already exist in destination location, skipped
+
+
+progress: 0.20, 210/1058
+processing 235.jpg
+235 already exist in destination location, skipped
+
+
+progress: 0.20, 211/1058
+processing 236.jpg
+236 already exist in destination location, skipped
+
+
+progress: 0.20, 212/1058
+processing 237.jpg
+237 already exist in destination location, skipped
+
+
+progress: 0.20, 213/1058
+processing 238.jpg
+238 already exist in destination location, skipped
+
+
+progress: 0.20, 214/1058
+processing 239.jpg
+239 already exist in destination location, skipped
+
+
+progress: 0.20, 215/1058
+processing 24.jpg
+24 already exist in destination location, skipped
+
+
+progress: 0.20, 216/1058
+processing 240.jpg
+240 already exist in destination location, skipped
+
+
+progress: 0.21, 217/1058
+processing 241.jpg
+241 already exist in destination location, skipped
+
+
+progress: 0.21, 218/1058
+processing 242.jpg
+242 already exist in destination location, skipped
+
+
+progress: 0.21, 219/1058
+processing 243.jpg
+243 already exist in destination location, skipped
+
+
+progress: 0.21, 220/1058
+processing 244.jpg
+244 already exist in destination location, skipped
+
+
+progress: 0.21, 221/1058
+processing 245.jpg
+245 already exist in destination location, skipped
+
+
+progress: 0.21, 222/1058
+processing 246.jpg
+246 already exist in destination location, skipped
+
+
+progress: 0.21, 223/1058
+processing 247.jpg
+247 already exist in destination location, skipped
+
+
+progress: 0.21, 224/1058
+processing 248.jpg
+248 already exist in destination location, skipped
+
+
+progress: 0.21, 225/1058
+processing 249.jpg
+249 already exist in destination location, skipped
+
+
+progress: 0.21, 226/1058
+processing 25.jpg
+25 already exist in destination location, skipped
+
+
+progress: 0.21, 227/1058
+processing 250.jpg
+250 already exist in destination location, skipped
+
+
+progress: 0.22, 228/1058
+processing 251.jpg
+251 already exist in destination location, skipped
+
+
+progress: 0.22, 229/1058
+processing 252.jpg
+252 already exist in destination location, skipped
+
+
+progress: 0.22, 230/1058
+processing 253.jpg
+253 already exist in destination location, skipped
+
+
+progress: 0.22, 231/1058
+processing 254.jpg
+254 already exist in destination location, skipped
+
+
+progress: 0.22, 232/1058
+processing 255.jpg
+255 already exist in destination location, skipped
+
+
+progress: 0.22, 233/1058
+processing 256.jpg
+256 already exist in destination location, skipped
+
+
+progress: 0.22, 234/1058
+processing 257.jpg
+257 already exist in destination location, skipped
+
+
+progress: 0.22, 235/1058
+processing 258.jpg
+258 already exist in destination location, skipped
+
+
+progress: 0.22, 236/1058
+processing 259.jpg
+259 already exist in destination location, skipped
+
+
+progress: 0.22, 237/1058
+processing 26.jpg
+26 already exist in destination location, skipped
+
+
+progress: 0.22, 238/1058
+processing 260.jpg
+260 already exist in destination location, skipped
+
+
+progress: 0.23, 239/1058
+processing 261.jpg
+261 already exist in destination location, skipped
+
+
+progress: 0.23, 240/1058
+processing 262.jpg
+262 already exist in destination location, skipped
+
+
+progress: 0.23, 241/1058
+processing 263.jpg
+263 already exist in destination location, skipped
+
+
+progress: 0.23, 242/1058
+processing 264.jpg
+264 already exist in destination location, skipped
+
+
+progress: 0.23, 243/1058
+processing 265.jpg
+265 already exist in destination location, skipped
+
+
+progress: 0.23, 244/1058
+processing 266.jpg
+266 already exist in destination location, skipped
+
+
+progress: 0.23, 245/1058
+processing 267.jpg
+267 already exist in destination location, skipped
+
+
+progress: 0.23, 246/1058
+processing 268.jpg
+268 already exist in destination location, skipped
+
+
+progress: 0.23, 247/1058
+processing 269.jpg
+269 already exist in destination location, skipped
+
+
+progress: 0.23, 248/1058
+processing 27.jpg
+27 already exist in destination location, skipped
+
+
+progress: 0.24, 249/1058
+processing 270.jpg
+270 already exist in destination location, skipped
+
+
+progress: 0.24, 250/1058
+processing 271.jpg
+271 already exist in destination location, skipped
+
+
+progress: 0.24, 251/1058
+processing 272.jpg
+272 already exist in destination location, skipped
+
+
+progress: 0.24, 252/1058
+processing 273.jpg
+273 already exist in destination location, skipped
+
+
+progress: 0.24, 253/1058
+processing 274.jpg
+274 already exist in destination location, skipped
+
+
+progress: 0.24, 254/1058
+processing 275.jpg
+275 already exist in destination location, skipped
+
+
+progress: 0.24, 255/1058
+processing 276.jpg
+276 already exist in destination location, skipped
+
+
+progress: 0.24, 256/1058
+processing 277.jpg
+277 already exist in destination location, skipped
+
+
+progress: 0.24, 257/1058
+processing 278.jpg
+278 already exist in destination location, skipped
+
+
+progress: 0.24, 258/1058
+processing 279.jpg
+279 already exist in destination location, skipped
+
+
+progress: 0.24, 259/1058
+processing 28.jpg
+28 already exist in destination location, skipped
+
+
+progress: 0.25, 260/1058
+processing 280.jpg
+280 already exist in destination location, skipped
+
+
+progress: 0.25, 261/1058
+processing 281.jpg
+281 already exist in destination location, skipped
+
+
+progress: 0.25, 262/1058
+processing 282.jpg
+282 already exist in destination location, skipped
+
+
+progress: 0.25, 263/1058
+processing 283.jpg
+283 already exist in destination location, skipped
+
+
+progress: 0.25, 264/1058
+processing 284.jpg
+284 already exist in destination location, skipped
+
+
+progress: 0.25, 265/1058
+processing 285.jpg
+285 already exist in destination location, skipped
+
+
+progress: 0.25, 266/1058
+processing 286.jpg
+286 already exist in destination location, skipped
+
+
+progress: 0.25, 267/1058
+processing 287.jpg
+287 already exist in destination location, skipped
+
+
+progress: 0.25, 268/1058
+processing 288.jpg
+288 already exist in destination location, skipped
+
+
+progress: 0.25, 269/1058
+processing 289.jpg
+289 already exist in destination location, skipped
+
+
+progress: 0.26, 270/1058
+processing 29.jpg
+29 already exist in destination location, skipped
+
+
+progress: 0.26, 271/1058
+processing 290.jpg
+290 already exist in destination location, skipped
+
+
+progress: 0.26, 272/1058
+processing 291.jpg
+291 already exist in destination location, skipped
+
+
+progress: 0.26, 273/1058
+processing 292.jpg
+292 already exist in destination location, skipped
+
+
+progress: 0.26, 274/1058
+processing 293.jpg
+293 already exist in destination location, skipped
+
+
+progress: 0.26, 275/1058
+processing 294.jpg
+294 already exist in destination location, skipped
+
+
+progress: 0.26, 276/1058
+processing 295.jpg
+295 already exist in destination location, skipped
+
+
+progress: 0.26, 277/1058
+processing 296.jpg
+296 already exist in destination location, skipped
+
+
+progress: 0.26, 278/1058
+processing 297.jpg
+297 already exist in destination location, skipped
+
+
+progress: 0.26, 279/1058
+processing 298.jpg
+298 already exist in destination location, skipped
+
+
+progress: 0.26, 280/1058
+processing 299.jpg
+299 already exist in destination location, skipped
+
+
+progress: 0.27, 281/1058
+processing 3.jpg
+3 already exist in destination location, skipped
+
+
+progress: 0.27, 282/1058
+processing 30.jpg
+30 already exist in destination location, skipped
+
+
+progress: 0.27, 283/1058
+processing 300.jpg
+300 already exist in destination location, skipped
+
+
+progress: 0.27, 284/1058
+processing 301.jpg
+301 already exist in destination location, skipped
+
+
+progress: 0.27, 285/1058
+processing 302.jpg
+302 already exist in destination location, skipped
+
+
+progress: 0.27, 286/1058
+processing 303.jpg
+303 already exist in destination location, skipped
+
+
+progress: 0.27, 287/1058
+processing 304.jpg
+304 already exist in destination location, skipped
+
+
+progress: 0.27, 288/1058
+processing 305.jpg
+305 already exist in destination location, skipped
+
+
+progress: 0.27, 289/1058
+processing 306.jpg
+306 already exist in destination location, skipped
+
+
+progress: 0.27, 290/1058
+processing 307.jpg
+307 already exist in destination location, skipped
+
+
+progress: 0.28, 291/1058
+processing 308.jpg
+308 already exist in destination location, skipped
+
+
+progress: 0.28, 292/1058
+processing 309.jpg
+309 already exist in destination location, skipped
+
+
+progress: 0.28, 293/1058
+processing 31.jpg
+31 already exist in destination location, skipped
+
+
+progress: 0.28, 294/1058
+processing 310.jpg
+310 already exist in destination location, skipped
+
+
+progress: 0.28, 295/1058
+processing 311.jpg
+311 already exist in destination location, skipped
+
+
+progress: 0.28, 296/1058
+processing 312.jpg
+312 already exist in destination location, skipped
+
+
+progress: 0.28, 297/1058
+processing 313.jpg
+313 already exist in destination location, skipped
+
+
+progress: 0.28, 298/1058
+processing 314.jpg
+314 already exist in destination location, skipped
+
+
+progress: 0.28, 299/1058
+processing 315.jpg
+315 already exist in destination location, skipped
+
+
+progress: 0.28, 300/1058
+processing 316.jpg
+316 already exist in destination location, skipped
+
+
+progress: 0.28, 301/1058
+processing 317.jpg
+317 already exist in destination location, skipped
+
+
+progress: 0.29, 302/1058
+processing 318.jpg
+318 already exist in destination location, skipped
+
+
+progress: 0.29, 303/1058
+processing 319.jpg
+319 already exist in destination location, skipped
+
+
+progress: 0.29, 304/1058
+processing 32.jpg
+32 already exist in destination location, skipped
+
+
+progress: 0.29, 305/1058
+processing 320.jpg
+320 already exist in destination location, skipped
+
+
+progress: 0.29, 306/1058
+processing 321.jpg
+321 already exist in destination location, skipped
+
+
+progress: 0.29, 307/1058
+processing 322.jpg
+322 already exist in destination location, skipped
+
+
+progress: 0.29, 308/1058
+processing 323.jpg
+323 already exist in destination location, skipped
+
+
+progress: 0.29, 309/1058
+processing 324.jpg
+324 already exist in destination location, skipped
+
+
+progress: 0.29, 310/1058
+processing 325.jpg
+325 already exist in destination location, skipped
+
+
+progress: 0.29, 311/1058
+processing 326.jpg
+326 already exist in destination location, skipped
+
+
+progress: 0.29, 312/1058
+processing 327.jpg
+327 already exist in destination location, skipped
+
+
+progress: 0.30, 313/1058
+processing 328.jpg
+328 already exist in destination location, skipped
+
+
+progress: 0.30, 314/1058
+processing 329.jpg
+329 already exist in destination location, skipped
+
+
+progress: 0.30, 315/1058
+processing 33.jpg
+33 already exist in destination location, skipped
+
+
+progress: 0.30, 316/1058
+processing 330.jpg
+330 already exist in destination location, skipped
+
+
+progress: 0.30, 317/1058
+processing 331.jpg
+331 already exist in destination location, skipped
+
+
+progress: 0.30, 318/1058
+processing 332.jpg
+332 already exist in destination location, skipped
+
+
+progress: 0.30, 319/1058
+processing 333.jpg
+333 already exist in destination location, skipped
+
+
+progress: 0.30, 320/1058
+processing 334.jpg
+334 already exist in destination location, skipped
+
+
+progress: 0.30, 321/1058
+processing 335.jpg
+335 already exist in destination location, skipped
+
+
+progress: 0.30, 322/1058
+processing 336.jpg
+336 already exist in destination location, skipped
+
+
+progress: 0.31, 323/1058
+processing 337.jpg
+337 already exist in destination location, skipped
+
+
+progress: 0.31, 324/1058
+processing 338.jpg
+338 already exist in destination location, skipped
+
+
+progress: 0.31, 325/1058
+processing 339.jpg
+339 already exist in destination location, skipped
+
+
+progress: 0.31, 326/1058
+processing 34.jpg
+34 already exist in destination location, skipped
+
+
+progress: 0.31, 327/1058
+processing 340.jpg
+340 already exist in destination location, skipped
+
+
+progress: 0.31, 328/1058
+processing 341.jpg
+341 already exist in destination location, skipped
+
+
+progress: 0.31, 329/1058
+processing 342.jpg
+342 already exist in destination location, skipped
+
+
+progress: 0.31, 330/1058
+processing 343.jpg
+343 already exist in destination location, skipped
+
+
+progress: 0.31, 331/1058
+processing 344.jpg
+344 already exist in destination location, skipped
+
+
+progress: 0.31, 332/1058
+processing 345.jpg
+345 already exist in destination location, skipped
+
+
+progress: 0.31, 333/1058
+processing 346.jpg
+346 already exist in destination location, skipped
+
+
+progress: 0.32, 334/1058
+processing 347.jpg
+347 already exist in destination location, skipped
+
+
+progress: 0.32, 335/1058
+processing 348.jpg
+348 already exist in destination location, skipped
+
+
+progress: 0.32, 336/1058
+processing 349.jpg
+349 already exist in destination location, skipped
+
+
+progress: 0.32, 337/1058
+processing 35.jpg
+35 already exist in destination location, skipped
+
+
+progress: 0.32, 338/1058
+processing 350.jpg
+350 already exist in destination location, skipped
+
+
+progress: 0.32, 339/1058
+processing 351.jpg
+351 already exist in destination location, skipped
+
+
+progress: 0.32, 340/1058
+processing 352.jpg
+352 already exist in destination location, skipped
+
+
+progress: 0.32, 341/1058
+processing 353.jpg
+353 already exist in destination location, skipped
+
+
+progress: 0.32, 342/1058
+processing 354.jpg
+354 already exist in destination location, skipped
+
+
+progress: 0.32, 343/1058
+processing 355.jpg
+355 already exist in destination location, skipped
+
+
+progress: 0.33, 344/1058
+processing 356.jpg
+356 already exist in destination location, skipped
+
+
+progress: 0.33, 345/1058
+processing 357.jpg
+357 already exist in destination location, skipped
+
+
+progress: 0.33, 346/1058
+processing 358.jpg
+358 already exist in destination location, skipped
+
+
+progress: 0.33, 347/1058
+processing 359.jpg
+359 already exist in destination location, skipped
+
+
+progress: 0.33, 348/1058
+processing 36.jpg
+36 already exist in destination location, skipped
+
+
+progress: 0.33, 349/1058
+processing 360.jpg
+360 already exist in destination location, skipped
+
+
+progress: 0.33, 350/1058
+processing 361.jpg
+361 already exist in destination location, skipped
+
+
+progress: 0.33, 351/1058
+processing 362.jpg
+362 already exist in destination location, skipped
+
+
+progress: 0.33, 352/1058
+processing 363.jpg
+363 already exist in destination location, skipped
+
+
+progress: 0.33, 353/1058
+processing 364.jpg
+364 already exist in destination location, skipped
+
+
+progress: 0.33, 354/1058
+processing 365.jpg
+365 already exist in destination location, skipped
+
+
+progress: 0.34, 355/1058
+processing 366.jpg
+366 already exist in destination location, skipped
+
+
+progress: 0.34, 356/1058
+processing 367.jpg
+367 already exist in destination location, skipped
+
+
+progress: 0.34, 357/1058
+processing 368.jpg
+368 already exist in destination location, skipped
+
+
+progress: 0.34, 358/1058
+processing 369.jpg
+369 already exist in destination location, skipped
+
+
+progress: 0.34, 359/1058
 processing 37.jpg
+37 already exist in destination location, skipped
+
+
+progress: 0.34, 360/1058
+processing 370.jpg
+370 already exist in destination location, skipped
+
+
+progress: 0.34, 361/1058
+processing 371.jpg
+371 already exist in destination location, skipped
+
+
+progress: 0.34, 362/1058
+processing 372.jpg
+372 already exist in destination location, skipped
+
+
+progress: 0.34, 363/1058
+processing 373.jpg
+373 already exist in destination location, skipped
+
+
+progress: 0.34, 364/1058
+processing 374.jpg
+374 already exist in destination location, skipped
+
+
+progress: 0.34, 365/1058
+processing 375.jpg
+375 already exist in destination location, skipped
+
+
+progress: 0.35, 366/1058
+processing 376.jpg
+376 already exist in destination location, skipped
+
+
+progress: 0.35, 367/1058
+processing 377.jpg
+377 already exist in destination location, skipped
+
+
+progress: 0.35, 368/1058
+processing 378.jpg
+378 already exist in destination location, skipped
+
+
+progress: 0.35, 369/1058
+processing 379.jpg
+379 already exist in destination location, skipped
+
+
+progress: 0.35, 370/1058
+processing 38.jpg
+38 already exist in destination location, skipped
+
+
+progress: 0.35, 371/1058
+processing 380.jpg
+380 already exist in destination location, skipped
+
+
+progress: 0.35, 372/1058
+processing 381.jpg
+381 already exist in destination location, skipped
+
+
+progress: 0.35, 373/1058
+processing 382.jpg
+382 already exist in destination location, skipped
+
+
+progress: 0.35, 374/1058
+processing 383.jpg
+383 already exist in destination location, skipped
+
+
+progress: 0.35, 375/1058
+processing 384.jpg
+384 already exist in destination location, skipped
+
+
+progress: 0.36, 376/1058
+processing 385.jpg
+385 already exist in destination location, skipped
+
+
+progress: 0.36, 377/1058
+processing 386.jpg
+386 already exist in destination location, skipped
+
+
+progress: 0.36, 378/1058
+processing 387.jpg
+387 already exist in destination location, skipped
+
+
+progress: 0.36, 379/1058
+processing 388.jpg
+388 already exist in destination location, skipped
+
+
+progress: 0.36, 380/1058
+processing 389.jpg
+389 already exist in destination location, skipped
+
+
+progress: 0.36, 381/1058
+processing 39.jpg
+39 already exist in destination location, skipped
+
+
+progress: 0.36, 382/1058
+processing 390.jpg
+390 already exist in destination location, skipped
+
+
+progress: 0.36, 383/1058
+processing 391.jpg
+391 already exist in destination location, skipped
+
+
+progress: 0.36, 384/1058
+processing 392.jpg
+392 already exist in destination location, skipped
+
+
+progress: 0.36, 385/1058
+processing 393.jpg
+393 already exist in destination location, skipped
+
+
+progress: 0.36, 386/1058
+processing 394.jpg
+394 already exist in destination location, skipped
+
+
+progress: 0.37, 387/1058
+processing 395.jpg
+395 already exist in destination location, skipped
+
+
+progress: 0.37, 388/1058
+processing 396.jpg
+396 already exist in destination location, skipped
+
+
+progress: 0.37, 389/1058
+processing 397.jpg
+397 already exist in destination location, skipped
+
+
+progress: 0.37, 390/1058
+processing 398.jpg
+398 already exist in destination location, skipped
+
+
+progress: 0.37, 391/1058
+processing 399.jpg
+399 already exist in destination location, skipped
+
+
+progress: 0.37, 392/1058
+processing 4.jpg
+4 already exist in destination location, skipped
+
+
+progress: 0.37, 393/1058
+processing 40.jpg
+40 already exist in destination location, skipped
+
+
+progress: 0.37, 394/1058
+processing 400.jpg
+400 already exist in destination location, skipped
+
+
+progress: 0.37, 395/1058
+processing 401.jpg
+401 already exist in destination location, skipped
+
+
+progress: 0.37, 396/1058
+processing 402.jpg
+402 already exist in destination location, skipped
+
+
+progress: 0.38, 397/1058
+processing 403.jpg
+403 already exist in destination location, skipped
+
+
+progress: 0.38, 398/1058
+processing 404.jpg
+404 already exist in destination location, skipped
+
+
+progress: 0.38, 399/1058
+processing 405.jpg
+405 already exist in destination location, skipped
+
+
+progress: 0.38, 400/1058
+processing 406.jpg
+406 already exist in destination location, skipped
+
+
+progress: 0.38, 401/1058
+processing 407.jpg
+407 already exist in destination location, skipped
+
+
+progress: 0.38, 402/1058
+processing 408.jpg
+408 already exist in destination location, skipped
+
+
+progress: 0.38, 403/1058
+processing 409.jpg
+409 already exist in destination location, skipped
+
+
+progress: 0.38, 404/1058
+processing 41.jpg
+41 already exist in destination location, skipped
+
+
+progress: 0.38, 405/1058
+processing 410.jpg
+410 already exist in destination location, skipped
+
+
+progress: 0.38, 406/1058
+processing 411.jpg
+411 already exist in destination location, skipped
+
+
+progress: 0.38, 407/1058
+processing 412.jpg
+412 already exist in destination location, skipped
+
+
+progress: 0.39, 408/1058
+processing 413.jpg
+413 already exist in destination location, skipped
+
+
+progress: 0.39, 409/1058
+processing 414.jpg
+414 already exist in destination location, skipped
+
+
+progress: 0.39, 410/1058
+processing 415.jpg
+415 already exist in destination location, skipped
+
+
+progress: 0.39, 411/1058
+processing 416.jpg
+416 already exist in destination location, skipped
+
+
+progress: 0.39, 412/1058
+processing 417.jpg
+417 already exist in destination location, skipped
+
+
+progress: 0.39, 413/1058
+processing 418.jpg
+418 already exist in destination location, skipped
+
+
+progress: 0.39, 414/1058
+processing 419.jpg
+419 already exist in destination location, skipped
+
+
+progress: 0.39, 415/1058
+processing 42.jpg
+42 already exist in destination location, skipped
+
+
+progress: 0.39, 416/1058
+processing 420.jpg
+420 already exist in destination location, skipped
+
+
+progress: 0.39, 417/1058
+processing 421.jpg
+421 already exist in destination location, skipped
+
+
+progress: 0.40, 418/1058
+processing 422.jpg
+422 already exist in destination location, skipped
+
+
+progress: 0.40, 419/1058
+processing 423.jpg
+423 already exist in destination location, skipped
+
+
+progress: 0.40, 420/1058
+processing 424.jpg
+424 already exist in destination location, skipped
+
+
+progress: 0.40, 421/1058
+processing 425.jpg
+425 already exist in destination location, skipped
+
+
+progress: 0.40, 422/1058
+processing 426.jpg
+426 already exist in destination location, skipped
+
+
+progress: 0.40, 423/1058
+processing 427.jpg
+427 already exist in destination location, skipped
+
+
+progress: 0.40, 424/1058
+processing 428.jpg
+428 already exist in destination location, skipped
+
+
+progress: 0.40, 425/1058
+processing 429.jpg
+429 already exist in destination location, skipped
+
+
+progress: 0.40, 426/1058
+processing 43.jpg
+43 already exist in destination location, skipped
+
+
+progress: 0.40, 427/1058
+processing 430.jpg
+430 already exist in destination location, skipped
+
+
+progress: 0.40, 428/1058
+processing 431.jpg
+431 already exist in destination location, skipped
+
+
+progress: 0.41, 429/1058
+processing 432.jpg
+432 already exist in destination location, skipped
+
+
+progress: 0.41, 430/1058
+processing 433.jpg
+433 already exist in destination location, skipped
+
+
+progress: 0.41, 431/1058
+processing 434.jpg
+434 already exist in destination location, skipped
+
+
+progress: 0.41, 432/1058
+processing 435.jpg
+435 already exist in destination location, skipped
+
+
+progress: 0.41, 433/1058
+processing 436.jpg
+436 already exist in destination location, skipped
+
+
+progress: 0.41, 434/1058
+processing 437.jpg
+437 already exist in destination location, skipped
+
+
+progress: 0.41, 435/1058
+processing 438.jpg
+438 already exist in destination location, skipped
+
+
+progress: 0.41, 436/1058
+processing 439.jpg
+439 already exist in destination location, skipped
+
+
+progress: 0.41, 437/1058
+processing 44.jpg
+44 already exist in destination location, skipped
+
+
+progress: 0.41, 438/1058
+processing 440.jpg
+440 already exist in destination location, skipped
+
+
+progress: 0.41, 439/1058
+processing 441.jpg
+441 already exist in destination location, skipped
+
+
+progress: 0.42, 440/1058
+processing 442.jpg
+442 already exist in destination location, skipped
+
+
+progress: 0.42, 441/1058
+processing 443.jpg
+443 already exist in destination location, skipped
+
+
+progress: 0.42, 442/1058
+processing 444.jpg
+444 already exist in destination location, skipped
+
+
+progress: 0.42, 443/1058
+processing 445.jpg
+445 already exist in destination location, skipped
+
+
+progress: 0.42, 444/1058
+processing 446.jpg
+446 already exist in destination location, skipped
+
+
+progress: 0.42, 445/1058
+processing 447.jpg
+447 already exist in destination location, skipped
+
+
+progress: 0.42, 446/1058
+processing 448.jpg
+448 already exist in destination location, skipped
+
+
+progress: 0.42, 447/1058
+processing 449.jpg
+449 already exist in destination location, skipped
+
+
+progress: 0.42, 448/1058
+processing 45.jpg
+45 already exist in destination location, skipped
+
+
+progress: 0.42, 449/1058
+processing 450.jpg
+450 already exist in destination location, skipped
+
+
+progress: 0.43, 450/1058
+processing 451.jpg
+451 already exist in destination location, skipped
+
+
+progress: 0.43, 451/1058
+processing 452.jpg
+452 already exist in destination location, skipped
+
+
+progress: 0.43, 452/1058
+processing 453.jpg
+453 already exist in destination location, skipped
+
+
+progress: 0.43, 453/1058
+processing 454.jpg
+454 already exist in destination location, skipped
+
+
+progress: 0.43, 454/1058
+processing 455.jpg
+455 already exist in destination location, skipped
+
+
+progress: 0.43, 455/1058
+processing 456.jpg
+456 already exist in destination location, skipped
+
+
+progress: 0.43, 456/1058
+processing 457.jpg
+457 already exist in destination location, skipped
+
+
+progress: 0.43, 457/1058
+processing 458.jpg
+458 already exist in destination location, skipped
+
+
+progress: 0.43, 458/1058
+processing 459.jpg
+459 already exist in destination location, skipped
+
+
+progress: 0.43, 459/1058
+processing 46.jpg
+46 already exist in destination location, skipped
+
+
+progress: 0.43, 460/1058
+processing 460.jpg
+460 already exist in destination location, skipped
+
+
+progress: 0.44, 461/1058
+processing 461.jpg
+461 already exist in destination location, skipped
+
+
+progress: 0.44, 462/1058
+processing 462.jpg
+462 already exist in destination location, skipped
+
+
+progress: 0.44, 463/1058
+processing 463.jpg
+463 already exist in destination location, skipped
+
+
+progress: 0.44, 464/1058
+processing 464.jpg
+464 already exist in destination location, skipped
+
+
+progress: 0.44, 465/1058
+processing 465.jpg
+465 already exist in destination location, skipped
+
+
+progress: 0.44, 466/1058
+processing 466.jpg
+466 already exist in destination location, skipped
+
+
+progress: 0.44, 467/1058
+processing 467.jpg
+467 already exist in destination location, skipped
+
+
+progress: 0.44, 468/1058
+processing 468.jpg
+468 already exist in destination location, skipped
+
+
+progress: 0.44, 469/1058
+processing 469.jpg
+469 already exist in destination location, skipped
+
+
+progress: 0.44, 470/1058
+processing 47.jpg
+47 already exist in destination location, skipped
+
+
+progress: 0.45, 471/1058
+processing 470.jpg
+470 already exist in destination location, skipped
+
+
+progress: 0.45, 472/1058
+processing 471.jpg
+471 already exist in destination location, skipped
+
+
+progress: 0.45, 473/1058
+processing 472.jpg
+472 already exist in destination location, skipped
+
+
+progress: 0.45, 474/1058
+processing 473.jpg
+473 already exist in destination location, skipped
+
+
+progress: 0.45, 475/1058
+processing 474.jpg
+474 already exist in destination location, skipped
+
+
+progress: 0.45, 476/1058
+processing 475.jpg
+475 already exist in destination location, skipped
+
+
+progress: 0.45, 477/1058
+processing 476.jpg
+476 already exist in destination location, skipped
+
+
+progress: 0.45, 478/1058
+processing 477.jpg
+477 already exist in destination location, skipped
+
+
+progress: 0.45, 479/1058
+processing 478.jpg
+478 already exist in destination location, skipped
+
+
+progress: 0.45, 480/1058
+processing 479.jpg
+479 already exist in destination location, skipped
+
+
+progress: 0.45, 481/1058
+processing 48.jpg
+48 already exist in destination location, skipped
+
+
+progress: 0.46, 482/1058
+processing 480.jpg
+480 already exist in destination location, skipped
+
+
+progress: 0.46, 483/1058
+processing 481.jpg
+481 already exist in destination location, skipped
+
+
+progress: 0.46, 484/1058
+processing 482.jpg
+482 already exist in destination location, skipped
+
+
+progress: 0.46, 485/1058
+processing 483.jpg
+483 already exist in destination location, skipped
+
+
+progress: 0.46, 486/1058
+processing 484.jpg
+484 already exist in destination location, skipped
+
+
+progress: 0.46, 487/1058
+processing 485.jpg
+485 already exist in destination location, skipped
+
+
+progress: 0.46, 488/1058
+processing 486.jpg
+486 already exist in destination location, skipped
+
+
+progress: 0.46, 489/1058
+processing 487.jpg
+487 already exist in destination location, skipped
+
+
+progress: 0.46, 490/1058
+processing 488.jpg
+488 already exist in destination location, skipped
+
+
+progress: 0.46, 491/1058
+processing 489.jpg
+489 already exist in destination location, skipped
+
+
+progress: 0.47, 492/1058
+processing 49.jpg
+49 already exist in destination location, skipped
+
+
+progress: 0.47, 493/1058
+processing 490.jpg
+490 already exist in destination location, skipped
+
+
+progress: 0.47, 494/1058
+processing 491.jpg
+491 already exist in destination location, skipped
+
+
+progress: 0.47, 495/1058
+processing 492.jpg
+492 already exist in destination location, skipped
+
+
+progress: 0.47, 496/1058
+processing 493.jpg
+493 already exist in destination location, skipped
+
+
+progress: 0.47, 497/1058
+processing 494.jpg
+494 already exist in destination location, skipped
+
+
+progress: 0.47, 498/1058
+processing 495.jpg
+495 already exist in destination location, skipped
+
+
+progress: 0.47, 499/1058
+processing 496.jpg
+496 already exist in destination location, skipped
+
+
+progress: 0.47, 500/1058
+processing 497.jpg
+497 already exist in destination location, skipped
+
+
+progress: 0.47, 501/1058
+processing 498.jpg
+498 already exist in destination location, skipped
+
+
+progress: 0.47, 502/1058
+processing 499.jpg
+499 already exist in destination location, skipped
+
+
+progress: 0.48, 503/1058
+processing 5.jpg
+5 already exist in destination location, skipped
+
+
+progress: 0.48, 504/1058
+processing 50.jpg
+50 already exist in destination location, skipped
+
+
+progress: 0.48, 505/1058
+processing 500.jpg
+500 already exist in destination location, skipped
+
+
+progress: 0.48, 506/1058
+processing 501.jpg
+501 already exist in destination location, skipped
+
+
+progress: 0.48, 507/1058
+processing 502.jpg
+502 already exist in destination location, skipped
+
+
+progress: 0.48, 508/1058
+processing 503.jpg
+503 already exist in destination location, skipped
+
+
+progress: 0.48, 509/1058
+processing 504.jpg
+504 already exist in destination location, skipped
+
+
+progress: 0.48, 510/1058
+processing 505.jpg
+505 already exist in destination location, skipped
+
+
+progress: 0.48, 511/1058
+processing 506.jpg
+506 already exist in destination location, skipped
+
+
+progress: 0.48, 512/1058
+processing 507.jpg
+507 already exist in destination location, skipped
+
+
+progress: 0.48, 513/1058
+processing 508.jpg
+508 already exist in destination location, skipped
+
+
+progress: 0.49, 514/1058
+processing 509.jpg
+509 already exist in destination location, skipped
+
+
+progress: 0.49, 515/1058
+processing 51.jpg
+51 already exist in destination location, skipped
+
+
+progress: 0.49, 516/1058
+processing 510.jpg
+510 already exist in destination location, skipped
+
+
+progress: 0.49, 517/1058
+processing 511.jpg
+511 already exist in destination location, skipped
+
+
+progress: 0.49, 518/1058
+processing 512.jpg
+512 already exist in destination location, skipped
+
+
+progress: 0.49, 519/1058
+processing 513.jpg
+513 already exist in destination location, skipped
+
+
+progress: 0.49, 520/1058
+processing 514.jpg
+514 already exist in destination location, skipped
+
+
+progress: 0.49, 521/1058
+processing 515.jpg
+515 already exist in destination location, skipped
+
+
+progress: 0.49, 522/1058
+processing 516.jpg
+516 already exist in destination location, skipped
+
+
+progress: 0.49, 523/1058
+processing 517.jpg
+517 already exist in destination location, skipped
+
+
+progress: 0.50, 524/1058
+processing 518.jpg
+518 already exist in destination location, skipped
+
+
+progress: 0.50, 525/1058
+processing 519.jpg
+519 already exist in destination location, skipped
+
+
+progress: 0.50, 526/1058
+processing 52.jpg
+52 already exist in destination location, skipped
+
+
+progress: 0.50, 527/1058
+processing 520.jpg
+520 already exist in destination location, skipped
+
+
+progress: 0.50, 528/1058
+processing 521.jpg
+521 already exist in destination location, skipped
+
+
+progress: 0.50, 529/1058
+processing 522.jpg
+522 already exist in destination location, skipped
+
+
+progress: 0.50, 530/1058
+processing 523.jpg
+523 already exist in destination location, skipped
+
+
+progress: 0.50, 531/1058
+processing 524.jpg
+524 already exist in destination location, skipped
+
+
+progress: 0.50, 532/1058
+processing 525.jpg
+525 already exist in destination location, skipped
+
+
+progress: 0.50, 533/1058
+processing 526.jpg
+526 already exist in destination location, skipped
+
+
+progress: 0.50, 534/1058
+processing 527.jpg
+527 already exist in destination location, skipped
+
+
+progress: 0.51, 535/1058
+processing 528.jpg
+528 already exist in destination location, skipped
+
+
+progress: 0.51, 536/1058
+processing 529.jpg
+529 already exist in destination location, skipped
+
+
+progress: 0.51, 537/1058
+processing 53.jpg
+53 already exist in destination location, skipped
+
+
+progress: 0.51, 538/1058
+processing 530.jpg
+530 already exist in destination location, skipped
+
+
+progress: 0.51, 539/1058
+processing 531.jpg
+531 already exist in destination location, skipped
+
+
+progress: 0.51, 540/1058
+processing 532.jpg
+532 already exist in destination location, skipped
+
+
+progress: 0.51, 541/1058
+processing 533.jpg
+533 already exist in destination location, skipped
+
+
+progress: 0.51, 542/1058
+processing 534.jpg
+534 already exist in destination location, skipped
+
+
+progress: 0.51, 543/1058
+processing 535.jpg
+535 already exist in destination location, skipped
+
+
+progress: 0.51, 544/1058
+processing 536.jpg
+536 already exist in destination location, skipped
+
+
+progress: 0.52, 545/1058
+processing 537.jpg
+537 already exist in destination location, skipped
+
+
+progress: 0.52, 546/1058
+processing 538.jpg
+538 already exist in destination location, skipped
+
+
+progress: 0.52, 547/1058
+processing 539.jpg
+539 already exist in destination location, skipped
+
+
+progress: 0.52, 548/1058
+processing 54.jpg
+54 already exist in destination location, skipped
+
+
+progress: 0.52, 549/1058
+processing 540.jpg
+540 already exist in destination location, skipped
+
+
+progress: 0.52, 550/1058
+processing 541.jpg
+541 already exist in destination location, skipped
+
+
+progress: 0.52, 551/1058
+processing 542.jpg
+542 already exist in destination location, skipped
+
+
+progress: 0.52, 552/1058
+processing 543.jpg
+543 already exist in destination location, skipped
+
+
+progress: 0.52, 553/1058
+processing 544.jpg
+544 already exist in destination location, skipped
+
+
+progress: 0.52, 554/1058
+processing 545.jpg
+545 already exist in destination location, skipped
+
+
+progress: 0.52, 555/1058
+processing 546.jpg
+546 already exist in destination location, skipped
+
+
+progress: 0.53, 556/1058
+processing 547.jpg
+547 already exist in destination location, skipped
+
+
+progress: 0.53, 557/1058
+processing 548.jpg
+548 already exist in destination location, skipped
+
+
+progress: 0.53, 558/1058
+processing 549.jpg
+549 already exist in destination location, skipped
+
+
+progress: 0.53, 559/1058
+processing 55.jpg
+55 already exist in destination location, skipped
+
+
+progress: 0.53, 560/1058
+processing 550.jpg
+550 already exist in destination location, skipped
+
+
+progress: 0.53, 561/1058
+processing 551.jpg
+551 already exist in destination location, skipped
+
+
+progress: 0.53, 562/1058
+processing 552.jpg
+552 already exist in destination location, skipped
+
+
+progress: 0.53, 563/1058
+processing 553.jpg
+553 already exist in destination location, skipped
+
+
+progress: 0.53, 564/1058
+processing 554.jpg
+554 already exist in destination location, skipped
+
+
+progress: 0.53, 565/1058
+processing 555.jpg
+555 already exist in destination location, skipped
+
+
+progress: 0.53, 566/1058
+processing 556.jpg
+556 already exist in destination location, skipped
+
+
+progress: 0.54, 567/1058
+processing 557.jpg
+557 already exist in destination location, skipped
+
+
+progress: 0.54, 568/1058
+processing 558.jpg
+558 already exist in destination location, skipped
+
+
+progress: 0.54, 569/1058
+processing 559.jpg
+559 already exist in destination location, skipped
+
+
+progress: 0.54, 570/1058
+processing 56.jpg
+56 already exist in destination location, skipped
+
+
+progress: 0.54, 571/1058
+processing 560.jpg
+560 already exist in destination location, skipped
+
+
+progress: 0.54, 572/1058
+processing 561.jpg
+561 already exist in destination location, skipped
+
+
+progress: 0.54, 573/1058
+processing 562.jpg
+562 already exist in destination location, skipped
+
+
+progress: 0.54, 574/1058
+processing 563.jpg
+563 already exist in destination location, skipped
+
+
+progress: 0.54, 575/1058
+processing 564.jpg
+564 already exist in destination location, skipped
+
+
+progress: 0.54, 576/1058
+processing 565.jpg
+565 already exist in destination location, skipped
+
+
+progress: 0.55, 577/1058
+processing 566.jpg
+566 already exist in destination location, skipped
+
+
+progress: 0.55, 578/1058
+processing 567.jpg
+567 already exist in destination location, skipped
+
+
+progress: 0.55, 579/1058
+processing 568.jpg
+568 already exist in destination location, skipped
+
+
+progress: 0.55, 580/1058
+processing 569.jpg
+569 already exist in destination location, skipped
+
+
+progress: 0.55, 581/1058
+processing 57.jpg
+57 already exist in destination location, skipped
+
+
+progress: 0.55, 582/1058
+processing 570.jpg
+570 already exist in destination location, skipped
+
+
+progress: 0.55, 583/1058
+processing 571.jpg
+571 already exist in destination location, skipped
+
+
+progress: 0.55, 584/1058
+processing 572.jpg
+572 already exist in destination location, skipped
+
+
+progress: 0.55, 585/1058
+processing 573.jpg
+573 already exist in destination location, skipped
+
+
+progress: 0.55, 586/1058
+processing 574.jpg
+574 already exist in destination location, skipped
+
+
+progress: 0.55, 587/1058
+processing 575.jpg
+575 already exist in destination location, skipped
+
+
+progress: 0.56, 588/1058
+processing 576.jpg
+576 already exist in destination location, skipped
+
+
+progress: 0.56, 589/1058
+processing 577.jpg
+577 already exist in destination location, skipped
+
+
+progress: 0.56, 590/1058
+processing 578.jpg
+578 already exist in destination location, skipped
+
+
+progress: 0.56, 591/1058
+processing 579.jpg
+579 already exist in destination location, skipped
+
+
+progress: 0.56, 592/1058
+processing 58.jpg
+58 already exist in destination location, skipped
+
+
+progress: 0.56, 593/1058
+processing 580.jpg
+580 already exist in destination location, skipped
+
+
+progress: 0.56, 594/1058
+processing 581.jpg
+581 already exist in destination location, skipped
+
+
+progress: 0.56, 595/1058
+processing 582.jpg
+582 already exist in destination location, skipped
+
+
+progress: 0.56, 596/1058
+processing 583.jpg
+583 already exist in destination location, skipped
+
+
+progress: 0.56, 597/1058
+processing 584.jpg
+584 already exist in destination location, skipped
+
+
+progress: 0.57, 598/1058
+processing 585.jpg
+585 already exist in destination location, skipped
+
+
+progress: 0.57, 599/1058
+processing 586.jpg
+586 already exist in destination location, skipped
+
+
+progress: 0.57, 600/1058
+processing 587.jpg
+587 already exist in destination location, skipped
+
+
+progress: 0.57, 601/1058
+processing 588.jpg
+588 already exist in destination location, skipped
+
+
+progress: 0.57, 602/1058
+processing 589.jpg
+589 already exist in destination location, skipped
+
+
+progress: 0.57, 603/1058
+processing 59.jpg
+59 already exist in destination location, skipped
+
+
+progress: 0.57, 604/1058
+processing 590.jpg
+590 already exist in destination location, skipped
+
+
+progress: 0.57, 605/1058
+processing 591.jpg
+591 already exist in destination location, skipped
+
+
+progress: 0.57, 606/1058
+processing 592.jpg
+592 already exist in destination location, skipped
+
+
+progress: 0.57, 607/1058
+processing 593.jpg
+593 already exist in destination location, skipped
+
+
+progress: 0.57, 608/1058
+processing 594.jpg
+594 already exist in destination location, skipped
+
+
+progress: 0.58, 609/1058
+processing 595.jpg
+595 already exist in destination location, skipped
+
+
+progress: 0.58, 610/1058
+processing 596.jpg
+596 already exist in destination location, skipped
+
+
+progress: 0.58, 611/1058
+processing 597.jpg
+597 already exist in destination location, skipped
+
+
+progress: 0.58, 612/1058
+processing 598.jpg
+598 already exist in destination location, skipped
+
+
+progress: 0.58, 613/1058
+processing 599.jpg
+599 already exist in destination location, skipped
+
+
+progress: 0.58, 614/1058
+processing 6.jpg
+6 already exist in destination location, skipped
+
+
+progress: 0.58, 615/1058
+processing 60.jpg
+60 already exist in destination location, skipped
+
+
+progress: 0.58, 616/1058
+processing 600.jpg
+600 already exist in destination location, skipped
+
+
+progress: 0.58, 617/1058
+processing 601.jpg
+601 already exist in destination location, skipped
+
+
+progress: 0.58, 618/1058
+processing 602.jpg
+602 already exist in destination location, skipped
+
+
+progress: 0.59, 619/1058
+processing 603.jpg
+603 already exist in destination location, skipped
+
+
+progress: 0.59, 620/1058
+processing 604.jpg
+604 already exist in destination location, skipped
+
+
+progress: 0.59, 621/1058
+processing 605.jpg
+605 already exist in destination location, skipped
+
+
+progress: 0.59, 622/1058
+processing 606.jpg
+606 already exist in destination location, skipped
+
+
+progress: 0.59, 623/1058
+processing 607.jpg
+607 already exist in destination location, skipped
+
+
+progress: 0.59, 624/1058
+processing 608.jpg
+608 already exist in destination location, skipped
+
+
+progress: 0.59, 625/1058
+processing 609.jpg
+609 already exist in destination location, skipped
+
+
+progress: 0.59, 626/1058
+processing 61.jpg
+61 already exist in destination location, skipped
+
+
+progress: 0.59, 627/1058
+processing 610.jpg
+610 already exist in destination location, skipped
+
+
+progress: 0.59, 628/1058
+processing 611.jpg
+611 already exist in destination location, skipped
+
+
+progress: 0.59, 629/1058
+processing 612.jpg
+612 already exist in destination location, skipped
+
+
+progress: 0.60, 630/1058
+processing 613.jpg
+613 already exist in destination location, skipped
+
+
+progress: 0.60, 631/1058
+processing 614.jpg
+614 already exist in destination location, skipped
+
+
+progress: 0.60, 632/1058
+processing 615.jpg
+615 already exist in destination location, skipped
+
+
+progress: 0.60, 633/1058
+processing 616.jpg
+616 already exist in destination location, skipped
+
+
+progress: 0.60, 634/1058
+processing 617.jpg
+617 already exist in destination location, skipped
+
+
+progress: 0.60, 635/1058
+processing 618.jpg
+618 already exist in destination location, skipped
+
+
+progress: 0.60, 636/1058
+processing 619.jpg
+619 already exist in destination location, skipped
+
+
+progress: 0.60, 637/1058
+processing 62.jpg
+62 already exist in destination location, skipped
+
+
+progress: 0.60, 638/1058
+processing 620.jpg
+620 already exist in destination location, skipped
+
+
+progress: 0.60, 639/1058
+processing 621.jpg
+621 already exist in destination location, skipped
+
+
+progress: 0.60, 640/1058
+processing 622.jpg
+622 already exist in destination location, skipped
+
+
+progress: 0.61, 641/1058
+processing 623.jpg
+623 already exist in destination location, skipped
+
+
+progress: 0.61, 642/1058
+processing 624.jpg
+624 already exist in destination location, skipped
+
+
+progress: 0.61, 643/1058
+processing 625.jpg
+625 already exist in destination location, skipped
+
+
+progress: 0.61, 644/1058
+processing 626.jpg
+626 already exist in destination location, skipped
+
+
+progress: 0.61, 645/1058
+processing 627.jpg
+627 already exist in destination location, skipped
+
+
+progress: 0.61, 646/1058
+processing 628.jpg
+628 already exist in destination location, skipped
+
+
+progress: 0.61, 647/1058
+processing 629.jpg
+629 already exist in destination location, skipped
+
+
+progress: 0.61, 648/1058
+processing 63.jpg
+63 already exist in destination location, skipped
+
+
+progress: 0.61, 649/1058
+processing 630.jpg
+630 already exist in destination location, skipped
+
+
+progress: 0.61, 650/1058
+processing 631.jpg
+631 already exist in destination location, skipped
+
+
+progress: 0.62, 651/1058
+processing 632.jpg
+632 already exist in destination location, skipped
+
+
+progress: 0.62, 652/1058
+processing 633.jpg
+633 already exist in destination location, skipped
+
+
+progress: 0.62, 653/1058
+processing 634.jpg
+634 already exist in destination location, skipped
+
+
+progress: 0.62, 654/1058
+processing 635.jpg
+635 already exist in destination location, skipped
+
+
+progress: 0.62, 655/1058
+processing 636.jpg
+636 already exist in destination location, skipped
+
+
+progress: 0.62, 656/1058
+processing 637.jpg
+637 already exist in destination location, skipped
+
+
+progress: 0.62, 657/1058
+processing 638.jpg
+638 already exist in destination location, skipped
+
+
+progress: 0.62, 658/1058
+processing 639.jpg
+639 already exist in destination location, skipped
+
+
+progress: 0.62, 659/1058
+processing 64.jpg
+64 already exist in destination location, skipped
+
+
+progress: 0.62, 660/1058
+processing 640.jpg
+640 already exist in destination location, skipped
+
+
+progress: 0.62, 661/1058
+processing 641.jpg
+641 already exist in destination location, skipped
+
+
+progress: 0.63, 662/1058
+processing 642.jpg
+642 already exist in destination location, skipped
+
+
+progress: 0.63, 663/1058
+processing 643.jpg
+643 already exist in destination location, skipped
+
+
+progress: 0.63, 664/1058
+processing 644.jpg
+644 already exist in destination location, skipped
+
+
+progress: 0.63, 665/1058
+processing 645.jpg
+645 already exist in destination location, skipped
+
+
+progress: 0.63, 666/1058
+processing 646.jpg
+646 already exist in destination location, skipped
+
+
+progress: 0.63, 667/1058
+processing 647.jpg
+647 already exist in destination location, skipped
+
+
+progress: 0.63, 668/1058
+processing 648.jpg
+648 already exist in destination location, skipped
+
+
+progress: 0.63, 669/1058
+processing 649.jpg
+649 already exist in destination location, skipped
+
+
+progress: 0.63, 670/1058
+processing 65.jpg
+65 already exist in destination location, skipped
+
+
+progress: 0.63, 671/1058
+processing 650.jpg
+650 already exist in destination location, skipped
+
+
+progress: 0.64, 672/1058
+processing 651.jpg
+651 already exist in destination location, skipped
+
+
+progress: 0.64, 673/1058
+processing 652.jpg
+652 already exist in destination location, skipped
+
+
+progress: 0.64, 674/1058
+processing 653.jpg
+653 already exist in destination location, skipped
+
+
+progress: 0.64, 675/1058
+processing 654.jpg
+654 already exist in destination location, skipped
+
+
+progress: 0.64, 676/1058
+processing 655.jpg
+655 already exist in destination location, skipped
+
+
+progress: 0.64, 677/1058
+processing 656.jpg
+656 already exist in destination location, skipped
+
+
+progress: 0.64, 678/1058
+processing 657.jpg
+657 already exist in destination location, skipped
+
+
+progress: 0.64, 679/1058
+processing 658.jpg
+658 already exist in destination location, skipped
+
+
+progress: 0.64, 680/1058
+processing 659.jpg
+659 already exist in destination location, skipped
+
+
+progress: 0.64, 681/1058
+processing 66.jpg
+66 already exist in destination location, skipped
+
+
+progress: 0.64, 682/1058
+processing 660.jpg
+660 already exist in destination location, skipped
+
+
+progress: 0.65, 683/1058
+processing 661.jpg
+661 already exist in destination location, skipped
+
+
+progress: 0.65, 684/1058
+processing 662.jpg
+662 already exist in destination location, skipped
+
+
+progress: 0.65, 685/1058
+processing 663.jpg
+663 already exist in destination location, skipped
+
+
+progress: 0.65, 686/1058
+processing 664.jpg
+664 already exist in destination location, skipped
+
+
+progress: 0.65, 687/1058
+processing 665.jpg
+665 already exist in destination location, skipped
+
+
+progress: 0.65, 688/1058
+processing 666.jpg
+666 already exist in destination location, skipped
+
+
+progress: 0.65, 689/1058
+processing 667.jpg
+667 already exist in destination location, skipped
+
+
+progress: 0.65, 690/1058
+processing 668.jpg
+668 already exist in destination location, skipped
+
+
+progress: 0.65, 691/1058
+processing 669.jpg
+669 already exist in destination location, skipped
+
+
+progress: 0.65, 692/1058
+processing 67.jpg
+67 already exist in destination location, skipped
+
+
+progress: 0.66, 693/1058
+processing 670.jpg
+670 already exist in destination location, skipped
+
+
+progress: 0.66, 694/1058
+processing 671.jpg
+671 already exist in destination location, skipped
+
+
+progress: 0.66, 695/1058
+processing 672.jpg
+672 already exist in destination location, skipped
+
+
+progress: 0.66, 696/1058
+processing 673.jpg
+673 already exist in destination location, skipped
+
+
+progress: 0.66, 697/1058
+processing 674.jpg
+674 already exist in destination location, skipped
+
+
+progress: 0.66, 698/1058
+processing 675.jpg
+675 already exist in destination location, skipped
+
+
+progress: 0.66, 699/1058
+processing 676.jpg
+676 already exist in destination location, skipped
+
+
+progress: 0.66, 700/1058
+processing 677.jpg
+677 already exist in destination location, skipped
+
+
+progress: 0.66, 701/1058
+processing 678.jpg
+678 already exist in destination location, skipped
+
+
+progress: 0.66, 702/1058
+processing 679.jpg
+679 already exist in destination location, skipped
+
+
+progress: 0.66, 703/1058
+processing 68.jpg
+68 already exist in destination location, skipped
+
+
+progress: 0.67, 704/1058
+processing 680.jpg
+680 already exist in destination location, skipped
+
+
+progress: 0.67, 705/1058
+processing 681.jpg
+681 already exist in destination location, skipped
+
+
+progress: 0.67, 706/1058
+processing 682.jpg
+682 already exist in destination location, skipped
+
+
+progress: 0.67, 707/1058
+processing 683.jpg
+683 already exist in destination location, skipped
+
+
+progress: 0.67, 708/1058
+processing 684.jpg
+684 already exist in destination location, skipped
+
+
+progress: 0.67, 709/1058
+processing 685.jpg
+685 already exist in destination location, skipped
+
+
+progress: 0.67, 710/1058
+processing 686.jpg
+686 already exist in destination location, skipped
+
+
+progress: 0.67, 711/1058
+processing 687.jpg
+687 already exist in destination location, skipped
+
+
+progress: 0.67, 712/1058
+processing 688.jpg
+688 already exist in destination location, skipped
+
+
+progress: 0.67, 713/1058
+processing 689.jpg
+689 already exist in destination location, skipped
+
+
+progress: 0.67, 714/1058
+processing 69.jpg
+69 already exist in destination location, skipped
+
+
+progress: 0.68, 715/1058
+processing 690.jpg
+690 already exist in destination location, skipped
+
+
+progress: 0.68, 716/1058
+processing 691.jpg
+691 already exist in destination location, skipped
+
+
+progress: 0.68, 717/1058
+processing 692.jpg
+692 already exist in destination location, skipped
+
+
+progress: 0.68, 718/1058
+processing 693.jpg
+693 already exist in destination location, skipped
+
+
+progress: 0.68, 719/1058
+processing 694.jpg
+694 already exist in destination location, skipped
+
+
+progress: 0.68, 720/1058
+processing 695.jpg
+695 already exist in destination location, skipped
+
+
+progress: 0.68, 721/1058
+processing 696.jpg
+696 already exist in destination location, skipped
+
+
+progress: 0.68, 722/1058
+processing 697.jpg
+697 already exist in destination location, skipped
+
+
+progress: 0.68, 723/1058
+processing 698.jpg
+698 already exist in destination location, skipped
+
+
+progress: 0.68, 724/1058
+processing 699.jpg
+699 already exist in destination location, skipped
+
+
+progress: 0.69, 725/1058
+processing 7.jpg
+7 already exist in destination location, skipped
+
+
+progress: 0.69, 726/1058
+processing 70.jpg
+70 already exist in destination location, skipped
+
+
+progress: 0.69, 727/1058
+processing 700.jpg
+700 already exist in destination location, skipped
+
+
+progress: 0.69, 728/1058
+processing 701.jpg
+701 already exist in destination location, skipped
+
+
+progress: 0.69, 729/1058
+processing 702.jpg
+702 already exist in destination location, skipped
+
+
+progress: 0.69, 730/1058
+processing 703.jpg
+703 already exist in destination location, skipped
+
+
+progress: 0.69, 731/1058
+processing 704.jpg
+704 already exist in destination location, skipped
+
+
+progress: 0.69, 732/1058
+processing 705.jpg
+705 already exist in destination location, skipped
+
+
+progress: 0.69, 733/1058
+processing 706.jpg
+706 already exist in destination location, skipped
+
+
+progress: 0.69, 734/1058
+processing 707.jpg
+707 already exist in destination location, skipped
+
+
+progress: 0.69, 735/1058
+processing 708.jpg
+708 already exist in destination location, skipped
+
+
+progress: 0.70, 736/1058
+processing 709.jpg
+709 already exist in destination location, skipped
+
+
+progress: 0.70, 737/1058
+processing 71.jpg
+71 already exist in destination location, skipped
+
+
+progress: 0.70, 738/1058
+processing 710.jpg
+710 already exist in destination location, skipped
+
+
+progress: 0.70, 739/1058
+processing 711.jpg
+711 already exist in destination location, skipped
+
+
+progress: 0.70, 740/1058
+processing 712.jpg
+712 already exist in destination location, skipped
+
+
+progress: 0.70, 741/1058
+processing 713.jpg
+713 already exist in destination location, skipped
+
+
+progress: 0.70, 742/1058
+processing 714.jpg
+714 already exist in destination location, skipped
+
+
+progress: 0.70, 743/1058
+processing 715.jpg
 Index Error here
+Creating patches for:  715 ...
+Total number of contours to process:  4
+Extracted 35 coordinates
+Extracted 7 coordinates
+Extracted 1 coordinates
+Extracted 70 coordinates
+start stitching 715
+original size: 20000 x 29744
+downscaled size for stiching: 20000 x 29744
+number of patches: 112
+patch size: 512x512 patch level: 0
+ref patch size: (512, 512)x(512, 512)
+downscaled patch size: 512x512
+progress: 0/112 stitched
+progress: 12/112 stitched
+progress: 24/112 stitched
+progress: 36/112 stitched
+progress: 48/112 stitched
+progress: 60/112 stitched
+progress: 72/112 stitched
+progress: 84/112 stitched
+progress: 96/112 stitched
+progress: 108/112 stitched
+segmentation took 12.236769914627075 seconds
+patching took 2.124361276626587 seconds
+stitching took 5.199735403060913 seconds
+
+
+progress: 0.70, 744/1058
+processing 716.jpg
+Index Error here
+Creating patches for:  716 ...
+Total number of contours to process:  11
+Extracted 4 coordinates
+Extracted 1 coordinates
+Extracted 213 coordinates
+Extracted 3 coordinates
+Extracted 62 coordinates
+Extracted 7 coordinates
+Extracted 2 coordinates
+Extracted 256 coordinates
+Extracted 33 coordinates
+Extracted 21 coordinates
+Extracted 8 coordinates
+start stitching 716
+original size: 41041 x 42666
+downscaled size for stiching: 41041 x 42666
+number of patches: 609
+patch size: 512x512 patch level: 0
+ref patch size: (512, 512)x(512, 512)
+downscaled patch size: 512x512
+progress: 0/609 stitched
+progress: 61/609 stitched
+progress: 122/609 stitched
+progress: 183/609 stitched
+progress: 244/609 stitched
+progress: 305/609 stitched
+progress: 366/609 stitched
+progress: 427/609 stitched
+progress: 488/609 stitched
+progress: 549/609 stitched
+segmentation took 34.89121913909912 seconds
+patching took 17.386680603027344 seconds
+stitching took 15.360787868499756 seconds
+
+
+progress: 0.70, 745/1058
+processing 717.jpg
+Index Error here
+Creating patches for:  717 ...
+Total number of contours to process:  2
+Extracted 13 coordinates
+Extracted 164 coordinates
+start stitching 717
+original size: 8690 x 23295
+downscaled size for stiching: 8690 x 23295
+number of patches: 177
+patch size: 512x512 patch level: 0
+ref patch size: (512, 512)x(512, 512)
+downscaled patch size: 512x512
+progress: 0/177 stitched
+progress: 18/177 stitched
+progress: 36/177 stitched
+progress: 54/177 stitched
+progress: 72/177 stitched
+progress: 90/177 stitched
+progress: 108/177 stitched
+progress: 126/177 stitched
+progress: 144/177 stitched
+progress: 162/177 stitched
+segmentation took 3.6707961559295654 seconds
+patching took 1.3565564155578613 seconds
+stitching took 1.941185474395752 seconds
+
+
+progress: 0.71, 746/1058
+processing 718.jpg
+Index Error here
+Creating patches for:  718 ...
+Total number of contours to process:  8
+Extracted 2 coordinates
+Extracted 588 coordinates
+Extracted 4 coordinates
+Extracted 6 coordinates
+Extracted 278 coordinates
+Extracted 6 coordinates
+Extracted 1 coordinates
+Extracted 5 coordinates
+start stitching 718
+original size: 25748 x 25899
+downscaled size for stiching: 25748 x 25899
+number of patches: 889
+patch size: 512x512 patch level: 0
+ref patch size: (512, 512)x(512, 512)
+downscaled patch size: 512x512
+progress: 0/889 stitched
+progress: 89/889 stitched
+progress: 178/889 stitched
+progress: 267/889 stitched
+progress: 356/889 stitched
+progress: 445/889 stitched
+progress: 534/889 stitched
+progress: 623/889 stitched
+progress: 712/889 stitched
+progress: 801/889 stitched
+segmentation took 13.014785289764404 seconds
+patching took 5.952105283737183 seconds
+stitching took 7.109550952911377 seconds
+
+
+progress: 0.71, 747/1058
+processing 719.jpg
+Index Error here
+Creating patches for:  719 ...
+Total number of contours to process:  19
+Extracted 103 coordinates
+Extracted 1 coordinates
+Extracted 0 coordinates
+Extracted 4 coordinates
+Extracted 14 coordinates
+Extracted 2 coordinates
+Extracted 637 coordinates
+Extracted 3 coordinates
+Extracted 4 coordinates
+Extracted 1 coordinates
+Extracted 1 coordinates
+Extracted 0 coordinates
+Extracted 1 coordinates
+Extracted 1 coordinates
+Extracted 1 coordinates
+Extracted 0 coordinates
+Extracted 0 coordinates
+Extracted 1 coordinates
+Extracted 615 coordinates
+start stitching 719
+original size: 29608 x 40092
+downscaled size for stiching: 29608 x 40092
+number of patches: 1382
+patch size: 512x512 patch level: 0
+ref patch size: (512, 512)x(512, 512)
+downscaled patch size: 512x512
+progress: 0/1382 stitched
+progress: 139/1382 stitched
+progress: 278/1382 stitched
+progress: 417/1382 stitched
+progress: 556/1382 stitched
+progress: 695/1382 stitched
+progress: 834/1382 stitched
+progress: 973/1382 stitched
+progress: 1112/1382 stitched
+progress: 1251/1382 stitched
+segmentation took 24.253851175308228 seconds
+patching took 19.79546809196472 seconds
+stitching took 14.208514928817749 seconds
+
+
+progress: 0.71, 748/1058
+processing 72.jpg
+Index Error here
+Creating patches for:  72 ...
+Total number of contours to process:  4
+Extracted 146 coordinates
+Extracted 1 coordinates
+Extracted 1 coordinates
+Extracted 1 coordinates
+start stitching 72
+original size: 20880 x 16752
+downscaled size for stiching: 20880 x 16752
+number of patches: 146
+patch size: 512x512 patch level: 0
+ref patch size: (512, 512)x(512, 512)
+downscaled patch size: 512x512
+progress: 0/146 stitched
+progress: 15/146 stitched
+progress: 30/146 stitched
+progress: 45/146 stitched
+progress: 60/146 stitched
+progress: 75/146 stitched
+progress: 90/146 stitched
+progress: 105/146 stitched
+progress: 120/146 stitched
+progress: 135/146 stitched
+segmentation took 6.354871511459351 seconds
+patching took 4.5880820751190186 seconds
+stitching took 2.8241701126098633 seconds
+
+
+progress: 0.71, 749/1058
+processing 720.jpg
+Index Error here
+Creating patches for:  720 ...
+Total number of contours to process:  5
+Extracted 3 coordinates
+Extracted 6 coordinates
+Extracted 208 coordinates
+Extracted 13 coordinates
+Extracted 8 coordinates
+start stitching 720
+original size: 22909 x 22006
+downscaled size for stiching: 22909 x 22006
+number of patches: 238
+patch size: 512x512 patch level: 0
+ref patch size: (512, 512)x(512, 512)
+downscaled patch size: 512x512
+progress: 0/238 stitched
+progress: 24/238 stitched
+progress: 48/238 stitched
+progress: 72/238 stitched
+progress: 96/238 stitched
+progress: 120/238 stitched
+progress: 144/238 stitched
+progress: 168/238 stitched
+progress: 192/238 stitched
+progress: 216/238 stitched
+segmentation took 8.102605104446411 seconds
+patching took 3.65482234954834 seconds
+stitching took 4.282600402832031 seconds
+
+
+progress: 0.71, 750/1058
+processing 721.jpg
+Index Error here
+Creating patches for:  721 ...
+Total number of contours to process:  3
+Extracted 164 coordinates
+Extracted 6 coordinates
+Extracted 4 coordinates
+start stitching 721
+original size: 14360 x 23313
+downscaled size for stiching: 14360 x 23313
+number of patches: 174
+patch size: 512x512 patch level: 0
+ref patch size: (512, 512)x(512, 512)
+downscaled patch size: 512x512
+progress: 0/174 stitched
+progress: 18/174 stitched
+progress: 36/174 stitched
+progress: 54/174 stitched
+progress: 72/174 stitched
+progress: 90/174 stitched
+progress: 108/174 stitched
+progress: 126/174 stitched
+progress: 144/174 stitched
+progress: 162/174 stitched
+segmentation took 5.181232690811157 seconds
+patching took 2.2120091915130615 seconds
+stitching took 3.05985689163208 seconds
+
+
+progress: 0.71, 751/1058
+processing 722.jpg
+Index Error here
+Creating patches for:  722 ...
+Total number of contours to process:  4
+Extracted 10 coordinates
+Extracted 0 coordinates
+Extracted 1 coordinates
+Extracted 173 coordinates
+start stitching 722
+original size: 10384 x 24560
+downscaled size for stiching: 10384 x 24560
+number of patches: 183
+patch size: 512x512 patch level: 0
+ref patch size: (512, 512)x(512, 512)
+downscaled patch size: 512x512
+progress: 0/183 stitched
+progress: 19/183 stitched
+progress: 38/183 stitched
+progress: 57/183 stitched
+progress: 76/183 stitched
+progress: 95/183 stitched
+progress: 114/183 stitched
+progress: 133/183 stitched
+progress: 152/183 stitched
+progress: 171/183 stitched
+segmentation took 3.9232397079467773 seconds
+patching took 2.764641761779785 seconds
+stitching took 2.097541332244873 seconds
+
+
+progress: 0.71, 752/1058
+processing 723.jpg
+Index Error here
+Creating patches for:  723 ...
+Total number of contours to process:  1
+Extracted 169 coordinates
+start stitching 723
+original size: 21856 x 23232
+downscaled size for stiching: 21856 x 23232
+number of patches: 169
+patch size: 512x512 patch level: 0
+ref patch size: (512, 512)x(512, 512)
+downscaled patch size: 512x512
+progress: 0/169 stitched
+progress: 17/169 stitched
+progress: 34/169 stitched
+progress: 51/169 stitched
+progress: 68/169 stitched
+progress: 85/169 stitched
+progress: 102/169 stitched
+progress: 119/169 stitched
+progress: 136/169 stitched
+progress: 153/169 stitched
+segmentation took 8.201267719268799 seconds
+patching took 0.6964743137359619 seconds
+stitching took 3.8908045291900635 seconds
+
+
+progress: 0.71, 753/1058
+processing 724.jpg
+Index Error here
+Creating patches for:  724 ...
+Total number of contours to process:  4
+Extracted 17 coordinates
+Extracted 19 coordinates
+Extracted 50 coordinates
+Extracted 29 coordinates
+start stitching 724
+original size: 20000 x 18064
+downscaled size for stiching: 20000 x 18064
+number of patches: 115
+patch size: 512x512 patch level: 0
+ref patch size: (512, 512)x(512, 512)
+downscaled patch size: 512x512
+progress: 0/115 stitched
+progress: 12/115 stitched
+progress: 24/115 stitched
+progress: 36/115 stitched
+progress: 48/115 stitched
+progress: 60/115 stitched
+progress: 72/115 stitched
+progress: 84/115 stitched
+progress: 96/115 stitched
+progress: 108/115 stitched
+segmentation took 5.665568113327026 seconds
+patching took 2.755885362625122 seconds
+stitching took 2.9368178844451904 seconds
+
+
+progress: 0.71, 754/1058
+processing 725.jpg
+Index Error here
+Creating patches for:  725 ...
+Total number of contours to process:  4
+Extracted 1 coordinates
+Extracted 0 coordinates
+Extracted 0 coordinates
+Extracted 241 coordinates
+start stitching 725
+original size: 27685 x 28475
+downscaled size for stiching: 27685 x 28475
+number of patches: 241
+patch size: 512x512 patch level: 0
+ref patch size: (512, 512)x(512, 512)
+downscaled patch size: 512x512
+progress: 0/241 stitched
+progress: 25/241 stitched
+progress: 50/241 stitched
+progress: 75/241 stitched
+progress: 100/241 stitched
+progress: 125/241 stitched
+progress: 150/241 stitched
+progress: 175/241 stitched
+progress: 200/241 stitched
+progress: 225/241 stitched
+segmentation took 14.538039445877075 seconds
+patching took 2.966764211654663 seconds
+stitching took 7.669282913208008 seconds
+
+
+progress: 0.71, 755/1058
+processing 726.jpg
+726 already exist in destination location, skipped
+
+
+progress: 0.71, 756/1058
+processing 727.jpg
+727 already exist in destination location, skipped
+
+
+progress: 0.72, 757/1058
+processing 728.jpg
+728 already exist in destination location, skipped
+
+
+progress: 0.72, 758/1058
+processing 729.jpg
+729 already exist in destination location, skipped
+
+
+progress: 0.72, 759/1058
+processing 73.jpg
+73 already exist in destination location, skipped
+
+
+progress: 0.72, 760/1058
+processing 730.jpg
+730 already exist in destination location, skipped
+
+
+progress: 0.72, 761/1058
+processing 731.jpg
+731 already exist in destination location, skipped
+
+
+progress: 0.72, 762/1058
+processing 732.jpg
+732 already exist in destination location, skipped
+
+
+progress: 0.72, 763/1058
+processing 733.jpg
+733 already exist in destination location, skipped
+
+
+progress: 0.72, 764/1058
+processing 734.jpg
+734 already exist in destination location, skipped
+
+
+progress: 0.72, 765/1058
+processing 735.jpg
+735 already exist in destination location, skipped
+
+
+progress: 0.72, 766/1058
+processing 736.jpg
+736 already exist in destination location, skipped
+
+
+progress: 0.72, 767/1058
+processing 737.jpg
+737 already exist in destination location, skipped
+
+
+progress: 0.73, 768/1058
+processing 738.jpg
+738 already exist in destination location, skipped
+
+
+progress: 0.73, 769/1058
+processing 739.jpg
+739 already exist in destination location, skipped
+
+
+progress: 0.73, 770/1058
+processing 74.jpg
+74 already exist in destination location, skipped
+
+
+progress: 0.73, 771/1058
+processing 740.jpg
+740 already exist in destination location, skipped
+
+
+progress: 0.73, 772/1058
+processing 741.jpg
+741 already exist in destination location, skipped
+
+
+progress: 0.73, 773/1058
+processing 742.jpg
+742 already exist in destination location, skipped
+
+
+progress: 0.73, 774/1058
+processing 743.jpg
+743 already exist in destination location, skipped
+
+
+progress: 0.73, 775/1058
+processing 744.jpg
+744 already exist in destination location, skipped
+
+
+progress: 0.73, 776/1058
+processing 745.jpg
+745 already exist in destination location, skipped
+
+
+progress: 0.73, 777/1058
+processing 746.jpg
+746 already exist in destination location, skipped
+
+
+progress: 0.74, 778/1058
+processing 747.jpg
+747 already exist in destination location, skipped
+
+
+progress: 0.74, 779/1058
+processing 748.jpg
+748 already exist in destination location, skipped
+
+
+progress: 0.74, 780/1058
+processing 749.jpg
+749 already exist in destination location, skipped
+
+
+progress: 0.74, 781/1058
+processing 75.jpg
+75 already exist in destination location, skipped
+
+
+progress: 0.74, 782/1058
+processing 750.jpg
+750 already exist in destination location, skipped
+
+
+progress: 0.74, 783/1058
+processing 751.jpg
+751 already exist in destination location, skipped
+
+
+progress: 0.74, 784/1058
+processing 752.jpg
+752 already exist in destination location, skipped
+
+
+progress: 0.74, 785/1058
+processing 753.jpg
+753 already exist in destination location, skipped
+
+
+progress: 0.74, 786/1058
+processing 754.jpg
+754 already exist in destination location, skipped
+
+
+progress: 0.74, 787/1058
+processing 755.jpg
+755 already exist in destination location, skipped
+
+
+progress: 0.74, 788/1058
+processing 756.jpg
+756 already exist in destination location, skipped
+
+
+progress: 0.75, 789/1058
+processing 757.jpg
+757 already exist in destination location, skipped
+
+
+progress: 0.75, 790/1058
+processing 758.jpg
+758 already exist in destination location, skipped
+
+
+progress: 0.75, 791/1058
+processing 759.jpg
+759 already exist in destination location, skipped
+
+
+progress: 0.75, 792/1058
+processing 76.jpg
+76 already exist in destination location, skipped
+
+
+progress: 0.75, 793/1058
+processing 760.jpg
+760 already exist in destination location, skipped
+
+
+progress: 0.75, 794/1058
+processing 761.jpg
+761 already exist in destination location, skipped
+
+
+progress: 0.75, 795/1058
+processing 762.jpg
+762 already exist in destination location, skipped
+
+
+progress: 0.75, 796/1058
+processing 763.jpg
+763 already exist in destination location, skipped
+
+
+progress: 0.75, 797/1058
+processing 764.jpg
+764 already exist in destination location, skipped
+
+
+progress: 0.75, 798/1058
+processing 765.jpg
+765 already exist in destination location, skipped
+
+
+progress: 0.76, 799/1058
+processing 766.jpg
+766 already exist in destination location, skipped
+
+
+progress: 0.76, 800/1058
+processing 767.jpg
+767 already exist in destination location, skipped
+
+
+progress: 0.76, 801/1058
+processing 768.jpg
+768 already exist in destination location, skipped
+
+
+progress: 0.76, 802/1058
+processing 769.jpg
+769 already exist in destination location, skipped
+
+
+progress: 0.76, 803/1058
+processing 77.jpg
+77 already exist in destination location, skipped
+
+
+progress: 0.76, 804/1058
+processing 770.jpg
+770 already exist in destination location, skipped
+
+
+progress: 0.76, 805/1058
+processing 771.jpg
+771 already exist in destination location, skipped
+
+
+progress: 0.76, 806/1058
+processing 772.jpg
+772 already exist in destination location, skipped
+
+
+progress: 0.76, 807/1058
+processing 773.jpg
+773 already exist in destination location, skipped
+
+
+progress: 0.76, 808/1058
+processing 774.jpg
+774 already exist in destination location, skipped
+
+
+progress: 0.76, 809/1058
+processing 775.jpg
+775 already exist in destination location, skipped
+
+
+progress: 0.77, 810/1058
+processing 776.jpg
+776 already exist in destination location, skipped
+
+
+progress: 0.77, 811/1058
+processing 777.jpg
+777 already exist in destination location, skipped
+
+
+progress: 0.77, 812/1058
+processing 778.jpg
+778 already exist in destination location, skipped
+
+
+progress: 0.77, 813/1058
+processing 779.jpg
+779 already exist in destination location, skipped
+
+
+progress: 0.77, 814/1058
+processing 78.jpg
+78 already exist in destination location, skipped
+
+
+progress: 0.77, 815/1058
+processing 780.jpg
+780 already exist in destination location, skipped
+
+
+progress: 0.77, 816/1058
+processing 781.jpg
+781 already exist in destination location, skipped
+
+
+progress: 0.77, 817/1058
+processing 782.jpg
+782 already exist in destination location, skipped
+
+
+progress: 0.77, 818/1058
+processing 783.jpg
+783 already exist in destination location, skipped
+
+
+progress: 0.77, 819/1058
+processing 784.jpg
+784 already exist in destination location, skipped
+
+
+progress: 0.78, 820/1058
+processing 785.jpg
+785 already exist in destination location, skipped
+
+
+progress: 0.78, 821/1058
+processing 786.jpg
+786 already exist in destination location, skipped
+
+
+progress: 0.78, 822/1058
+processing 787.jpg
+787 already exist in destination location, skipped
+
+
+progress: 0.78, 823/1058
+processing 788.jpg
+788 already exist in destination location, skipped
+
+
+progress: 0.78, 824/1058
+processing 789.jpg
+789 already exist in destination location, skipped
+
+
+progress: 0.78, 825/1058
+processing 79.jpg
+79 already exist in destination location, skipped
+
+
+progress: 0.78, 826/1058
+processing 790.jpg
+790 already exist in destination location, skipped
+
+
+progress: 0.78, 827/1058
+processing 791.jpg
+791 already exist in destination location, skipped
+
+
+progress: 0.78, 828/1058
+processing 792.jpg
+792 already exist in destination location, skipped
+
+
+progress: 0.78, 829/1058
+processing 793.jpg
+793 already exist in destination location, skipped
+
+
+progress: 0.78, 830/1058
+processing 794.jpg
+794 already exist in destination location, skipped
+
+
+progress: 0.79, 831/1058
+processing 795.jpg
+795 already exist in destination location, skipped
+
+
+progress: 0.79, 832/1058
+processing 796.jpg
+796 already exist in destination location, skipped
+
+
+progress: 0.79, 833/1058
+processing 797.jpg
+797 already exist in destination location, skipped
+
+
+progress: 0.79, 834/1058
+processing 798.jpg
+798 already exist in destination location, skipped
+
+
+progress: 0.79, 835/1058
+processing 799.jpg
+799 already exist in destination location, skipped
+
+
+progress: 0.79, 836/1058
+processing 8.jpg
+8 already exist in destination location, skipped
+
+
+progress: 0.79, 837/1058
+processing 80.jpg
+80 already exist in destination location, skipped
+
+
+progress: 0.79, 838/1058
+processing 800.jpg
+800 already exist in destination location, skipped
+
+
+progress: 0.79, 839/1058
+processing 801.jpg
+801 already exist in destination location, skipped
+
+
+progress: 0.79, 840/1058
+processing 802.jpg
+802 already exist in destination location, skipped
+
+
+progress: 0.79, 841/1058
+processing 803.jpg
+803 already exist in destination location, skipped
+
+
+progress: 0.80, 842/1058
+processing 804.jpg
+804 already exist in destination location, skipped
+
+
+progress: 0.80, 843/1058
+processing 805.jpg
+805 already exist in destination location, skipped
+
+
+progress: 0.80, 844/1058
+processing 806.jpg
+806 already exist in destination location, skipped
+
+
+progress: 0.80, 845/1058
+processing 807.jpg
+807 already exist in destination location, skipped
+
+
+progress: 0.80, 846/1058
+processing 808.jpg
+808 already exist in destination location, skipped
+
+
+progress: 0.80, 847/1058
+processing 809.jpg
+809 already exist in destination location, skipped
+
+
+progress: 0.80, 848/1058
+processing 81.jpg
+81 already exist in destination location, skipped
+
+
+progress: 0.80, 849/1058
+processing 810.jpg
+810 already exist in destination location, skipped
+
+
+progress: 0.80, 850/1058
+processing 811.jpg
+811 already exist in destination location, skipped
+
+
+progress: 0.80, 851/1058
+processing 812.jpg
+812 already exist in destination location, skipped
+
+
+progress: 0.81, 852/1058
+processing 813.jpg
+813 already exist in destination location, skipped
+
+
+progress: 0.81, 853/1058
+processing 814.jpg
+814 already exist in destination location, skipped
+
+
+progress: 0.81, 854/1058
+processing 815.jpg
+815 already exist in destination location, skipped
+
+
+progress: 0.81, 855/1058
+processing 816.jpg
+816 already exist in destination location, skipped
+
+
+progress: 0.81, 856/1058
+processing 817.jpg
+817 already exist in destination location, skipped
+
+
+progress: 0.81, 857/1058
+processing 818.jpg
+818 already exist in destination location, skipped
+
+
+progress: 0.81, 858/1058
+processing 819.jpg
+819 already exist in destination location, skipped
+
+
+progress: 0.81, 859/1058
+processing 82.jpg
+82 already exist in destination location, skipped
+
+
+progress: 0.81, 860/1058
+processing 820.jpg
+820 already exist in destination location, skipped
+
+
+progress: 0.81, 861/1058
+processing 821.jpg
+821 already exist in destination location, skipped
+
+
+progress: 0.81, 862/1058
+processing 822.jpg
+822 already exist in destination location, skipped
+
+
+progress: 0.82, 863/1058
+processing 823.jpg
+823 already exist in destination location, skipped
+
+
+progress: 0.82, 864/1058
+processing 824.jpg
+824 already exist in destination location, skipped
+
+
+progress: 0.82, 865/1058
+processing 825.jpg
+825 already exist in destination location, skipped
+
+
+progress: 0.82, 866/1058
+processing 826.jpg
+826 already exist in destination location, skipped
+
+
+progress: 0.82, 867/1058
+processing 827.jpg
+827 already exist in destination location, skipped
+
+
+progress: 0.82, 868/1058
+processing 828.jpg
+828 already exist in destination location, skipped
+
+
+progress: 0.82, 869/1058
+processing 829.jpg
+829 already exist in destination location, skipped
+
+
+progress: 0.82, 870/1058
+processing 83.jpg
+83 already exist in destination location, skipped
+
+
+progress: 0.82, 871/1058
+processing 830.jpg
+830 already exist in destination location, skipped
+
+
+progress: 0.82, 872/1058
+processing 831.jpg
+831 already exist in destination location, skipped
+
+
+progress: 0.83, 873/1058
+processing 832.jpg
+832 already exist in destination location, skipped
+
+
+progress: 0.83, 874/1058
+processing 833.jpg
+833 already exist in destination location, skipped
+
+
+progress: 0.83, 875/1058
+processing 834.jpg
+834 already exist in destination location, skipped
+
+
+progress: 0.83, 876/1058
+processing 835.jpg
+835 already exist in destination location, skipped
+
+
+progress: 0.83, 877/1058
+processing 836.jpg
+836 already exist in destination location, skipped
+
+
+progress: 0.83, 878/1058
+processing 837.jpg
+837 already exist in destination location, skipped
+
+
+progress: 0.83, 879/1058
+processing 838.jpg
+838 already exist in destination location, skipped
+
+
+progress: 0.83, 880/1058
+processing 839.jpg
+839 already exist in destination location, skipped
+
+
+progress: 0.83, 881/1058
+processing 84.jpg
+84 already exist in destination location, skipped
+
+
+progress: 0.83, 882/1058
+processing 840.jpg
+840 already exist in destination location, skipped
+
+
+progress: 0.83, 883/1058
+processing 841.jpg
+841 already exist in destination location, skipped
+
+
+progress: 0.84, 884/1058
+processing 842.jpg
+842 already exist in destination location, skipped
+
+
+progress: 0.84, 885/1058
+processing 843.jpg
+843 already exist in destination location, skipped
+
+
+progress: 0.84, 886/1058
+processing 844.jpg
+844 already exist in destination location, skipped
+
+
+progress: 0.84, 887/1058
+processing 845.jpg
+845 already exist in destination location, skipped
+
+
+progress: 0.84, 888/1058
+processing 846.jpg
+846 already exist in destination location, skipped
+
+
+progress: 0.84, 889/1058
+processing 847.jpg
+847 already exist in destination location, skipped
+
+
+progress: 0.84, 890/1058
+processing 848.jpg
+848 already exist in destination location, skipped
+
+
+progress: 0.84, 891/1058
+processing 849.jpg
+849 already exist in destination location, skipped
+
+
+progress: 0.84, 892/1058
+processing 85.jpg
+85 already exist in destination location, skipped
+
+
+progress: 0.84, 893/1058
+processing 850.jpg
+850 already exist in destination location, skipped
+
+
+progress: 0.84, 894/1058
+processing 851.jpg
+851 already exist in destination location, skipped
+
+
+progress: 0.85, 895/1058
+processing 852.jpg
+852 already exist in destination location, skipped
+
+
+progress: 0.85, 896/1058
+processing 853.jpg
+853 already exist in destination location, skipped
+
+
+progress: 0.85, 897/1058
+processing 854.jpg
+854 already exist in destination location, skipped
+
+
+progress: 0.85, 898/1058
+processing 855.jpg
+855 already exist in destination location, skipped
+
+
+progress: 0.85, 899/1058
+processing 856.jpg
+856 already exist in destination location, skipped
+
+
+progress: 0.85, 900/1058
+processing 857.jpg
+857 already exist in destination location, skipped
+
+
+progress: 0.85, 901/1058
+processing 858.jpg
+858 already exist in destination location, skipped
+
+
+progress: 0.85, 902/1058
+processing 859.jpg
+859 already exist in destination location, skipped
+
+
+progress: 0.85, 903/1058
+processing 86.jpg
+86 already exist in destination location, skipped
+
+
+progress: 0.85, 904/1058
+processing 860.jpg
+860 already exist in destination location, skipped
+
+
+progress: 0.86, 905/1058
+processing 861.jpg
+861 already exist in destination location, skipped
+
+
+progress: 0.86, 906/1058
+processing 862.jpg
+862 already exist in destination location, skipped
+
+
+progress: 0.86, 907/1058
+processing 863.jpg
+863 already exist in destination location, skipped
+
+
+progress: 0.86, 908/1058
+processing 864.jpg
+864 already exist in destination location, skipped
+
+
+progress: 0.86, 909/1058
+processing 865.jpg
+865 already exist in destination location, skipped
+
+
+progress: 0.86, 910/1058
+processing 866.jpg
+866 already exist in destination location, skipped
+
+
+progress: 0.86, 911/1058
+processing 867.jpg
+867 already exist in destination location, skipped
+
+
+progress: 0.86, 912/1058
+processing 868.jpg
+868 already exist in destination location, skipped
+
+
+progress: 0.86, 913/1058
+processing 869.jpg
+869 already exist in destination location, skipped
+
+
+progress: 0.86, 914/1058
+processing 87.jpg
+87 already exist in destination location, skipped
+
+
+progress: 0.86, 915/1058
+processing 870.jpg
+870 already exist in destination location, skipped
+
+
+progress: 0.87, 916/1058
+processing 871.jpg
+871 already exist in destination location, skipped
+
+
+progress: 0.87, 917/1058
+processing 872.jpg
+872 already exist in destination location, skipped
+
+
+progress: 0.87, 918/1058
+processing 873.jpg
+873 already exist in destination location, skipped
+
+
+progress: 0.87, 919/1058
+processing 874.jpg
+874 already exist in destination location, skipped
+
+
+progress: 0.87, 920/1058
+processing 875.jpg
+875 already exist in destination location, skipped
+
+
+progress: 0.87, 921/1058
+processing 876.jpg
+876 already exist in destination location, skipped
+
+
+progress: 0.87, 922/1058
+processing 877.jpg
+877 already exist in destination location, skipped
+
+
+progress: 0.87, 923/1058
+processing 878.jpg
+878 already exist in destination location, skipped
+
+
+progress: 0.87, 924/1058
+processing 879.jpg
+879 already exist in destination location, skipped
+
+
+progress: 0.87, 925/1058
+processing 88.jpg
+88 already exist in destination location, skipped
+
+
+progress: 0.88, 926/1058
+processing 880.jpg
+880 already exist in destination location, skipped
+
+
+progress: 0.88, 927/1058
+processing 881.jpg
+881 already exist in destination location, skipped
+
+
+progress: 0.88, 928/1058
+processing 882.jpg
+882 already exist in destination location, skipped
+
+
+progress: 0.88, 929/1058
+processing 883.jpg
+883 already exist in destination location, skipped
+
+
+progress: 0.88, 930/1058
+processing 884.jpg
+884 already exist in destination location, skipped
+
+
+progress: 0.88, 931/1058
+processing 885.jpg
+885 already exist in destination location, skipped
+
+
+progress: 0.88, 932/1058
+processing 886.jpg
+886 already exist in destination location, skipped
+
+
+progress: 0.88, 933/1058
+processing 887.jpg
+887 already exist in destination location, skipped
+
+
+progress: 0.88, 934/1058
+processing 888.jpg
+888 already exist in destination location, skipped
+
+
+progress: 0.88, 935/1058
+processing 889.jpg
+889 already exist in destination location, skipped
+
+
+progress: 0.88, 936/1058
+processing 89.jpg
+89 already exist in destination location, skipped
+
+
+progress: 0.89, 937/1058
+processing 890.jpg
+890 already exist in destination location, skipped
+
+
+progress: 0.89, 938/1058
+processing 891.jpg
+891 already exist in destination location, skipped
+
+
+progress: 0.89, 939/1058
+processing 892.jpg
+892 already exist in destination location, skipped
+
+
+progress: 0.89, 940/1058
+processing 893.jpg
+893 already exist in destination location, skipped
+
+
+progress: 0.89, 941/1058
+processing 894.jpg
+894 already exist in destination location, skipped
+
+
+progress: 0.89, 942/1058
+processing 895.jpg
+895 already exist in destination location, skipped
+
+
+progress: 0.89, 943/1058
+processing 896.jpg
+896 already exist in destination location, skipped
+
+
+progress: 0.89, 944/1058
+processing 897.jpg
+897 already exist in destination location, skipped
+
+
+progress: 0.89, 945/1058
+processing 898.jpg
+898 already exist in destination location, skipped
+
+
+progress: 0.89, 946/1058
+processing 899.jpg
+899 already exist in destination location, skipped
+
+
+progress: 0.90, 947/1058
+processing 9.jpg
+9 already exist in destination location, skipped
+
+
+progress: 0.90, 948/1058
+processing 90.jpg
+90 already exist in destination location, skipped
+
+
+progress: 0.90, 949/1058
+processing 900.jpg
+900 already exist in destination location, skipped
+
+
+progress: 0.90, 950/1058
+processing 901.jpg
+901 already exist in destination location, skipped
+
+
+progress: 0.90, 951/1058
+processing 902.jpg
+902 already exist in destination location, skipped
+
+
+progress: 0.90, 952/1058
+processing 903.jpg
+903 already exist in destination location, skipped
+
+
+progress: 0.90, 953/1058
+processing 904.jpg
+904 already exist in destination location, skipped
+
+
+progress: 0.90, 954/1058
+processing 905.jpg
+905 already exist in destination location, skipped
+
+
+progress: 0.90, 955/1058
+processing 906.jpg
+906 already exist in destination location, skipped
+
+
+progress: 0.90, 956/1058
+processing 907.jpg
+907 already exist in destination location, skipped
+
+
+progress: 0.90, 957/1058
+processing 908.jpg
+908 already exist in destination location, skipped
+
+
+progress: 0.91, 958/1058
+processing 909.jpg
+909 already exist in destination location, skipped
+
+
+progress: 0.91, 959/1058
+processing 91.jpg
+91 already exist in destination location, skipped
+
+
+progress: 0.91, 960/1058
+processing 910.jpg
+910 already exist in destination location, skipped
+
+
+progress: 0.91, 961/1058
+processing 911.jpg
+911 already exist in destination location, skipped
+
+
+progress: 0.91, 962/1058
+processing 912.jpg
+912 already exist in destination location, skipped
+
+
+progress: 0.91, 963/1058
+processing 913.jpg
+913 already exist in destination location, skipped
+
+
+progress: 0.91, 964/1058
+processing 914.jpg
+914 already exist in destination location, skipped
+
+
+progress: 0.91, 965/1058
+processing 915.jpg
+915 already exist in destination location, skipped
+
+
+progress: 0.91, 966/1058
+processing 916.jpg
+916 already exist in destination location, skipped
+
+
+progress: 0.91, 967/1058
+processing 917.jpg
+917 already exist in destination location, skipped
+
+
+progress: 0.91, 968/1058
+processing 918.jpg
+918 already exist in destination location, skipped
+
+
+progress: 0.92, 969/1058
+processing 919.jpg
+919 already exist in destination location, skipped
+
+
+progress: 0.92, 970/1058
+processing 92.jpg
+92 already exist in destination location, skipped
+
+
+progress: 0.92, 971/1058
+processing 920.jpg
+920 already exist in destination location, skipped
+
+
+progress: 0.92, 972/1058
+processing 921.jpg
+921 already exist in destination location, skipped
+
+
+progress: 0.92, 973/1058
+processing 922.jpg
+922 already exist in destination location, skipped
+
+
+progress: 0.92, 974/1058
+processing 923.jpg
+923 already exist in destination location, skipped
+
+
+progress: 0.92, 975/1058
+processing 924.jpg
+924 already exist in destination location, skipped
+
+
+progress: 0.92, 976/1058
+processing 925.jpg
+925 already exist in destination location, skipped
+
+
+progress: 0.92, 977/1058
+processing 926.jpg
+926 already exist in destination location, skipped
+
+
+progress: 0.92, 978/1058
+processing 927.jpg
+927 already exist in destination location, skipped
+
+
+progress: 0.93, 979/1058
+processing 928.jpg
+928 already exist in destination location, skipped
+
+
+progress: 0.93, 980/1058
+processing 929.jpg
+929 already exist in destination location, skipped
+
+
+progress: 0.93, 981/1058
+processing 93.jpg
+93 already exist in destination location, skipped
+
+
+progress: 0.93, 982/1058
+processing 930.jpg
+930 already exist in destination location, skipped
+
+
+progress: 0.93, 983/1058
+processing 931.jpg
+931 already exist in destination location, skipped
+
+
+progress: 0.93, 984/1058
+processing 932.jpg
+932 already exist in destination location, skipped
+
+
+progress: 0.93, 985/1058
+processing 933.jpg
+933 already exist in destination location, skipped
+
+
+progress: 0.93, 986/1058
+processing 934.jpg
+934 already exist in destination location, skipped
+
+
+progress: 0.93, 987/1058
+processing 935.jpg
+935 already exist in destination location, skipped
+
+
+progress: 0.93, 988/1058
+processing 936.jpg
+936 already exist in destination location, skipped
+
+
+progress: 0.93, 989/1058
+processing 937.jpg
+937 already exist in destination location, skipped
+
+
+progress: 0.94, 990/1058
+processing 938.jpg
+938 already exist in destination location, skipped
+
+
+progress: 0.94, 991/1058
+processing 939.jpg
+939 already exist in destination location, skipped
+
+
+progress: 0.94, 992/1058
+processing 94.jpg
+94 already exist in destination location, skipped
+
+
+progress: 0.94, 993/1058
+processing 940.jpg
+940 already exist in destination location, skipped
+
+
+progress: 0.94, 994/1058
+processing 941.jpg
+941 already exist in destination location, skipped
+
+
+progress: 0.94, 995/1058
+processing 942.jpg
+942 already exist in destination location, skipped
+
+
+progress: 0.94, 996/1058
+processing 943.jpg
+943 already exist in destination location, skipped
+
+
+progress: 0.94, 997/1058
+processing 944.jpg
+944 already exist in destination location, skipped
+
+
+progress: 0.94, 998/1058
+processing 945.jpg
+945 already exist in destination location, skipped
+
+
+progress: 0.94, 999/1058
+processing 946.jpg
+946 already exist in destination location, skipped
+
+
+progress: 0.95, 1000/1058
+processing 947.jpg
+947 already exist in destination location, skipped
+
+
+progress: 0.95, 1001/1058
+processing 948.jpg
+948 already exist in destination location, skipped
+
+
+progress: 0.95, 1002/1058
+processing 949.jpg
+949 already exist in destination location, skipped
+
+
+progress: 0.95, 1003/1058
+processing 95.jpg
+95 already exist in destination location, skipped
+
+
+progress: 0.95, 1004/1058
+processing 950.jpg
+950 already exist in destination location, skipped
+
+
+progress: 0.95, 1005/1058
+processing 951.jpg
+951 already exist in destination location, skipped
+
+
+progress: 0.95, 1006/1058
+processing 952.jpg
+952 already exist in destination location, skipped
+
+
+progress: 0.95, 1007/1058
+processing 953.jpg
+953 already exist in destination location, skipped
+
+
+progress: 0.95, 1008/1058
+processing 954.jpg
+954 already exist in destination location, skipped
+
+
+progress: 0.95, 1009/1058
+processing 955.jpg
+955 already exist in destination location, skipped
+
+
+progress: 0.95, 1010/1058
+processing 956.jpg
+956 already exist in destination location, skipped
+
+
+progress: 0.96, 1011/1058
+processing 957.jpg
+957 already exist in destination location, skipped
+
+
+progress: 0.96, 1012/1058
+processing 958.jpg
+958 already exist in destination location, skipped
+
+
+progress: 0.96, 1013/1058
+processing 959.jpg
+959 already exist in destination location, skipped
+
+
+progress: 0.96, 1014/1058
+processing 96.jpg
+96 already exist in destination location, skipped
+
+
+progress: 0.96, 1015/1058
+processing 960.jpg
+960 already exist in destination location, skipped
+
+
+progress: 0.96, 1016/1058
+processing 961.jpg
+961 already exist in destination location, skipped
+
+
+progress: 0.96, 1017/1058
+processing 962.jpg
+962 already exist in destination location, skipped
+
+
+progress: 0.96, 1018/1058
+processing 963.jpg
+963 already exist in destination location, skipped
+
+
+progress: 0.96, 1019/1058
+processing 964.jpg
+964 already exist in destination location, skipped
+
+
+progress: 0.96, 1020/1058
+processing 965.jpg
+965 already exist in destination location, skipped
+
+
+progress: 0.97, 1021/1058
+processing 966.jpg
+966 already exist in destination location, skipped
+
+
+progress: 0.97, 1022/1058
+processing 967.jpg
+967 already exist in destination location, skipped
+
+
+progress: 0.97, 1023/1058
+processing 968.jpg
+968 already exist in destination location, skipped
+
+
+progress: 0.97, 1024/1058
+processing 969.jpg
+969 already exist in destination location, skipped
+
+
+progress: 0.97, 1025/1058
+processing 97.jpg
+97 already exist in destination location, skipped
+
+
+progress: 0.97, 1026/1058
+processing 970.jpg
+970 already exist in destination location, skipped
+
+
+progress: 0.97, 1027/1058
+processing 971.jpg
+971 already exist in destination location, skipped
+
+
+progress: 0.97, 1028/1058
+processing 972.jpg
+972 already exist in destination location, skipped
+
+
+progress: 0.97, 1029/1058
+processing 973.jpg
+973 already exist in destination location, skipped
+
+
+progress: 0.97, 1030/1058
+processing 974.jpg
+974 already exist in destination location, skipped
+
+
+progress: 0.97, 1031/1058
+processing 975.jpg
+975 already exist in destination location, skipped
+
+
+progress: 0.98, 1032/1058
+processing 976.jpg
+976 already exist in destination location, skipped
+
+
+progress: 0.98, 1033/1058
+processing 977.jpg
+977 already exist in destination location, skipped
+
+
+progress: 0.98, 1034/1058
+processing 978.jpg
+978 already exist in destination location, skipped
+
+
+progress: 0.98, 1035/1058
+processing 979.jpg
+979 already exist in destination location, skipped
+
+
+progress: 0.98, 1036/1058
+processing 98.jpg
+98 already exist in destination location, skipped
+
+
+progress: 0.98, 1037/1058
+processing 980.jpg
+980 already exist in destination location, skipped
+
+
+progress: 0.98, 1038/1058
+processing 981.jpg
+981 already exist in destination location, skipped
+
+
+progress: 0.98, 1039/1058
+processing 982.jpg
+982 already exist in destination location, skipped
+
+
+progress: 0.98, 1040/1058
+processing 983.jpg
+983 already exist in destination location, skipped
+
+
+progress: 0.98, 1041/1058
+processing 984.jpg
+984 already exist in destination location, skipped
+
+
+progress: 0.98, 1042/1058
+processing 985.jpg
+985 already exist in destination location, skipped
+
+
+progress: 0.99, 1043/1058
+processing 986.jpg
+986 already exist in destination location, skipped
+
+
+progress: 0.99, 1044/1058
+processing 987.jpg
+987 already exist in destination location, skipped
+
+
+progress: 0.99, 1045/1058
+processing 988.jpg
+988 already exist in destination location, skipped
+
+
+progress: 0.99, 1046/1058
+processing 989.jpg
+989 already exist in destination location, skipped
+
+
+progress: 0.99, 1047/1058
+processing 99.jpg
+99 already exist in destination location, skipped
+
+
+progress: 0.99, 1048/1058
+processing 990.jpg
+990 already exist in destination location, skipped
+
+
+progress: 0.99, 1049/1058
+processing 991.jpg
+991 already exist in destination location, skipped
+
+
+progress: 0.99, 1050/1058
+processing 992.jpg
+992 already exist in destination location, skipped
+
+
+progress: 0.99, 1051/1058
+processing 993.jpg
+993 already exist in destination location, skipped
+
+
+progress: 0.99, 1052/1058
+processing 994.jpg
+994 already exist in destination location, skipped
+
+
+progress: 1.00, 1053/1058
+processing 995.jpg
+995 already exist in destination location, skipped
+
+
+progress: 1.00, 1054/1058
+processing 996.jpg
+996 already exist in destination location, skipped
+
+
+progress: 1.00, 1055/1058
+processing 997.jpg
+997 already exist in destination location, skipped
+
+
+progress: 1.00, 1056/1058
+processing 998.jpg
+998 already exist in destination location, skipped
+
+
+progress: 1.00, 1057/1058
+processing 999.jpg
+999 already exist in destination location, skipped
+average segmentation time in s per slide: 0.13235751036660207
+average patching time in s per slide: 0.06262178727494296
+average stiching time in s per slide: 0.06671157721535695
