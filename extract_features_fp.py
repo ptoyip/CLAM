@@ -112,6 +112,7 @@ if __name__ == "__main__":
     model = model.to(device)
 
     # print_network(model)
+    print(torch.cuda.device_count())
     if torch.cuda.device_count() > 1:
         model = nn.DataParallel(model)
 
@@ -122,9 +123,7 @@ if __name__ == "__main__":
         slide_id = bags_dataset[bag_candidate_idx].split(args.slide_ext)[0]
         bag_name = slide_id + ".h5"
         h5_file_path = os.path.join(args.data_h5_dir, "patches", bag_name)
-        slide_file_path = os.path.join(
-            args.data_slide_dir, slide_id + args.slide_ext
-        )
+        slide_file_path = os.path.join(args.data_slide_dir, slide_id + args.slide_ext)
         print("\nprogress: {}/{}".format(bag_candidate_idx, total))
 
         if not args.no_auto_skip and slide_id + ".pt" in dest_files:

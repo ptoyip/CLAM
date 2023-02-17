@@ -1,0 +1,1508 @@
+source:  ../BCNB/WSIs/
+patch_save_dir:  ../BCNB/extracted_mag20x_patch256/patches
+mask_save_dir:  ../BCNB/extracted_mag20x_patch256/masks
+stitch_save_dir:  ../BCNB/extracted_mag20x_patch256/stitches
+source : ../BCNB/WSIs/
+save_dir : ../BCNB/extracted_mag20x_patch256/
+patch_save_dir : ../BCNB/extracted_mag20x_patch256/patches
+mask_save_dir : ../BCNB/extracted_mag20x_patch256/masks
+stitch_save_dir : ../BCNB/extracted_mag20x_patch256/stitches
+{'seg_params': {'seg_level': -1, 'sthresh': 8, 'mthresh': 7, 'close': 4, 'use_otsu': False, 'keep_ids': 'none', 'exclude_ids': 'none'}, 'filter_params': {'a_t': 100, 'a_h': 16, 'max_n_holes': 8}, 'patch_params': {'white_thresh': 5, 'black_thresh': 40, 'use_padding': True, 'contour_fn': 'four_pt'}, 'vis_params': {'vis_level': -1, 'line_thickness': 250}}
+
+
+progress: 0.00, 0/1058
+processing 1.jpg
+level_dim 11486 x 31001 is likely too large for successful segmentation, aborting
+
+
+progress: 0.00, 1/1058
+processing 10.jpg
+level_dim 18130 x 23272 is likely too large for successful segmentation, aborting
+
+
+progress: 0.00, 2/1058
+processing 100.jpg
+level_dim 35200 x 24448 is likely too large for successful segmentation, aborting
+
+
+progress: 0.00, 3/1058
+processing 1000.jpg
+level_dim 21191 x 24248 is likely too large for successful segmentation, aborting
+
+
+progress: 0.00, 4/1058
+processing 1001.jpg
+level_dim 31360 x 28336 is likely too large for successful segmentation, aborting
+
+
+progress: 0.00, 5/1058
+processing 1002.jpg
+level_dim 26624 x 23184 is likely too large for successful segmentation, aborting
+
+
+progress: 0.01, 6/1058
+processing 1003.jpg
+level_dim 51312 x 38704 is likely too large for successful segmentation, aborting
+
+
+progress: 0.01, 7/1058
+processing 1004.jpg
+level_dim 24688 x 27072 is likely too large for successful segmentation, aborting
+
+
+progress: 0.01, 8/1058
+processing 1005.jpg
+level_dim 41888 x 24512 is likely too large for successful segmentation, aborting
+
+
+progress: 0.01, 9/1058
+processing 1006.jpg
+level_dim 38960 x 25728 is likely too large for successful segmentation, aborting
+
+
+progress: 0.01, 10/1058
+processing 1007.jpg
+level_dim 25666 x 16310 is likely too large for successful segmentation, aborting
+
+
+progress: 0.01, 11/1058
+processing 1008.jpg
+level_dim 27584 x 24496 is likely too large for successful segmentation, aborting
+
+
+progress: 0.01, 12/1058
+processing 1009.jpg
+level_dim 28000 x 8928 is likely too large for successful segmentation, aborting
+
+
+progress: 0.01, 13/1058
+processing 101.jpg
+level_dim 32464 x 10224 is likely too large for successful segmentation, aborting
+
+
+progress: 0.01, 14/1058
+processing 1010.jpg
+level_dim 22832 x 24480 is likely too large for successful segmentation, aborting
+
+
+progress: 0.01, 15/1058
+processing 1011.jpg
+level_dim 24640 x 28400 is likely too large for successful segmentation, aborting
+
+
+progress: 0.02, 16/1058
+processing 1012.jpg
+level_dim 25616 x 27088 is likely too large for successful segmentation, aborting
+
+
+progress: 0.02, 17/1058
+processing 1013.jpg
+level_dim 21792 x 27104 is likely too large for successful segmentation, aborting
+
+
+progress: 0.02, 18/1058
+processing 1014.jpg
+level_dim 36192 x 14096 is likely too large for successful segmentation, aborting
+
+
+progress: 0.02, 19/1058
+processing 1015.jpg
+level_dim 20912 x 21920 is likely too large for successful segmentation, aborting
+
+
+progress: 0.02, 20/1058
+processing 1016.jpg
+level_dim 25600 x 29664 is likely too large for successful segmentation, aborting
+
+
+progress: 0.02, 21/1058
+processing 1017.jpg
+level_dim 26512 x 37424 is likely too large for successful segmentation, aborting
+
+
+progress: 0.02, 22/1058
+processing 1018.jpg
+level_dim 31296 x 28288 is likely too large for successful segmentation, aborting
+
+
+progress: 0.02, 23/1058
+processing 1019.jpg
+level_dim 34224 x 17968 is likely too large for successful segmentation, aborting
+
+
+progress: 0.02, 24/1058
+processing 102.jpg
+level_dim 30464 x 14160 is likely too large for successful segmentation, aborting
+
+
+progress: 0.02, 25/1058
+processing 1020.jpg
+level_dim 38880 x 37328 is likely too large for successful segmentation, aborting
+
+
+progress: 0.02, 26/1058
+processing 1021.jpg
+level_dim 27520 x 30944 is likely too large for successful segmentation, aborting
+
+
+progress: 0.03, 27/1058
+processing 1022.jpg
+level_dim 25664 x 18032 is likely too large for successful segmentation, aborting
+
+
+progress: 0.03, 28/1058
+processing 1023.jpg
+level_dim 39904 x 23120 is likely too large for successful segmentation, aborting
+
+
+progress: 0.03, 29/1058
+processing 1024.jpg
+level_dim 35168 x 28336 is likely too large for successful segmentation, aborting
+
+
+progress: 0.03, 30/1058
+processing 1025.jpg
+level_dim 39872 x 17968 is likely too large for successful segmentation, aborting
+
+
+progress: 0.03, 31/1058
+processing 1026.jpg
+level_dim 29440 x 27056 is likely too large for successful segmentation, aborting
+
+
+progress: 0.03, 32/1058
+processing 1027.jpg
+level_dim 28448 x 30912 is likely too large for successful segmentation, aborting
+
+
+progress: 0.03, 33/1058
+processing 1028.jpg
+level_dim 36112 x 24448 is likely too large for successful segmentation, aborting
+
+
+progress: 0.03, 34/1058
+processing 1029.jpg
+level_dim 22752 x 21920 is likely too large for successful segmentation, aborting
+
+
+progress: 0.03, 35/1058
+processing 103.jpg
+level_dim 19088 x 9072 is likely too large for successful segmentation, aborting
+
+
+progress: 0.03, 36/1058
+processing 1030.jpg
+level_dim 20896 x 23200 is likely too large for successful segmentation, aborting
+
+
+progress: 0.03, 37/1058
+processing 1031.jpg
+level_dim 40912 x 20544 is likely too large for successful segmentation, aborting
+
+
+progress: 0.04, 38/1058
+processing 1032.jpg
+level_dim 19040 x 18048 is likely too large for successful segmentation, aborting
+
+
+progress: 0.04, 39/1058
+processing 1033.jpg
+level_dim 21856 x 23248 is likely too large for successful segmentation, aborting
+
+
+progress: 0.04, 40/1058
+processing 1034.jpg
+level_dim 23712 x 24512 is likely too large for successful segmentation, aborting
+
+
+progress: 0.04, 41/1058
+processing 1035.jpg
+level_dim 18080 x 18064 is likely too large for successful segmentation, aborting
+
+
+progress: 0.04, 42/1058
+processing 1036.jpg
+level_dim 27568 x 16704 is likely too large for successful segmentation, aborting
+
+
+progress: 0.04, 43/1058
+processing 1037.jpg
+level_dim 34288 x 16688 is likely too large for successful segmentation, aborting
+
+
+progress: 0.04, 44/1058
+processing 1038.jpg
+level_dim 31360 x 27024 is likely too large for successful segmentation, aborting
+
+
+progress: 0.04, 45/1058
+processing 1039.jpg
+level_dim 22768 x 30960 is likely too large for successful segmentation, aborting
+
+
+progress: 0.04, 46/1058
+processing 104.jpg
+level_dim 15104 x 24528 is likely too large for successful segmentation, aborting
+
+
+progress: 0.04, 47/1058
+processing 1040.jpg
+level_dim 39904 x 24416 is likely too large for successful segmentation, aborting
+
+
+progress: 0.05, 48/1058
+processing 1041.jpg
+level_dim 15168 x 24528 is likely too large for successful segmentation, aborting
+
+
+progress: 0.05, 49/1058
+processing 1042.jpg
+level_dim 24688 x 25792 is likely too large for successful segmentation, aborting
+
+
+progress: 0.05, 50/1058
+processing 1043.jpg
+level_dim 27632 x 19328 is likely too large for successful segmentation, aborting
+
+
+progress: 0.05, 51/1058
+processing 1044.jpg
+level_dim 25648 x 27056 is likely too large for successful segmentation, aborting
+
+
+progress: 0.05, 52/1058
+processing 1045.jpg
+level_dim 51440 x 19344 is likely too large for successful segmentation, aborting
+
+
+progress: 0.05, 53/1058
+processing 1046.jpg
+level_dim 31344 x 25760 is likely too large for successful segmentation, aborting
+
+
+progress: 0.05, 54/1058
+processing 1047.jpg
+level_dim 20960 x 18048 is likely too large for successful segmentation, aborting
+
+
+progress: 0.05, 55/1058
+processing 1048.jpg
+level_dim 34272 x 18016 is likely too large for successful segmentation, aborting
+
+
+progress: 0.05, 56/1058
+processing 1049.jpg
+level_dim 32320 x 21904 is likely too large for successful segmentation, aborting
+
+
+progress: 0.05, 57/1058
+processing 105.jpg
+level_dim 14176 x 31024 is likely too large for successful segmentation, aborting
+
+
+progress: 0.05, 58/1058
+processing 1050.jpg
+level_dim 15120 x 28432 is likely too large for successful segmentation, aborting
+
+
+progress: 0.06, 59/1058
+processing 1051.jpg
+level_dim 13312 x 10336 is likely too large for successful segmentation, aborting
+
+
+progress: 0.06, 60/1058
+processing 1052.jpg
+level_dim 30304 x 33520 is likely too large for successful segmentation, aborting
+
+
+progress: 0.06, 61/1058
+processing 1053.jpg
+level_dim 23760 x 20640 is likely too large for successful segmentation, aborting
+
+
+progress: 0.06, 62/1058
+processing 1054.jpg
+level_dim 25744 x 14144 is likely too large for successful segmentation, aborting
+
+
+progress: 0.06, 63/1058
+processing 1055.jpg
+level_dim 24736 x 21952 is likely too large for successful segmentation, aborting
+
+
+progress: 0.06, 64/1058
+processing 1056.jpg
+level_dim 26640 x 19312 is likely too large for successful segmentation, aborting
+
+
+progress: 0.06, 65/1058
+processing 1057.jpg
+level_dim 14224 x 27120 is likely too large for successful segmentation, aborting
+
+
+progress: 0.06, 66/1058
+processing 1058.jpg
+level_dim 26592 x 23200 is likely too large for successful segmentation, aborting
+
+
+progress: 0.06, 67/1058
+processing 106.jpg
+level_dim 19952 x 25808 is likely too large for successful segmentation, aborting
+
+
+progress: 0.06, 68/1058
+processing 107.jpg
+level_dim 19952 x 14192 is likely too large for successful segmentation, aborting
+
+
+progress: 0.07, 69/1058
+processing 108.jpg
+level_dim 22848 x 16800 is likely too large for successful segmentation, aborting
+
+
+progress: 0.07, 70/1058
+processing 109.jpg
+level_dim 10400 x 21968 is likely too large for successful segmentation, aborting
+
+
+progress: 0.07, 71/1058
+processing 11.jpg
+level_dim 17209 x 6516 is likely too large for successful segmentation, aborting
+
+
+progress: 0.07, 72/1058
+processing 110.jpg
+level_dim 16176 x 16816 is likely too large for successful segmentation, aborting
+
+
+progress: 0.07, 73/1058
+processing 111.jpg
+level_dim 25664 x 20640 is likely too large for successful segmentation, aborting
+
+
+progress: 0.07, 74/1058
+processing 112.jpg
+level_dim 7632 x 15536 is likely too large for successful segmentation, aborting
+
+
+progress: 0.07, 75/1058
+processing 113.jpg
+level_dim 8512 x 16848 is likely too large for successful segmentation, aborting
+
+
+progress: 0.07, 76/1058
+processing 114.jpg
+level_dim 31312 x 24416 is likely too large for successful segmentation, aborting
+
+
+progress: 0.07, 77/1058
+processing 115.jpg
+level_dim 9488 x 20704 is likely too large for successful segmentation, aborting
+
+
+progress: 0.07, 78/1058
+processing 116.jpg
+level_dim 29472 x 20624 is likely too large for successful segmentation, aborting
+
+
+progress: 0.07, 79/1058
+processing 117.jpg
+level_dim 26592 x 21888 is likely too large for successful segmentation, aborting
+
+
+progress: 0.08, 80/1058
+processing 118.jpg
+level_dim 10416 x 21984 is likely too large for successful segmentation, aborting
+
+
+progress: 0.08, 81/1058
+processing 119.jpg
+level_dim 35104 x 30912 is likely too large for successful segmentation, aborting
+
+
+progress: 0.08, 82/1058
+processing 12.jpg
+level_dim 23885 x 22045 is likely too large for successful segmentation, aborting
+
+
+progress: 0.08, 83/1058
+processing 120.jpg
+level_dim 16160 x 14224 is likely too large for successful segmentation, aborting
+
+
+progress: 0.08, 84/1058
+processing 121.jpg
+level_dim 25486 x 16930 is likely too large for successful segmentation, aborting
+
+
+progress: 0.08, 85/1058
+processing 122.jpg
+level_dim 19024 x 12944 is likely too large for successful segmentation, aborting
+
+
+progress: 0.08, 86/1058
+processing 123.jpg
+level_dim 18000 x 21936 is likely too large for successful segmentation, aborting
+
+
+progress: 0.08, 87/1058
+processing 124.jpg
+level_dim 23488 x 19328 is likely too large for successful segmentation, aborting
+
+
+progress: 0.08, 88/1058
+processing 125.jpg
+level_dim 17936 x 20408 is likely too large for successful segmentation, aborting
+
+
+progress: 0.08, 89/1058
+processing 126.jpg
+level_dim 11408 x 20672 is likely too large for successful segmentation, aborting
+
+
+progress: 0.09, 90/1058
+processing 127.jpg
+level_dim 29568 x 10240 is likely too large for successful segmentation, aborting
+
+
+progress: 0.09, 91/1058
+processing 128.jpg
+level_dim 11376 x 19392 is likely too large for successful segmentation, aborting
+
+
+progress: 0.09, 92/1058
+processing 129.jpg
+level_dim 26528 x 18000 is likely too large for successful segmentation, aborting
+
+
+progress: 0.09, 93/1058
+processing 13.jpg
+level_dim 30601 x 12962 is likely too large for successful segmentation, aborting
+
+
+progress: 0.09, 94/1058
+processing 130.jpg
+level_dim 19104 x 10320 is likely too large for successful segmentation, aborting
+
+
+progress: 0.09, 95/1058
+processing 131.jpg
+level_dim 42736 x 34704 is likely too large for successful segmentation, aborting
+
+
+progress: 0.09, 96/1058
+processing 132.jpg
+level_dim 13312 x 16800 is likely too large for successful segmentation, aborting
+
+
+progress: 0.09, 97/1058
+processing 133.jpg
+level_dim 26725 x 25874 is likely too large for successful segmentation, aborting
+
+
+progress: 0.09, 98/1058
+processing 134.jpg
+level_dim 10384 x 24576 is likely too large for successful segmentation, aborting
+
+
+progress: 0.09, 99/1058
+processing 135.jpg
+level_dim 14304 x 7776 is likely too large for successful segmentation, aborting
+
+
+progress: 0.09, 100/1058
+processing 136.jpg
+level_dim 21872 x 16752 is likely too large for successful segmentation, aborting
+
+
+progress: 0.10, 101/1058
+processing 137.jpg
+level_dim 28496 x 20640 is likely too large for successful segmentation, aborting
+
+
+progress: 0.10, 102/1058
+processing 138.jpg
+level_dim 10448 x 23264 is likely too large for successful segmentation, aborting
+
+
+progress: 0.10, 103/1058
+processing 139.jpg
+level_dim 12336 x 18096 is likely too large for successful segmentation, aborting
+
+
+progress: 0.10, 104/1058
+processing 14.jpg
+level_dim 32400 x 10256 is likely too large for successful segmentation, aborting
+
+
+progress: 0.10, 105/1058
+processing 140.jpg
+level_dim 18096 x 19424 is likely too large for successful segmentation, aborting
+
+
+progress: 0.10, 106/1058
+processing 141.jpg
+level_dim 21856 x 15504 is likely too large for successful segmentation, aborting
+
+
+progress: 0.10, 107/1058
+processing 142.jpg
+level_dim 18880 x 40032 is likely too large for successful segmentation, aborting
+
+
+progress: 0.10, 108/1058
+processing 143.jpg
+level_dim 25744 x 14160 is likely too large for successful segmentation, aborting
+
+
+progress: 0.10, 109/1058
+processing 144.jpg
+level_dim 25680 x 21904 is likely too large for successful segmentation, aborting
+
+
+progress: 0.10, 110/1058
+processing 145.jpg
+level_dim 27552 x 18032 is likely too large for successful segmentation, aborting
+
+
+progress: 0.10, 111/1058
+processing 146.jpg
+level_dim 11360 x 20688 is likely too large for successful segmentation, aborting
+
+
+progress: 0.11, 112/1058
+processing 147.jpg
+level_dim 46480 x 45056 is likely too large for successful segmentation, aborting
+
+
+progress: 0.11, 113/1058
+processing 148.jpg
+level_dim 32304 x 20624 is likely too large for successful segmentation, aborting
+
+
+progress: 0.11, 114/1058
+processing 149.jpg
+level_dim 20000 x 15504 is likely too large for successful segmentation, aborting
+
+
+progress: 0.11, 115/1058
+processing 15.jpg
+level_dim 15296 x 9056 is likely too large for successful segmentation, aborting
+
+
+progress: 0.11, 116/1058
+processing 150.jpg
+level_dim 12272 x 27120 is likely too large for successful segmentation, aborting
+
+
+progress: 0.11, 117/1058
+processing 151.jpg
+level_dim 30464 x 18000 is likely too large for successful segmentation, aborting
+
+
+progress: 0.11, 118/1058
+processing 152.jpg
+level_dim 18992 x 20656 is likely too large for successful segmentation, aborting
+
+
+progress: 0.11, 119/1058
+processing 153.jpg
+level_dim 22752 x 28400 is likely too large for successful segmentation, aborting
+
+
+progress: 0.11, 120/1058
+processing 154.jpg
+level_dim 22832 x 20640 is likely too large for successful segmentation, aborting
+
+
+progress: 0.11, 121/1058
+processing 155.jpg
+level_dim 28512 x 15424 is likely too large for successful segmentation, aborting
+
+
+progress: 0.12, 122/1058
+processing 156.jpg
+level_dim 39872 x 29584 is likely too large for successful segmentation, aborting
+
+
+progress: 0.12, 123/1058
+processing 157.jpg
+level_dim 23792 x 19344 is likely too large for successful segmentation, aborting
+
+
+progress: 0.12, 124/1058
+processing 158.jpg
+level_dim 16144 x 15520 is likely too large for successful segmentation, aborting
+
+
+progress: 0.12, 125/1058
+processing 159.jpg
+level_dim 14144 x 21936 is likely too large for successful segmentation, aborting
+
+
+progress: 0.12, 126/1058
+processing 16.jpg
+level_dim 27651 x 14281 is likely too large for successful segmentation, aborting
+
+
+progress: 0.12, 127/1058
+processing 160.jpg
+level_dim 19040 x 12912 is likely too large for successful segmentation, aborting
+
+
+progress: 0.12, 128/1058
+processing 161.jpg
+level_dim 10480 x 18096 is likely too large for successful segmentation, aborting
+
+
+progress: 0.12, 129/1058
+processing 162.jpg
+level_dim 18096 x 23248 is likely too large for successful segmentation, aborting
+
+
+progress: 0.12, 130/1058
+processing 163.jpg
+level_dim 13248 x 18096 is likely too large for successful segmentation, aborting
+
+
+progress: 0.12, 131/1058
+processing 164.jpg
+level_dim 24672 x 21904 is likely too large for successful segmentation, aborting
+
+
+progress: 0.12, 132/1058
+processing 165.jpg
+level_dim 20944 x 19328 is likely too large for successful segmentation, aborting
+
+
+progress: 0.13, 133/1058
+processing 166.jpg
+level_dim 20864 x 23184 is likely too large for successful segmentation, aborting
+
+
+progress: 0.13, 134/1058
+processing 167.jpg
+level_dim 21776 x 27104 is likely too large for successful segmentation, aborting
+
+
+progress: 0.13, 135/1058
+processing 168.jpg
+level_dim 39088 x 10224 is likely too large for successful segmentation, aborting
+
+
+progress: 0.13, 136/1058
+processing 169.jpg
+level_dim 7584 x 19408 is likely too large for successful segmentation, aborting
+
+
+progress: 0.13, 137/1058
+processing 17.jpg
+level_dim 9551 x 12991 is likely too large for successful segmentation, aborting
+
+
+progress: 0.13, 138/1058
+processing 170.jpg
+level_dim 25728 x 19312 is likely too large for successful segmentation, aborting
+
+
+progress: 0.13, 139/1058
+processing 171.jpg
+level_dim 13232 x 24496 is likely too large for successful segmentation, aborting
+
+
+progress: 0.13, 140/1058
+processing 172.jpg
+level_dim 21040 x 23289 is likely too large for successful segmentation, aborting
+
+
+progress: 0.13, 141/1058
+processing 173.jpg
+level_dim 22752 x 34848 is likely too large for successful segmentation, aborting
+
+
+progress: 0.13, 142/1058
+processing 174.jpg
+level_dim 13216 x 23248 is likely too large for successful segmentation, aborting
+
+
+progress: 0.14, 143/1058
+processing 175.jpg
+level_dim 20057 x 20711 is likely too large for successful segmentation, aborting
+
+
+progress: 0.14, 144/1058
+processing 176.jpg
+level_dim 14344 x 31075 is likely too large for successful segmentation, aborting
+
+
+progress: 0.14, 145/1058
+processing 177.jpg
+level_dim 18064 x 14208 is likely too large for successful segmentation, aborting
+
+
+progress: 0.14, 146/1058
+processing 178.jpg
+level_dim 12431 x 10415 is likely too large for successful segmentation, aborting
+
+
+progress: 0.14, 147/1058
+processing 179.jpg
+level_dim 17174 x 28445 is likely too large for successful segmentation, aborting
+
+
+progress: 0.14, 148/1058
+processing 18.jpg
+source:  ../BCNB/WSIs/
+patch_save_dir:  ../BCNB/extracted_mag20x_patch256/patches
+mask_save_dir:  ../BCNB/extracted_mag20x_patch256/masks
+stitch_save_dir:  ../BCNB/extracted_mag20x_patch256/stitches
+source : ../BCNB/WSIs/
+save_dir : ../BCNB/extracted_mag20x_patch256/
+patch_save_dir : ../BCNB/extracted_mag20x_patch256/patches
+mask_save_dir : ../BCNB/extracted_mag20x_patch256/masks
+stitch_save_dir : ../BCNB/extracted_mag20x_patch256/stitches
+{'seg_params': {'seg_level': -1, 'sthresh': 8, 'mthresh': 7, 'close': 4, 'use_otsu': False, 'keep_ids': 'none', 'exclude_ids': 'none'}, 'filter_params': {'a_t': 100, 'a_h': 16, 'max_n_holes': 8}, 'patch_params': {'white_thresh': 5, 'black_thresh': 40, 'use_padding': True, 'contour_fn': 'four_pt'}, 'vis_params': {'vis_level': -1, 'line_thickness': 250}}
+
+
+progress: 0.00, 0/1058
+processing 1.jpg
+level_dim 11486 x 31001 is likely too large for successful segmentation, aborting
+
+
+progress: 0.00, 1/1058
+processing 10.jpg
+level_dim 18130 x 23272 is likely too large for successful segmentation, aborting
+
+
+progress: 0.00, 2/1058
+processing 100.jpg
+level_dim 35200 x 24448 is likely too large for successful segmentation, aborting
+
+
+progress: 0.00, 3/1058
+processing 1000.jpg
+level_dim 21191 x 24248 is likely too large for successful segmentation, aborting
+
+
+progress: 0.00, 4/1058
+processing 1001.jpg
+level_dim 31360 x 28336 is likely too large for successful segmentation, aborting
+
+
+progress: 0.00, 5/1058
+processing 1002.jpg
+level_dim 26624 x 23184 is likely too large for successful segmentation, aborting
+
+
+progress: 0.01, 6/1058
+processing 1003.jpg
+level_dim 51312 x 38704 is likely too large for successful segmentation, aborting
+
+
+progress: 0.01, 7/1058
+processing 1004.jpg
+level_dim 24688 x 27072 is likely too large for successful segmentation, aborting
+
+
+progress: 0.01, 8/1058
+processing 1005.jpg
+level_dim 41888 x 24512 is likely too large for successful segmentation, aborting
+
+
+progress: 0.01, 9/1058
+processing 1006.jpg
+level_dim 38960 x 25728 is likely too large for successful segmentation, aborting
+
+
+progress: 0.01, 10/1058
+processing 1007.jpg
+level_dim 25666 x 16310 is likely too large for successful segmentation, aborting
+
+
+progress: 0.01, 11/1058
+processing 1008.jpg
+level_dim 27584 x 24496 is likely too large for successful segmentation, aborting
+
+
+progress: 0.01, 12/1058
+processing 1009.jpg
+level_dim 28000 x 8928 is likely too large for successful segmentation, aborting
+
+
+progress: 0.01, 13/1058
+processing 101.jpg
+level_dim 32464 x 10224 is likely too large for successful segmentation, aborting
+
+
+progress: 0.01, 14/1058
+processing 1010.jpg
+level_dim 22832 x 24480 is likely too large for successful segmentation, aborting
+
+
+progress: 0.01, 15/1058
+processing 1011.jpg
+level_dim 24640 x 28400 is likely too large for successful segmentation, aborting
+
+
+progress: 0.02, 16/1058
+processing 1012.jpg
+level_dim 25616 x 27088 is likely too large for successful segmentation, aborting
+
+
+progress: 0.02, 17/1058
+processing 1013.jpg
+level_dim 21792 x 27104 is likely too large for successful segmentation, aborting
+
+
+progress: 0.02, 18/1058
+processing 1014.jpg
+level_dim 36192 x 14096 is likely too large for successful segmentation, aborting
+
+
+progress: 0.02, 19/1058
+processing 1015.jpg
+level_dim 20912 x 21920 is likely too large for successful segmentation, aborting
+
+
+progress: 0.02, 20/1058
+processing 1016.jpg
+level_dim 25600 x 29664 is likely too large for successful segmentation, aborting
+
+
+progress: 0.02, 21/1058
+processing 1017.jpg
+level_dim 26512 x 37424 is likely too large for successful segmentation, aborting
+
+
+progress: 0.02, 22/1058
+processing 1018.jpg
+level_dim 31296 x 28288 is likely too large for successful segmentation, aborting
+
+
+progress: 0.02, 23/1058
+processing 1019.jpg
+level_dim 34224 x 17968 is likely too large for successful segmentation, aborting
+
+
+progress: 0.02, 24/1058
+processing 102.jpg
+level_dim 30464 x 14160 is likely too large for successful segmentation, aborting
+
+
+progress: 0.02, 25/1058
+processing 1020.jpg
+level_dim 38880 x 37328 is likely too large for successful segmentation, aborting
+
+
+progress: 0.02, 26/1058
+processing 1021.jpg
+level_dim 27520 x 30944 is likely too large for successful segmentation, aborting
+
+
+progress: 0.03, 27/1058
+processing 1022.jpg
+level_dim 25664 x 18032 is likely too large for successful segmentation, aborting
+
+
+progress: 0.03, 28/1058
+processing 1023.jpg
+level_dim 39904 x 23120 is likely too large for successful segmentation, aborting
+
+
+progress: 0.03, 29/1058
+processing 1024.jpg
+level_dim 35168 x 28336 is likely too large for successful segmentation, aborting
+
+
+progress: 0.03, 30/1058
+processing 1025.jpg
+level_dim 39872 x 17968 is likely too large for successful segmentation, aborting
+
+
+progress: 0.03, 31/1058
+processing 1026.jpg
+level_dim 29440 x 27056 is likely too large for successful segmentation, aborting
+
+
+progress: 0.03, 32/1058
+processing 1027.jpg
+level_dim 28448 x 30912 is likely too large for successful segmentation, aborting
+
+
+progress: 0.03, 33/1058
+processing 1028.jpg
+level_dim 36112 x 24448 is likely too large for successful segmentation, aborting
+
+
+progress: 0.03, 34/1058
+processing 1029.jpg
+level_dim 22752 x 21920 is likely too large for successful segmentation, aborting
+
+
+progress: 0.03, 35/1058
+processing 103.jpg
+level_dim 19088 x 9072 is likely too large for successful segmentation, aborting
+
+
+progress: 0.03, 36/1058
+processing 1030.jpg
+level_dim 20896 x 23200 is likely too large for successful segmentation, aborting
+
+
+progress: 0.03, 37/1058
+processing 1031.jpg
+level_dim 40912 x 20544 is likely too large for successful segmentation, aborting
+
+
+progress: 0.04, 38/1058
+processing 1032.jpg
+level_dim 19040 x 18048 is likely too large for successful segmentation, aborting
+
+
+progress: 0.04, 39/1058
+processing 1033.jpg
+level_dim 21856 x 23248 is likely too large for successful segmentation, aborting
+
+
+progress: 0.04, 40/1058
+processing 1034.jpg
+level_dim 23712 x 24512 is likely too large for successful segmentation, aborting
+
+
+progress: 0.04, 41/1058
+processing 1035.jpg
+level_dim 18080 x 18064 is likely too large for successful segmentation, aborting
+
+
+progress: 0.04, 42/1058
+processing 1036.jpg
+level_dim 27568 x 16704 is likely too large for successful segmentation, aborting
+
+
+progress: 0.04, 43/1058
+processing 1037.jpg
+level_dim 34288 x 16688 is likely too large for successful segmentation, aborting
+
+
+progress: 0.04, 44/1058
+processing 1038.jpg
+level_dim 31360 x 27024 is likely too large for successful segmentation, aborting
+
+
+progress: 0.04, 45/1058
+processing 1039.jpg
+level_dim 22768 x 30960 is likely too large for successful segmentation, aborting
+
+
+progress: 0.04, 46/1058
+processing 104.jpg
+level_dim 15104 x 24528 is likely too large for successful segmentation, aborting
+
+
+progress: 0.04, 47/1058
+processing 1040.jpg
+level_dim 39904 x 24416 is likely too large for successful segmentation, aborting
+
+
+progress: 0.05, 48/1058
+processing 1041.jpg
+level_dim 15168 x 24528 is likely too large for successful segmentation, aborting
+
+
+progress: 0.05, 49/1058
+processing 1042.jpg
+level_dim 24688 x 25792 is likely too large for successful segmentation, aborting
+
+
+progress: 0.05, 50/1058
+processing 1043.jpg
+level_dim 27632 x 19328 is likely too large for successful segmentation, aborting
+
+
+progress: 0.05, 51/1058
+processing 1044.jpg
+level_dim 25648 x 27056 is likely too large for successful segmentation, aborting
+
+
+progress: 0.05, 52/1058
+processing 1045.jpg
+level_dim 51440 x 19344 is likely too large for successful segmentation, aborting
+
+
+progress: 0.05, 53/1058
+processing 1046.jpg
+level_dim 31344 x 25760 is likely too large for successful segmentation, aborting
+
+
+progress: 0.05, 54/1058
+processing 1047.jpg
+level_dim 20960 x 18048 is likely too large for successful segmentation, aborting
+
+
+progress: 0.05, 55/1058
+processing 1048.jpg
+level_dim 34272 x 18016 is likely too large for successful segmentation, aborting
+
+
+progress: 0.05, 56/1058
+processing 1049.jpg
+level_dim 32320 x 21904 is likely too large for successful segmentation, aborting
+
+
+progress: 0.05, 57/1058
+processing 105.jpg
+level_dim 14176 x 31024 is likely too large for successful segmentation, aborting
+
+
+progress: 0.05, 58/1058
+processing 1050.jpg
+level_dim 15120 x 28432 is likely too large for successful segmentation, aborting
+
+
+progress: 0.06, 59/1058
+processing 1051.jpg
+level_dim 13312 x 10336 is likely too large for successful segmentation, aborting
+
+
+progress: 0.06, 60/1058
+processing 1052.jpg
+level_dim 30304 x 33520 is likely too large for successful segmentation, aborting
+
+
+progress: 0.06, 61/1058
+processing 1053.jpg
+level_dim 23760 x 20640 is likely too large for successful segmentation, aborting
+
+
+progress: 0.06, 62/1058
+processing 1054.jpg
+level_dim 25744 x 14144 is likely too large for successful segmentation, aborting
+
+
+progress: 0.06, 63/1058
+processing 1055.jpg
+level_dim 24736 x 21952 is likely too large for successful segmentation, aborting
+
+
+progress: 0.06, 64/1058
+processing 1056.jpg
+level_dim 26640 x 19312 is likely too large for successful segmentation, aborting
+
+
+progress: 0.06, 65/1058
+processing 1057.jpg
+level_dim 14224 x 27120 is likely too large for successful segmentation, aborting
+
+
+progress: 0.06, 66/1058
+processing 1058.jpg
+level_dim 26592 x 23200 is likely too large for successful segmentation, aborting
+
+
+progress: 0.06, 67/1058
+processing 106.jpg
+level_dim 19952 x 25808 is likely too large for successful segmentation, aborting
+
+
+progress: 0.06, 68/1058
+processing 107.jpg
+level_dim 19952 x 14192 is likely too large for successful segmentation, aborting
+
+
+progress: 0.07, 69/1058
+processing 108.jpg
+level_dim 22848 x 16800 is likely too large for successful segmentation, aborting
+
+
+progress: 0.07, 70/1058
+processing 109.jpg
+level_dim 10400 x 21968 is likely too large for successful segmentation, aborting
+
+
+progress: 0.07, 71/1058
+processing 11.jpg
+level_dim 17209 x 6516 is likely too large for successful segmentation, aborting
+
+
+progress: 0.07, 72/1058
+processing 110.jpg
+level_dim 16176 x 16816 is likely too large for successful segmentation, aborting
+
+
+progress: 0.07, 73/1058
+processing 111.jpg
+level_dim 25664 x 20640 is likely too large for successful segmentation, aborting
+
+
+progress: 0.07, 74/1058
+processing 112.jpg
+level_dim 7632 x 15536 is likely too large for successful segmentation, aborting
+
+
+progress: 0.07, 75/1058
+processing 113.jpg
+level_dim 8512 x 16848 is likely too large for successful segmentation, aborting
+
+
+progress: 0.07, 76/1058
+processing 114.jpg
+level_dim 31312 x 24416 is likely too large for successful segmentation, aborting
+
+
+progress: 0.07, 77/1058
+processing 115.jpg
+level_dim 9488 x 20704 is likely too large for successful segmentation, aborting
+
+
+progress: 0.07, 78/1058
+processing 116.jpg
+level_dim 29472 x 20624 is likely too large for successful segmentation, aborting
+
+
+progress: 0.07, 79/1058
+processing 117.jpg
+level_dim 26592 x 21888 is likely too large for successful segmentation, aborting
+
+
+progress: 0.08, 80/1058
+processing 118.jpg
+level_dim 10416 x 21984 is likely too large for successful segmentation, aborting
+
+
+progress: 0.08, 81/1058
+processing 119.jpg
+level_dim 35104 x 30912 is likely too large for successful segmentation, aborting
+
+
+progress: 0.08, 82/1058
+processing 12.jpg
+level_dim 23885 x 22045 is likely too large for successful segmentation, aborting
+
+
+progress: 0.08, 83/1058
+processing 120.jpg
+level_dim 16160 x 14224 is likely too large for successful segmentation, aborting
+
+
+progress: 0.08, 84/1058
+processing 121.jpg
+level_dim 25486 x 16930 is likely too large for successful segmentation, aborting
+
+
+progress: 0.08, 85/1058
+processing 122.jpg
+level_dim 19024 x 12944 is likely too large for successful segmentation, aborting
+
+
+progress: 0.08, 86/1058
+processing 123.jpg
+level_dim 18000 x 21936 is likely too large for successful segmentation, aborting
+
+
+progress: 0.08, 87/1058
+processing 124.jpg
+level_dim 23488 x 19328 is likely too large for successful segmentation, aborting
+
+
+progress: 0.08, 88/1058
+processing 125.jpg
+level_dim 17936 x 20408 is likely too large for successful segmentation, aborting
+
+
+progress: 0.08, 89/1058
+processing 126.jpg
+level_dim 11408 x 20672 is likely too large for successful segmentation, aborting
+
+
+progress: 0.09, 90/1058
+processing 127.jpg
+level_dim 29568 x 10240 is likely too large for successful segmentation, aborting
+
+
+progress: 0.09, 91/1058
+processing 128.jpg
+level_dim 11376 x 19392 is likely too large for successful segmentation, aborting
+
+
+progress: 0.09, 92/1058
+processing 129.jpg
+level_dim 26528 x 18000 is likely too large for successful segmentation, aborting
+
+
+progress: 0.09, 93/1058
+processing 13.jpg
+level_dim 30601 x 12962 is likely too large for successful segmentation, aborting
+
+
+progress: 0.09, 94/1058
+processing 130.jpg
+level_dim 19104 x 10320 is likely too large for successful segmentation, aborting
+
+
+progress: 0.09, 95/1058
+processing 131.jpg
+level_dim 42736 x 34704 is likely too large for successful segmentation, aborting
+
+
+progress: 0.09, 96/1058
+processing 132.jpg
+level_dim 13312 x 16800 is likely too large for successful segmentation, aborting
+
+
+progress: 0.09, 97/1058
+processing 133.jpg
+level_dim 26725 x 25874 is likely too large for successful segmentation, aborting
+
+
+progress: 0.09, 98/1058
+processing 134.jpg
+level_dim 10384 x 24576 is likely too large for successful segmentation, aborting
+
+
+progress: 0.09, 99/1058
+processing 135.jpg
+level_dim 14304 x 7776 is likely too large for successful segmentation, aborting
+
+
+progress: 0.09, 100/1058
+processing 136.jpg
+level_dim 21872 x 16752 is likely too large for successful segmentation, aborting
+
+
+progress: 0.10, 101/1058
+processing 137.jpg
+level_dim 28496 x 20640 is likely too large for successful segmentation, aborting
+
+
+progress: 0.10, 102/1058
+processing 138.jpg
+level_dim 10448 x 23264 is likely too large for successful segmentation, aborting
+
+
+progress: 0.10, 103/1058
+processing 139.jpg
+level_dim 12336 x 18096 is likely too large for successful segmentation, aborting
+
+
+progress: 0.10, 104/1058
+processing 14.jpg
+level_dim 32400 x 10256 is likely too large for successful segmentation, aborting
+
+
+progress: 0.10, 105/1058
+processing 140.jpg
+level_dim 18096 x 19424 is likely too large for successful segmentation, aborting
+
+
+progress: 0.10, 106/1058
+processing 141.jpg
+level_dim 21856 x 15504 is likely too large for successful segmentation, aborting
+
+
+progress: 0.10, 107/1058
+processing 142.jpg
+level_dim 18880 x 40032 is likely too large for successful segmentation, aborting
+
+
+progress: 0.10, 108/1058
+processing 143.jpg
+level_dim 25744 x 14160 is likely too large for successful segmentation, aborting
+
+
+progress: 0.10, 109/1058
+processing 144.jpg
+level_dim 25680 x 21904 is likely too large for successful segmentation, aborting
+
+
+progress: 0.10, 110/1058
+processing 145.jpg
+level_dim 27552 x 18032 is likely too large for successful segmentation, aborting
+
+
+progress: 0.10, 111/1058
+processing 146.jpg
+level_dim 11360 x 20688 is likely too large for successful segmentation, aborting
+
+
+progress: 0.11, 112/1058
+processing 147.jpg
+level_dim 46480 x 45056 is likely too large for successful segmentation, aborting
+
+
+progress: 0.11, 113/1058
+processing 148.jpg
+level_dim 32304 x 20624 is likely too large for successful segmentation, aborting
+
+
+progress: 0.11, 114/1058
+processing 149.jpg
+level_dim 20000 x 15504 is likely too large for successful segmentation, aborting
+
+
+progress: 0.11, 115/1058
+processing 15.jpg
+level_dim 15296 x 9056 is likely too large for successful segmentation, aborting
+
+
+progress: 0.11, 116/1058
+processing 150.jpg
+level_dim 12272 x 27120 is likely too large for successful segmentation, aborting
+
+
+progress: 0.11, 117/1058
+processing 151.jpg
+level_dim 30464 x 18000 is likely too large for successful segmentation, aborting
+
+
+progress: 0.11, 118/1058
+processing 152.jpg
+level_dim 18992 x 20656 is likely too large for successful segmentation, aborting
+
+
+progress: 0.11, 119/1058
+processing 153.jpg
+level_dim 22752 x 28400 is likely too large for successful segmentation, aborting
+
+
+progress: 0.11, 120/1058
+processing 154.jpg
+level_dim 22832 x 20640 is likely too large for successful segmentation, aborting
+
+
+progress: 0.11, 121/1058
+processing 155.jpg
+level_dim 28512 x 15424 is likely too large for successful segmentation, aborting
+
+
+progress: 0.12, 122/1058
+processing 156.jpg
+level_dim 39872 x 29584 is likely too large for successful segmentation, aborting
+
+
+progress: 0.12, 123/1058
+processing 157.jpg
+level_dim 23792 x 19344 is likely too large for successful segmentation, aborting
+
+
+progress: 0.12, 124/1058
+processing 158.jpg
+level_dim 16144 x 15520 is likely too large for successful segmentation, aborting
+
+
+progress: 0.12, 125/1058
+processing 159.jpg
+level_dim 14144 x 21936 is likely too large for successful segmentation, aborting
+
+
+progress: 0.12, 126/1058
+processing 16.jpg
+level_dim 27651 x 14281 is likely too large for successful segmentation, aborting
+
+
+progress: 0.12, 127/1058
+processing 160.jpg
+level_dim 19040 x 12912 is likely too large for successful segmentation, aborting
+
+
+progress: 0.12, 128/1058
+processing 161.jpg
+level_dim 10480 x 18096 is likely too large for successful segmentation, aborting
+
+
+progress: 0.12, 129/1058
+processing 162.jpg
+level_dim 18096 x 23248 is likely too large for successful segmentation, aborting
+
+
+progress: 0.12, 130/1058
+processing 163.jpg
+level_dim 13248 x 18096 is likely too large for successful segmentation, aborting
+
+
+progress: 0.12, 131/1058
+processing 164.jpg
+level_dim 24672 x 21904 is likely too large for successful segmentation, aborting
+
+
+progress: 0.12, 132/1058
+processing 165.jpg
+level_dim 20944 x 19328 is likely too large for successful segmentation, aborting
+
+
+progress: 0.13, 133/1058
+processing 166.jpg
+level_dim 20864 x 23184 is likely too large for successful segmentation, aborting
+
+
+progress: 0.13, 134/1058
+processing 167.jpg
+level_dim 21776 x 27104 is likely too large for successful segmentation, aborting
+
+
+progress: 0.13, 135/1058
+processing 168.jpg
+level_dim 39088 x 10224 is likely too large for successful segmentation, aborting
+
+
+progress: 0.13, 136/1058
+processing 169.jpg
+level_dim 7584 x 19408 is likely too large for successful segmentation, aborting
+
+
+progress: 0.13, 137/1058
+processing 17.jpg
+level_dim 9551 x 12991 is likely too large for successful segmentation, aborting
+
+
+progress: 0.13, 138/1058
+processing 170.jpg
+level_dim 25728 x 19312 is likely too large for successful segmentation, aborting
+
+
+progress: 0.13, 139/1058
+processing 171.jpg
+level_dim 13232 x 24496 is likely too large for successful segmentation, aborting
+
+
+progress: 0.13, 140/1058
+processing 172.jpg
+level_dim 21040 x 23289 is likely too large for successful segmentation, aborting
+
+
+progress: 0.13, 141/1058
+processing 173.jpg
+level_dim 22752 x 34848 is likely too large for successful segmentation, aborting
+
+
+progress: 0.13, 142/1058
+processing 174.jpg
+level_dim 13216 x 23248 is likely too large for successful segmentation, aborting
+
+
+progress: 0.14, 143/1058
+processing 175.jpg
+level_dim 20057 x 20711 is likely too large for successful segmentation, aborting
+
+
+progress: 0.14, 144/1058
+processing 176.jpg
+level_dim 14344 x 31075 is likely too large for successful segmentation, aborting
+
+
+progress: 0.14, 145/1058
+processing 177.jpg
+level_dim 18064 x 14208 is likely too large for successful segmentation, aborting
+
+
+progress: 0.14, 146/1058
+processing 178.jpg
+level_dim 12431 x 10415 is likely too large for successful segmentation, aborting
+
+
+progress: 0.14, 147/1058
+processing 179.jpg
+level_dim 17174 x 28445 is likely too large for successful segmentation, aborting
+
+
+progress: 0.14, 148/1058
+processing 18.jpg

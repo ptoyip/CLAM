@@ -18,7 +18,7 @@ def stitching(file_path, wsi_object, downscale=64):
         file_path,
         wsi_object,
         downscale=downscale,
-        bg_color=(0,0,0),
+        bg_color=(0, 0, 0),
         alpha=-1,
         draw_grid=False,
     )

@@ -1,0 +1,2390 @@
+nohup: ignoring input
+initializing dataset
+loading model checkpoint
+3
+
+progress: 0/1058
+downsample [1. 1.]
+downsampled_level_dim [11486 31001]
+level_dim [11486 31001]
+name 1
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/1.h5: total of 1 batches
+batch 0/1, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/1.h5 took 23.874842643737793 s
+features size:  (5, 1024)
+coordinates size:  (5, 2)
+
+progress: 1/1058
+downsample [1. 1.]
+downsampled_level_dim [18130 23272]
+level_dim [18130 23272]
+name 10
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/10.h5: total of 1 batches
+batch 0/1, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/10.h5 took 8.057974815368652 s
+features size:  (3, 1024)
+coordinates size:  (3, 2)
+
+progress: 2/1058
+downsample [1. 1.]
+downsampled_level_dim [35200 24448]
+level_dim [35200 24448]
+name 100
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/100.h5: total of 1 batches
+batch 0/1, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/100.h5 took 16.922860383987427 s
+features size:  (6, 1024)
+coordinates size:  (6, 2)
+
+progress: 3/1058
+downsample [1. 1.]
+downsampled_level_dim [21191 24248]
+level_dim [21191 24248]
+name 1000
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/1000.h5: total of 2 batches
+batch 0/2, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/1000.h5 took 16.640625 s
+features size:  (12, 1024)
+coordinates size:  (12, 2)
+
+progress: 4/1058
+downsample [1. 1.]
+downsampled_level_dim [31360 28336]
+level_dim [31360 28336]
+name 1001
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/1001.h5: total of 3 batches
+batch 0/3, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/1001.h5 took 21.404918909072876 s
+features size:  (18, 1024)
+coordinates size:  (18, 2)
+
+progress: 5/1058
+downsample [1. 1.]
+downsampled_level_dim [26624 23184]
+level_dim [26624 23184]
+name 1002
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/1002.h5: total of 4 batches
+batch 0/4, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/1002.h5 took 20.641294717788696 s
+features size:  (29, 1024)
+coordinates size:  (29, 2)
+
+progress: 6/1058
+downsample [1. 1.]
+downsampled_level_dim [51312 38704]
+level_dim [51312 38704]
+name 1003
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/1003.h5: total of 6 batches
+batch 0/6, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/1003.h5 took 33.230183124542236 s
+features size:  (46, 1024)
+coordinates size:  (46, 2)
+
+progress: 7/1058
+downsample [1. 1.]
+downsampled_level_dim [24688 27072]
+level_dim [24688 27072]
+name 1004
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/1004.h5: total of 3 batches
+batch 0/3, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/1004.h5 took 19.14082407951355 s
+features size:  (18, 1024)
+coordinates size:  (18, 2)
+
+progress: 8/1058
+downsample [1. 1.]
+downsampled_level_dim [41888 24512]
+level_dim [41888 24512]
+name 1005
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/1005.h5: total of 3 batches
+batch 0/3, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/1005.h5 took 22.2303946018219 s
+features size:  (21, 1024)
+coordinates size:  (21, 2)
+
+progress: 9/1058
+downsample [1. 1.]
+downsampled_level_dim [38960 25728]
+level_dim [38960 25728]
+name 1006
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/1006.h5: total of 3 batches
+batch 0/3, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/1006.h5 took 22.29102063179016 s
+features size:  (23, 1024)
+coordinates size:  (23, 2)
+
+progress: 10/1058
+downsample [1. 1.]
+downsampled_level_dim [25666 16310]
+level_dim [25666 16310]
+name 1007
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/1007.h5: total of 3 batches
+batch 0/3, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/1007.h5 took 17.53133535385132 s
+features size:  (20, 1024)
+coordinates size:  (20, 2)
+
+progress: 11/1058
+downsample [1. 1.]
+downsampled_level_dim [27584 24496]
+level_dim [27584 24496]
+name 1008
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/1008.h5: total of 2 batches
+batch 0/2, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/1008.h5 took 19.706317901611328 s
+features size:  (16, 1024)
+coordinates size:  (16, 2)
+
+progress: 12/1058
+downsample [1. 1.]
+downsampled_level_dim [28000  8928]
+level_dim [28000  8928]
+name 1009
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/1009.h5: total of 1 batches
+batch 0/1, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/1009.h5 took 10.008336067199707 s
+features size:  (6, 1024)
+coordinates size:  (6, 2)
+
+progress: 13/1058
+downsample [1. 1.]
+downsampled_level_dim [32464 10224]
+level_dim [32464 10224]
+name 101
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/101.h5: total of 1 batches
+batch 0/1, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/101.h5 took 12.213677644729614 s
+features size:  (6, 1024)
+coordinates size:  (6, 2)
+
+progress: 14/1058
+downsample [1. 1.]
+downsampled_level_dim [22832 24480]
+level_dim [22832 24480]
+name 1010
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/1010.h5: total of 2 batches
+batch 0/2, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/1010.h5 took 17.702951669692993 s
+features size:  (14, 1024)
+coordinates size:  (14, 2)
+
+progress: 15/1058
+downsample [1. 1.]
+downsampled_level_dim [24640 28400]
+level_dim [24640 28400]
+name 1011
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/1011.h5: total of 3 batches
+batch 0/3, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/1011.h5 took 17.895174503326416 s
+features size:  (21, 1024)
+coordinates size:  (21, 2)
+
+progress: 16/1058
+downsample [1. 1.]
+downsampled_level_dim [25616 27088]
+level_dim [25616 27088]
+name 1012
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/1012.h5: total of 2 batches
+batch 0/2, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/1012.h5 took 16.36488127708435 s
+features size:  (11, 1024)
+coordinates size:  (11, 2)
+
+progress: 17/1058
+downsample [1. 1.]
+downsampled_level_dim [21792 27104]
+level_dim [21792 27104]
+name 1013
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/1013.h5: total of 2 batches
+batch 0/2, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/1013.h5 took 16.817282915115356 s
+features size:  (14, 1024)
+coordinates size:  (14, 2)
+
+progress: 18/1058
+downsample [1. 1.]
+downsampled_level_dim [36192 14096]
+level_dim [36192 14096]
+name 1014
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/1014.h5: total of 3 batches
+batch 0/3, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/1014.h5 took 17.127451419830322 s
+features size:  (23, 1024)
+coordinates size:  (23, 2)
+
+progress: 19/1058
+downsample [1. 1.]
+downsampled_level_dim [20912 21920]
+level_dim [20912 21920]
+name 1015
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/1015.h5: total of 2 batches
+batch 0/2, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/1015.h5 took 15.9983651638031 s
+features size:  (9, 1024)
+coordinates size:  (9, 2)
+
+progress: 20/1058
+downsample [1. 1.]
+downsampled_level_dim [25600 29664]
+level_dim [25600 29664]
+name 1016
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/1016.h5: total of 3 batches
+batch 0/3, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/1016.h5 took 18.277873516082764 s
+features size:  (19, 1024)
+coordinates size:  (19, 2)
+
+progress: 21/1058
+downsample [1. 1.]
+downsampled_level_dim [26512 37424]
+level_dim [26512 37424]
+name 1017
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/1017.h5: total of 3 batches
+batch 0/3, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/1017.h5 took 21.46853256225586 s
+features size:  (22, 1024)
+coordinates size:  (22, 2)
+
+progress: 22/1058
+downsample [1. 1.]
+downsampled_level_dim [31296 28288]
+level_dim [31296 28288]
+name 1018
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/1018.h5: total of 2 batches
+batch 0/2, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/1018.h5 took 19.2956485748291 s
+features size:  (11, 1024)
+coordinates size:  (11, 2)
+
+progress: 23/1058
+downsample [1. 1.]
+downsampled_level_dim [34224 17968]
+level_dim [34224 17968]
+name 1019
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/1019.h5: total of 3 batches
+batch 0/3, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/1019.h5 took 18.800021171569824 s
+features size:  (17, 1024)
+coordinates size:  (17, 2)
+
+progress: 24/1058
+downsample [1. 1.]
+downsampled_level_dim [30464 14160]
+level_dim [30464 14160]
+name 102
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/102.h5: total of 1 batches
+batch 0/1, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/102.h5 took 11.875578165054321 s
+features size:  (5, 1024)
+coordinates size:  (5, 2)
+
+progress: 25/1058
+downsample [1. 1.]
+downsampled_level_dim [38880 37328]
+level_dim [38880 37328]
+name 1020
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/1020.h5: total of 3 batches
+batch 0/3, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/1020.h5 took 26.215314388275146 s
+features size:  (23, 1024)
+coordinates size:  (23, 2)
+
+progress: 26/1058
+downsample [1. 1.]
+downsampled_level_dim [27520 30944]
+level_dim [27520 30944]
+name 1021
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/1021.h5: total of 4 batches
+batch 0/4, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/1021.h5 took 21.75544238090515 s
+features size:  (25, 1024)
+coordinates size:  (25, 2)
+
+progress: 27/1058
+downsample [1. 1.]
+downsampled_level_dim [25664 18032]
+level_dim [25664 18032]
+name 1022
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/1022.h5: total of 2 batches
+batch 0/2, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/1022.h5 took 16.286417484283447 s
+features size:  (16, 1024)
+coordinates size:  (16, 2)
+
+progress: 28/1058
+downsample [1. 1.]
+downsampled_level_dim [39904 23120]
+level_dim [39904 23120]
+name 1023
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/1023.h5: total of 6 batches
+batch 0/6, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/1023.h5 took 26.09420132637024 s
+features size:  (46, 1024)
+coordinates size:  (46, 2)
+
+progress: 29/1058
+downsample [1. 1.]
+downsampled_level_dim [35168 28336]
+level_dim [35168 28336]
+name 1024
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/1024.h5: total of 3 batches
+batch 0/3, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/1024.h5 took 17.808635473251343 s
+features size:  (23, 1024)
+coordinates size:  (23, 2)
+
+progress: 30/1058
+downsample [1. 1.]
+downsampled_level_dim [39872 17968]
+level_dim [39872 17968]
+name 1025
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/1025.h5: total of 3 batches
+batch 0/3, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/1025.h5 took 18.51503562927246 s
+features size:  (20, 1024)
+coordinates size:  (20, 2)
+
+progress: 31/1058
+downsample [1. 1.]
+downsampled_level_dim [29440 27056]
+level_dim [29440 27056]
+name 1026
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/1026.h5: total of 4 batches
+batch 0/4, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/1026.h5 took 21.17309260368347 s
+features size:  (27, 1024)
+coordinates size:  (27, 2)
+
+progress: 32/1058
+downsample [1. 1.]
+downsampled_level_dim [28448 30912]
+level_dim [28448 30912]
+name 1027
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/1027.h5: total of 3 batches
+batch 0/3, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/1027.h5 took 19.24759793281555 s
+features size:  (18, 1024)
+coordinates size:  (18, 2)
+
+progress: 33/1058
+downsample [1. 1.]
+downsampled_level_dim [36112 24448]
+level_dim [36112 24448]
+name 1028
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/1028.h5: total of 3 batches
+batch 0/3, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/1028.h5 took 22.597747564315796 s
+features size:  (24, 1024)
+coordinates size:  (24, 2)
+
+progress: 34/1058
+downsample [1. 1.]
+downsampled_level_dim [22752 21920]
+level_dim [22752 21920]
+name 1029
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/1029.h5: total of 2 batches
+batch 0/2, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/1029.h5 took 15.200191020965576 s
+features size:  (10, 1024)
+coordinates size:  (10, 2)
+
+progress: 35/1058
+downsample [1. 1.]
+downsampled_level_dim [19088  9072]
+level_dim [19088  9072]
+name 103
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/103.h5: total of 1 batches
+batch 0/1, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/103.h5 took 7.399656057357788 s
+features size:  (4, 1024)
+coordinates size:  (4, 2)
+
+progress: 36/1058
+downsample [1. 1.]
+downsampled_level_dim [20896 23200]
+level_dim [20896 23200]
+name 1030
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/1030.h5: total of 2 batches
+batch 0/2, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/1030.h5 took 16.903104782104492 s
+features size:  (14, 1024)
+coordinates size:  (14, 2)
+
+progress: 37/1058
+downsample [1. 1.]
+downsampled_level_dim [40912 20544]
+level_dim [40912 20544]
+name 1031
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/1031.h5: total of 3 batches
+batch 0/3, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/1031.h5 took 20.056525945663452 s
+features size:  (23, 1024)
+coordinates size:  (23, 2)
+
+progress: 38/1058
+downsample [1. 1.]
+downsampled_level_dim [19040 18048]
+level_dim [19040 18048]
+name 1032
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/1032.h5: total of 2 batches
+batch 0/2, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/1032.h5 took 15.558993577957153 s
+features size:  (10, 1024)
+coordinates size:  (10, 2)
+
+progress: 39/1058
+downsample [1. 1.]
+downsampled_level_dim [21856 23248]
+level_dim [21856 23248]
+name 1033
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/1033.h5: total of 3 batches
+batch 0/3, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/1033.h5 took 16.517485857009888 s
+features size:  (17, 1024)
+coordinates size:  (17, 2)
+
+progress: 40/1058
+downsample [1. 1.]
+downsampled_level_dim [23712 24512]
+level_dim [23712 24512]
+name 1034
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/1034.h5: total of 3 batches
+batch 0/3, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/1034.h5 took 17.02566957473755 s
+features size:  (18, 1024)
+coordinates size:  (18, 2)
+
+progress: 41/1058
+downsample [1. 1.]
+downsampled_level_dim [18080 18064]
+level_dim [18080 18064]
+name 1035
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/1035.h5: total of 1 batches
+batch 0/1, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/1035.h5 took 11.00112509727478 s
+features size:  (7, 1024)
+coordinates size:  (7, 2)
+
+progress: 42/1058
+downsample [1. 1.]
+downsampled_level_dim [27568 16704]
+level_dim [27568 16704]
+name 1036
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/1036.h5: total of 1 batches
+batch 0/1, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/1036.h5 took 11.17096996307373 s
+features size:  (6, 1024)
+coordinates size:  (6, 2)
+
+progress: 43/1058
+downsample [1. 1.]
+downsampled_level_dim [34288 16688]
+level_dim [34288 16688]
+name 1037
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/1037.h5: total of 2 batches
+batch 0/2, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/1037.h5 took 16.512165307998657 s
+features size:  (10, 1024)
+coordinates size:  (10, 2)
+
+progress: 44/1058
+downsample [1. 1.]
+downsampled_level_dim [31360 27024]
+level_dim [31360 27024]
+name 1038
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/1038.h5: total of 2 batches
+batch 0/2, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/1038.h5 took 19.266504049301147 s
+features size:  (15, 1024)
+coordinates size:  (15, 2)
+
+progress: 45/1058
+downsample [1. 1.]
+downsampled_level_dim [22768 30960]
+level_dim [22768 30960]
+name 1039
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/1039.h5: total of 2 batches
+batch 0/2, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/1039.h5 took 18.041846990585327 s
+features size:  (13, 1024)
+coordinates size:  (13, 2)
+
+progress: 46/1058
+downsample [1. 1.]
+downsampled_level_dim [15104 24528]
+level_dim [15104 24528]
+name 104
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/104.h5: total of 1 batches
+batch 0/1, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/104.h5 took 13.305322170257568 s
+features size:  (7, 1024)
+coordinates size:  (7, 2)
+
+progress: 47/1058
+downsample [1. 1.]
+downsampled_level_dim [39904 24416]
+level_dim [39904 24416]
+name 1040
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/1040.h5: total of 3 batches
+batch 0/3, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/1040.h5 took 22.4897563457489 s
+features size:  (21, 1024)
+coordinates size:  (21, 2)
+
+progress: 48/1058
+downsample [1. 1.]
+downsampled_level_dim [15168 24528]
+level_dim [15168 24528]
+name 1041
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/1041.h5: total of 2 batches
+batch 0/2, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/1041.h5 took 14.376602172851562 s
+features size:  (10, 1024)
+coordinates size:  (10, 2)
+
+progress: 49/1058
+downsample [1. 1.]
+downsampled_level_dim [24688 25792]
+level_dim [24688 25792]
+name 1042
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/1042.h5: total of 2 batches
+batch 0/2, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/1042.h5 took 15.119742393493652 s
+features size:  (11, 1024)
+coordinates size:  (11, 2)
+
+progress: 50/1058
+downsample [1. 1.]
+downsampled_level_dim [27632 19328]
+level_dim [27632 19328]
+name 1043
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/1043.h5: total of 2 batches
+batch 0/2, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/1043.h5 took 17.13603448867798 s
+features size:  (13, 1024)
+coordinates size:  (13, 2)
+
+progress: 51/1058
+downsample [1. 1.]
+downsampled_level_dim [25648 27056]
+level_dim [25648 27056]
+name 1044
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/1044.h5: total of 2 batches
+batch 0/2, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/1044.h5 took 19.302698850631714 s
+features size:  (15, 1024)
+coordinates size:  (15, 2)
+
+progress: 52/1058
+downsample [1. 1.]
+downsampled_level_dim [51440 19344]
+level_dim [51440 19344]
+name 1045
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/1045.h5: total of 3 batches
+batch 0/3, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/1045.h5 took 18.740094661712646 s
+features size:  (17, 1024)
+coordinates size:  (17, 2)
+
+progress: 53/1058
+downsample [1. 1.]
+downsampled_level_dim [31344 25760]
+level_dim [31344 25760]
+name 1046
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/1046.h5: total of 2 batches
+batch 0/2, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/1046.h5 took 18.70612120628357 s
+features size:  (15, 1024)
+coordinates size:  (15, 2)
+
+progress: 54/1058
+downsample [1. 1.]
+downsampled_level_dim [20960 18048]
+level_dim [20960 18048]
+name 1047
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/1047.h5: total of 1 batches
+batch 0/1, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/1047.h5 took 12.584482908248901 s
+features size:  (7, 1024)
+coordinates size:  (7, 2)
+
+progress: 55/1058
+downsample [1. 1.]
+downsampled_level_dim [34272 18016]
+level_dim [34272 18016]
+name 1048
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/1048.h5: total of 2 batches
+batch 0/2, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/1048.h5 took 16.25914692878723 s
+features size:  (15, 1024)
+coordinates size:  (15, 2)
+
+progress: 56/1058
+downsample [1. 1.]
+downsampled_level_dim [32320 21904]
+level_dim [32320 21904]
+name 1049
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/1049.h5: total of 2 batches
+batch 0/2, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/1049.h5 took 18.99871253967285 s
+features size:  (11, 1024)
+coordinates size:  (11, 2)
+
+progress: 57/1058
+downsample [1. 1.]
+downsampled_level_dim [14176 31024]
+level_dim [14176 31024]
+name 105
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/105.h5: total of 2 batches
+batch 0/2, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/105.h5 took 15.90176010131836 s
+features size:  (9, 1024)
+coordinates size:  (9, 2)
+
+progress: 58/1058
+downsample [1. 1.]
+downsampled_level_dim [15120 28432]
+level_dim [15120 28432]
+name 1050
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/1050.h5: total of 2 batches
+batch 0/2, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/1050.h5 took 14.986555576324463 s
+features size:  (12, 1024)
+coordinates size:  (12, 2)
+
+progress: 59/1058
+downsample [1. 1.]
+downsampled_level_dim [13312 10336]
+level_dim [13312 10336]
+name 1051
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/1051.h5: total of 1 batches
+batch 0/1, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/1051.h5 took 7.13922381401062 s
+features size:  (4, 1024)
+coordinates size:  (4, 2)
+
+progress: 60/1058
+downsample [1. 1.]
+downsampled_level_dim [30304 33520]
+level_dim [30304 33520]
+name 1052
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/1052.h5: total of 3 batches
+batch 0/3, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/1052.h5 took 21.89765954017639 s
+features size:  (19, 1024)
+coordinates size:  (19, 2)
+
+progress: 61/1058
+downsample [1. 1.]
+downsampled_level_dim [23760 20640]
+level_dim [23760 20640]
+name 1053
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/1053.h5: total of 1 batches
+batch 0/1, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/1053.h5 took 15.063656568527222 s
+features size:  (8, 1024)
+coordinates size:  (8, 2)
+
+progress: 62/1058
+downsample [1. 1.]
+downsampled_level_dim [25744 14144]
+level_dim [25744 14144]
+name 1054
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/1054.h5: total of 2 batches
+batch 0/2, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/1054.h5 took 15.09942626953125 s
+features size:  (11, 1024)
+coordinates size:  (11, 2)
+
+progress: 63/1058
+downsample [1. 1.]
+downsampled_level_dim [24736 21952]
+level_dim [24736 21952]
+name 1055
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/1055.h5: total of 2 batches
+batch 0/2, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/1055.h5 took 17.434897899627686 s
+features size:  (12, 1024)
+coordinates size:  (12, 2)
+
+progress: 64/1058
+downsample [1. 1.]
+downsampled_level_dim [26640 19312]
+level_dim [26640 19312]
+name 1056
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/1056.h5: total of 2 batches
+batch 0/2, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/1056.h5 took 16.779372692108154 s
+features size:  (13, 1024)
+coordinates size:  (13, 2)
+
+progress: 65/1058
+downsample [1. 1.]
+downsampled_level_dim [14224 27120]
+level_dim [14224 27120]
+name 1057
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/1057.h5: total of 1 batches
+batch 0/1, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/1057.h5 took 12.46254849433899 s
+features size:  (8, 1024)
+coordinates size:  (8, 2)
+
+progress: 66/1058
+downsample [1. 1.]
+downsampled_level_dim [26592 23200]
+level_dim [26592 23200]
+name 1058
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/1058.h5: total of 3 batches
+batch 0/3, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/1058.h5 took 17.92520785331726 s
+features size:  (18, 1024)
+coordinates size:  (18, 2)
+
+progress: 67/1058
+downsample [1. 1.]
+downsampled_level_dim [19952 25808]
+level_dim [19952 25808]
+name 106
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/106.h5: total of 2 batches
+batch 0/2, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/106.h5 took 16.473169088363647 s
+features size:  (11, 1024)
+coordinates size:  (11, 2)
+
+progress: 68/1058
+downsample [1. 1.]
+downsampled_level_dim [19952 14192]
+level_dim [19952 14192]
+name 107
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/107.h5: total of 1 batches
+batch 0/1, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/107.h5 took 8.258052825927734 s
+features size:  (4, 1024)
+coordinates size:  (4, 2)
+
+progress: 69/1058
+downsample [1. 1.]
+downsampled_level_dim [22848 16800]
+level_dim [22848 16800]
+name 108
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/108.h5: total of 1 batches
+batch 0/1, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/108.h5 took 9.090245485305786 s
+features size:  (5, 1024)
+coordinates size:  (5, 2)
+
+progress: 70/1058
+downsample [1. 1.]
+downsampled_level_dim [10400 21968]
+level_dim [10400 21968]
+name 109
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/109.h5: total of 1 batches
+batch 0/1, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/109.h5 took 7.391494512557983 s
+features size:  (4, 1024)
+coordinates size:  (4, 2)
+
+progress: 71/1058
+downsample [1. 1.]
+downsampled_level_dim [17209  6516]
+level_dim [17209  6516]
+name 11
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/11.h5: total of 1 batches
+batch 0/1, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/11.h5 took 4.591429948806763 s
+features size:  (2, 1024)
+coordinates size:  (2, 2)
+
+progress: 72/1058
+downsample [1. 1.]
+downsampled_level_dim [16176 16816]
+level_dim [16176 16816]
+name 110
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/110.h5: total of 1 batches
+batch 0/1, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/110.h5 took 10.642712354660034 s
+features size:  (6, 1024)
+coordinates size:  (6, 2)
+
+progress: 73/1058
+downsample [1. 1.]
+downsampled_level_dim [25664 20640]
+level_dim [25664 20640]
+name 111
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/111.h5: total of 1 batches
+batch 0/1, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/111.h5 took 14.004733324050903 s
+features size:  (6, 1024)
+coordinates size:  (6, 2)
+
+progress: 74/1058
+downsample [1. 1.]
+downsampled_level_dim [ 7632 15536]
+level_dim [ 7632 15536]
+name 112
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/112.h5: total of 1 batches
+batch 0/1, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/112.h5 took 5.9067981243133545 s
+features size:  (3, 1024)
+coordinates size:  (3, 2)
+
+progress: 75/1058
+downsample [1. 1.]
+downsampled_level_dim [ 8512 16848]
+level_dim [ 8512 16848]
+name 113
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/113.h5: total of 1 batches
+batch 0/1, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/113.h5 took 5.633305549621582 s
+features size:  (3, 1024)
+coordinates size:  (3, 2)
+
+progress: 76/1058
+downsample [1. 1.]
+downsampled_level_dim [31312 24416]
+level_dim [31312 24416]
+name 114
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/114.h5: total of 1 batches
+batch 0/1, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/114.h5 took 14.642956733703613 s
+features size:  (7, 1024)
+coordinates size:  (7, 2)
+
+progress: 77/1058
+downsample [1. 1.]
+downsampled_level_dim [ 9488 20704]
+level_dim [ 9488 20704]
+name 115
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/115.h5: total of 1 batches
+batch 0/1, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/115.h5 took 12.239086627960205 s
+features size:  (7, 1024)
+coordinates size:  (7, 2)
+
+progress: 78/1058
+downsample [1. 1.]
+downsampled_level_dim [29472 20624]
+level_dim [29472 20624]
+name 116
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/116.h5: total of 1 batches
+batch 0/1, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/116.h5 took 14.618923425674438 s
+features size:  (7, 1024)
+coordinates size:  (7, 2)
+
+progress: 79/1058
+downsample [1. 1.]
+downsampled_level_dim [26592 21888]
+level_dim [26592 21888]
+name 117
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/117.h5: total of 1 batches
+batch 0/1, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/117.h5 took 11.379026412963867 s
+features size:  (4, 1024)
+coordinates size:  (4, 2)
+
+progress: 80/1058
+downsample [1. 1.]
+downsampled_level_dim [10416 21984]
+level_dim [10416 21984]
+name 118
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/118.h5: total of 1 batches
+batch 0/1, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/118.h5 took 11.205932140350342 s
+features size:  (6, 1024)
+coordinates size:  (6, 2)
+
+progress: 81/1058
+downsample [1. 1.]
+downsampled_level_dim [35104 30912]
+level_dim [35104 30912]
+name 119
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/119.h5: total of 5 batches
+batch 0/5, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/119.h5 took 30.19888949394226 s
+features size:  (40, 1024)
+coordinates size:  (40, 2)
+
+progress: 82/1058
+downsample [1. 1.]
+downsampled_level_dim [23885 22045]
+level_dim [23885 22045]
+name 12
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/12.h5: total of 1 batches
+batch 0/1, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/12.h5 took 14.556421756744385 s
+features size:  (6, 1024)
+coordinates size:  (6, 2)
+
+progress: 83/1058
+downsample [1. 1.]
+downsampled_level_dim [16160 14224]
+level_dim [16160 14224]
+name 120
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/120.h5: total of 1 batches
+batch 0/1, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/120.h5 took 11.094800472259521 s
+features size:  (5, 1024)
+coordinates size:  (5, 2)
+
+progress: 84/1058
+downsample [1. 1.]
+downsampled_level_dim [25486 16930]
+level_dim [25486 16930]
+name 121
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/121.h5: total of 1 batches
+batch 0/1, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/121.h5 took 11.678772687911987 s
+features size:  (6, 1024)
+coordinates size:  (6, 2)
+
+progress: 85/1058
+downsample [1. 1.]
+downsampled_level_dim [19024 12944]
+level_dim [19024 12944]
+name 122
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/122.h5: total of 1 batches
+batch 0/1, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/122.h5 took 5.48447322845459 s
+features size:  (2, 1024)
+coordinates size:  (2, 2)
+
+progress: 86/1058
+downsample [1. 1.]
+downsampled_level_dim [18000 21936]
+level_dim [18000 21936]
+name 123
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/123.h5: total of 1 batches
+batch 0/1, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/123.h5 took 11.879352569580078 s
+features size:  (5, 1024)
+coordinates size:  (5, 2)
+
+progress: 87/1058
+downsample [1. 1.]
+downsampled_level_dim [23488 19328]
+level_dim [23488 19328]
+name 124
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/124.h5: total of 1 batches
+batch 0/1, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/124.h5 took 11.658477783203125 s
+features size:  (5, 1024)
+coordinates size:  (5, 2)
+
+progress: 88/1058
+downsample [1. 1.]
+downsampled_level_dim [17936 20408]
+level_dim [17936 20408]
+name 125
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/125.h5: total of 1 batches
+batch 0/1, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/125.h5 took 13.637390613555908 s
+features size:  (7, 1024)
+coordinates size:  (7, 2)
+
+progress: 89/1058
+downsample [1. 1.]
+downsampled_level_dim [11408 20672]
+level_dim [11408 20672]
+name 126
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/126.h5: total of 1 batches
+batch 0/1, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/126.h5 took 8.379191637039185 s
+features size:  (4, 1024)
+coordinates size:  (4, 2)
+
+progress: 90/1058
+downsample [1. 1.]
+downsampled_level_dim [29568 10240]
+level_dim [29568 10240]
+name 127
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/127.h5: total of 1 batches
+batch 0/1, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/127.h5 took 12.234311819076538 s
+features size:  (7, 1024)
+coordinates size:  (7, 2)
+
+progress: 91/1058
+downsample [1. 1.]
+downsampled_level_dim [11376 19392]
+level_dim [11376 19392]
+name 128
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/128.h5: total of 1 batches
+batch 0/1, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/128.h5 took 8.978111028671265 s
+features size:  (5, 1024)
+coordinates size:  (5, 2)
+
+progress: 92/1058
+downsample [1. 1.]
+downsampled_level_dim [26528 18000]
+level_dim [26528 18000]
+name 129
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/129.h5: total of 1 batches
+batch 0/1, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/129.h5 took 14.479942560195923 s
+features size:  (8, 1024)
+coordinates size:  (8, 2)
+
+progress: 93/1058
+downsample [1. 1.]
+downsampled_level_dim [30601 12962]
+level_dim [30601 12962]
+name 13
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/13.h5: total of 1 batches
+batch 0/1, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/13.h5 took 11.379339694976807 s
+features size:  (5, 1024)
+coordinates size:  (5, 2)
+
+progress: 94/1058
+downsample [1. 1.]
+downsampled_level_dim [19104 10320]
+level_dim [19104 10320]
+name 130
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/130.h5: total of 1 batches
+batch 0/1, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/130.h5 took 8.477242231369019 s
+features size:  (4, 1024)
+coordinates size:  (4, 2)
+
+progress: 95/1058
+downsample [1. 1.]
+downsampled_level_dim [42736 34704]
+level_dim [42736 34704]
+name 131
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/131.h5: total of 3 batches
+batch 0/3, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/131.h5 took 23.205454111099243 s
+features size:  (22, 1024)
+coordinates size:  (22, 2)
+
+progress: 96/1058
+downsample [1. 1.]
+downsampled_level_dim [13312 16800]
+level_dim [13312 16800]
+name 132
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/132.h5: total of 1 batches
+batch 0/1, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/132.h5 took 8.854064702987671 s
+features size:  (4, 1024)
+coordinates size:  (4, 2)
+
+progress: 97/1058
+downsample [1. 1.]
+downsampled_level_dim [26725 25874]
+level_dim [26725 25874]
+name 133
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/133.h5: total of 1 batches
+batch 0/1, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/133.h5 took 12.698615550994873 s
+features size:  (5, 1024)
+coordinates size:  (5, 2)
+
+progress: 98/1058
+downsample [1. 1.]
+downsampled_level_dim [10384 24576]
+level_dim [10384 24576]
+name 134
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/134.h5: total of 1 batches
+batch 0/1, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/134.h5 took 10.372943878173828 s
+features size:  (5, 1024)
+coordinates size:  (5, 2)
+
+progress: 99/1058
+downsample [1. 1.]
+downsampled_level_dim [14304  7776]
+level_dim [14304  7776]
+name 135
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/135.h5: total of 1 batches
+batch 0/1, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/135.h5 took 4.794871091842651 s
+features size:  (2, 1024)
+coordinates size:  (2, 2)
+
+progress: 100/1058
+downsample [1. 1.]
+downsampled_level_dim [21872 16752]
+level_dim [21872 16752]
+name 136
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/136.h5: total of 1 batches
+batch 0/1, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/136.h5 took 11.694216251373291 s
+features size:  (5, 1024)
+coordinates size:  (5, 2)
+
+progress: 101/1058
+downsample [1. 1.]
+downsampled_level_dim [28496 20640]
+level_dim [28496 20640]
+name 137
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/137.h5: total of 1 batches
+batch 0/1, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/137.h5 took 13.460107803344727 s
+features size:  (7, 1024)
+coordinates size:  (7, 2)
+
+progress: 102/1058
+downsample [1. 1.]
+downsampled_level_dim [10448 23264]
+level_dim [10448 23264]
+name 138
+patch_level 0
+patch_size 4096
+save_path ./BCNB_4096/patches
+
+feature extraction settings
+target patch size:  None
+pretrained:  True
+transformations:  Compose(
+    ToTensor()
+    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))
+)
+processing ../BCNB/extracted_mag20x_patch4096_fp/patches/138.h5: total of 1 batches
+batch 0/1, 0 files processed
+
+computing features for ../BCNB/extracted_mag20x_patch4096_fp/h5_files/138.h5 took 7.587322235107422 s
+features size:  (3, 1024)
+coordinates size:  (3, 2)
+
+progress: 103/1058
+Traceback (most recent call last):
+  File "extract_features_fp.py", line 145, in <module>
+    target_patch_size=args.target_patch_size,
+  File "extract_features_fp.py", line 51, in compute_w_loader
+    target_patch_size=target_patch_size,
+  File "/home/yipkc/code/CLAM/datasets/dataset_h5.py", line 121, in __init__
+    with h5py.File(self.file_path, "r") as f:
+  File "/home/yipkc/anaconda3/envs/BCNB/lib/python3.7/site-packages/h5py/_hl/files.py", line 533, in __init__
+    fid = make_fid(name, mode, userblock_size, fapl, fcpl, swmr=swmr)
+  File "/home/yipkc/anaconda3/envs/BCNB/lib/python3.7/site-packages/h5py/_hl/files.py", line 226, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5f.pyx", line 106, in h5py.h5f.open
+FileNotFoundError: [Errno 2] Unable to open file (unable to open file: name = '../BCNB/extracted_mag20x_patch4096_fp/patches/139.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
